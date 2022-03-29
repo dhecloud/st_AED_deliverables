@@ -15,21 +15,18 @@ import argparse
 from utils import set_device
 
 
-
-
 config = set_device(config)
+model = StreamingModel(config)
+
 
 def main(args):
 
-
-
+    #example 3 sec wav
     wav = librosa.load('test.wav', sr=config.sample_rate)[0]
-    model = StreamingModel(config)
+    #everytime 3sec wav comes in, call predict_3sec
     predictions = model.predict_3sec(wav)
+    #example output predictions: [5.1217079e-01 9.9999297e-01 7.8407431e-04 7.7600497e-01 4.1890889e-03 2.5766340e-05 9.5813316e-01 9.9902499e-01 1.1762446e-02 9.9997199e-01]
     print(predictions)
-
-
-
 
 
 if __name__ == '__main__':

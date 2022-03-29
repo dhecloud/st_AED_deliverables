@@ -12,7 +12,6 @@ feature_type = 'logmelspec'
 num_bins = 128
 patience = 5
 
-
 gpu = False
 channels = 2
 
