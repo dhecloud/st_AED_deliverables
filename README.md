@@ -49,3 +49,5 @@ k: 1                                                # top-k results to return
 
 On 1 min wav file with top 5 probable classes: `python main.py --demo test_1min.wav -k 5`     
 On 3 sec wav file with top 3 probable classes: `python main.py --demo test_3sec.wav -k 3`
+
+![](example_command1.png)
