@@ -3,12 +3,11 @@ __author__ = "Andrew Koh Jin Jie, Anushka Jain and Soham Tiwari"
 __credits__ = ["Prof Chng Eng Siong", "Yan Zhen", "Tanmay Khandelwal"]
 __license__ = "GPL"
 __version__ = "0.0.0"
-__maintainer__ = "Soham Tiwari"
-__email__ = "soham.tiwari800@gmail.com"
-__status__ = "Development"
+__maintainer__ = "Andrew Koh"
+__email__ = "andr0081@ntu.edu.sg"
 '''
 
-import torch 
+import torch
 from augmentation.SpecTransforms import ResizeSpectrogram
 import numpy as np
 from utils import Task5Model, getSampleRateString
@@ -28,25 +27,23 @@ class StreamingModel():
 
         #load model
         self.model = Task5Model(p.num_classes).to(p.device)
-        model_path = './model/{}k/model_{}_{}'.format(p.sample_rate/1000, p.feature_type, str(p.permutation[0])+str(p.permutation[1])+str(p.permutation[2]))
-        self.load_model(model_path)
+        self.model_path = p.model_path
+        self.load_model(self.model_path)
 
         #load preprocessing stuff
-        self.channel_means = np.load('./data/statistics/{}/channel_means_{}_{}.npy'.format(getSampleRateString(
-        p.sample_rate), p.feature_type, str(p.permutation[0])+str(p.permutation[1])+str(p.permutation[2]))).reshape(1, -1, 1)
-        self.channel_stds = np.load('./data/statistics/{}/channel_stds_{}_{}.npy'.format(getSampleRateString(
-        p.sample_rate), p.feature_type, str(p.permutation[0])+str(p.permutation[1])+str(p.permutation[2]))).reshape(1, -1, 1)
+        self.channel_means = np.load(p.channel_means_path).reshape(1, -1, 1)
+        self.channel_stds = np.load(p.channel_stds_path).reshape(1, -1, 1)
         self.resizeSpec = ResizeSpectrogram(frames=p.num_frames)
 
         #prediction params:
         self.threshold = p.threshold
-
+        self.labels = p.target_names
 
         #buffer init
         self.buffer = []
 
     def load_model(self, path):
-        ''' loads model checkpoint into Task5Model at self.model 
+        ''' loads model checkpoint into Task5Model at self.model
 
         input
             path: path to checkpoint
@@ -61,7 +58,7 @@ class StreamingModel():
 
 
 
-    def predict_3sec(self, input_wav):
+    def predict_3sec(self, input_wav, k=1):
         '''takes in wav input and returns the prediction
 
         args:
@@ -78,12 +75,18 @@ class StreamingModel():
         melspec = self.preprocess(input_wav).to(self.p.device)
         with torch.no_grad():
             outputs = self.model(melspec)
-            outputs = torch.sigmoid(outputs)[0].detach().cpu().numpy()
+            outputs = torch.sigmoid(outputs)[0]
             self.buffer.append(outputs)
 
+        labels = self.return_topk_labels(outputs, k)
+        return labels
 
-        return outputs
-
+    def return_topk_labels(self, outputs, k):
+        ''' converts predicted values to labels and returns the mots k probable
+        '''
+        values, indices = torch.topk(outputs, k=k)
+        labels = [self.labels[i] for i in indices]
+        return labels
 
 
     def preprocess(self, input_wav):
@@ -92,7 +95,7 @@ class StreamingModel():
 
         Args:
             input: list containg the values for a 3 sec audio. for eg [0, 0, 0.2, ..., 0.4, 0.4]
-            
+
         output:
             logmel: torch tensor of shape (1, 1, mel_bins, seq_len)
 
@@ -102,8 +105,6 @@ class StreamingModel():
 
         notes:
             will be used in predict_3sec, but u can use this function on its own for other purposes.
-
-
 
         '''
 

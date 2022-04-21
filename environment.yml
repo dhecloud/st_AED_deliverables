@@ -14,12 +14,13 @@ dependencies:
   - brotli-bin=1.0.9=h7f98852_6
   - bzip2=1.0.8=h7f98852_4
   - ca-certificates=2021.10.8=ha878542_0
-  - certifi=2021.10.8=py38h578d9bd_1
+  - certifi=2021.10.8=py38h578d9bd_2
   - cffi=1.15.0=py38h3931269_0
   - cudatoolkit=10.2.89=h8f6ccaa_10
   - cudnn=7.6.5.32=h01f27c4_1
   - cycler=0.11.0=pyhd8ed1ab_0
   - decorator=5.1.1=pyhd8ed1ab_0
+  - easydict=1.9=py_0
   - ffmpeg=5.0.0=h594f047_1
   - fonttools=4.31.2=py38h0a891b7_0
   - freetype=2.10.4=h0708190_1
@@ -109,6 +110,7 @@ dependencies:
   - pytorch-gpu=1.10.2=cuda102py38hf05f184_0
   - pytorch-mutex=1.0=cuda
   - pytz=2022.1=pyhd8ed1ab_0
+  - pyyaml=6.0=py38h0a891b7_4
   - readline=8.1=h46c0cb4_0
   - resampy=0.2.2=py_0
   - scikit-learn=1.0.2=py38h1561384_0
@@ -138,5 +140,7 @@ dependencies:
   - xorg-xextproto=7.3.0=h7f98852_1002
   - xorg-xproto=7.0.31=h7f98852_1007
   - xz=5.2.5=h516909a_1
+  - yaml=0.2.5=h7f98852_2
   - zlib=1.2.11=h166bdaf_1014
   - zstd=1.5.2=ha95c52a_0
+prefix: /export/home/andr0081/miniconda3/envs/streaming
