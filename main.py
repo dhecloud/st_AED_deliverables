@@ -25,7 +25,10 @@ parser.add_argument('-k', '--k', type=int, default=config.k)
 args = parser.parse_args()
 for k,v in args._get_kwargs():
     config[k] = v
+
+# set device (cpu/gpu) to use
 config = set_device(config)
+# init model globally
 model = StreamingModel(config)
 
 
@@ -36,9 +39,10 @@ def main():
 
     # for every 3 second wav, pass that segment to predict_3sec
     for curr_window, curr_frame in enumerate(range(0,len(wav), config.sample_rate*3)):
+        # send 3 sec segment to model for prediction
         predictions = model.predict_3sec(wav[curr_frame:curr_frame+(config.sample_rate*3)], config.k)
         print(f"{curr_window}:, {predictions}")
-        
+
     # example output predictions: ['chatter', 'others', 'screaming', 'motor_vehicle_road', 'emergency_vehicle']
 
 
