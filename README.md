@@ -4,6 +4,9 @@
 
 The function to call for every 3 sec wav audio is `model.predict_3sec(wav)`. Refer to `main.py` for more details.
 
+### Update 30/6/22
+Now creates srt file for the audio. Load the audio-srt pair using VLC player.   
+Now also allows folder input for `-d`. Ignore other files that are not '.mp3', '.mp4' and '.wav'.  
 
 ## Cloning the conda environment
 
@@ -49,5 +52,8 @@ k: 1                                                # top-k results to return
 
 On 1 min wav file with top 5 probable classes: `python main.py --demo test_1min.wav -k 5`     
 On 3 sec wav file with top 3 probable classes: `python main.py --demo test_3sec.wav -k 3`
+On 3 sec wav file with top 3 probable classes: `python main.py --demo audio_folder/ -k 3`
 
 ![](example_command1.png)
+
+

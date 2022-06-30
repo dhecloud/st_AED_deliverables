@@ -143,4 +143,7 @@ dependencies:
   - yaml=0.2.5=h7f98852_2
   - zlib=1.2.11=h166bdaf_1014
   - zstd=1.5.2=ha95c52a_0
+  - pip:
+    - srt==3.5.2
+    - tqdm==4.64.0
 prefix: /export/home/andr0081/miniconda3/envs/streaming
