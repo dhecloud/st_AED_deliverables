@@ -7,7 +7,7 @@ __maintainer__ = "Andrew Koh"
 __email__ = "andr0081@ntu.edu.sg"
 '''
 
-from model import StreamingModel
+from model import StreamingM1
 import librosa
 import argparse
 from utils import set_device
@@ -26,6 +26,8 @@ parser.add_argument('-n', '--num_frames', type=int, default=config.num_frames)
 parser.add_argument('-t', '--threshold', type=float, default=config.threshold)
 parser.add_argument('-g', '--gpu', type=bool, default=config.gpu)
 parser.add_argument('-k', '--k', type=int, default=config.k)
+parser.add_argument('-p', '--prefix', type=str, default=config.prefix)
+parser.add_argument('-m', '--model', type=str, default=config.model)
 args = parser.parse_args()
 for k,v in args._get_kwargs():
     config[k] = v
@@ -33,11 +35,13 @@ for k,v in args._get_kwargs():
 # set device (cpu/gpu) to use
 config = set_device(config)
 # init model globally
-model = StreamingModel(config)
+if config.model == 'M1':
+    model = StreamingM1(config)
+else:
+    assert 'model card' is 'not available'
 
 
 def main():
-
     if os.path.isfile(config.demo):
         paths = [config.demo]
     else:
@@ -48,19 +52,32 @@ def main():
         if p[-4:] not in ['.mp3', '.mp4', '.wav']:
             continue
         wav = librosa.load(p , sr=config.sample_rate)[0]
-        srts = []
+        srt_save_path = '.'.join(p.split(".")[:-1]) + '.srt'
+        if os.path.exists(srt_save_path):
+            with open(srt_save_path,'r') as f:
+                lines = f.readlines() 
+                lines = '\n'.join(lines)
+                # print(lines)
+            srts = list(srt.parse(lines))
+            append_flag = True
+        else:
+            srts = []
+            append_flag = False
 
         # for every 3 second wav, pass that segment to predict_3sec
         for curr_window, curr_frame in enumerate(range(0,len(wav), config.sample_rate)):
             # send 3 sec segment to model for prediction
             predictions = model.predict_3sec(wav[curr_frame:curr_frame+(config.sample_rate*3)], config.k)
             # print(f"{curr_window}:, {predictions}")
-            formatted_preds = ''
+            formatted_preds = config.prefix+' '
             for i in range(config.k):
                 formatted_preds += f"{i}: {predictions[i]} "
-            srts.append(srt.Subtitle(index=None,start=timedelta(seconds=curr_window), end=timedelta(seconds=curr_window+1), content=formatted_preds))
+            if append_flag == True:
+                srts[curr_window].content += '\n'+ formatted_preds
+            else:
+                srts.append(srt.Subtitle(index=None,start=timedelta(seconds=curr_window), end=timedelta(seconds=curr_window+1), content=formatted_preds))
         srts = srt.compose(srts, reindex=True)
-        srt_save_path = '.'.join(p.split(".")[:-1]) + '.srt'
+        
         with open(srt_save_path,'w') as f:
             f.write(srts) 
 
