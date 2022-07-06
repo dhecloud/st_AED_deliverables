@@ -11,6 +11,7 @@ from augmentation.SpecTransforms import ResizeSpectrogram
 from augmentation.RandomErasing import RandomErasing
 from pann_encoder import Cnn10
 import os
+import random, string
 
 __author__ = "Andrew Koh Jin Jie, Yan Zhen"
 __credits__ = ["Prof Chng Eng Siong", "Yan Zhen", "Tanmay Khandelwal", "Anushka Jain"]
@@ -35,6 +36,14 @@ class_mapping['others'] = 9
 
 random_erasing = RandomErasing()
 
+def createRandomFileID():
+    result = createStringbyLength(8) + '-' + createStringbyLength(4) + '-' + createStringbyLength(4) + '-' + createStringbyLength(4) + '-' + createStringbyLength(12)
+    return result
+
+def createStringbyLength(length):
+    choices = string.ascii_lowercase + string.digits
+    result = ''.join((random.choice(choices) for x in range(length)))
+    return result
 
 def getFileNameFromDf(df: pd.DataFrame, idx: int) -> str:
     """Returns filename for the audio file at index idx of df
@@ -275,7 +284,7 @@ def configureTorchDevice(cuda=torch.cuda.is_available()):
         torch.device: PyTorch device, which can be either cpu or gpu
     """
     device = torch.device('cuda:0' if cuda else 'cpu')
-    print('Device: ', device)
+    # print('Device: ', device)
     return device
 
 

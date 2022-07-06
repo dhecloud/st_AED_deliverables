@@ -15,6 +15,9 @@ import yaml
 from easydict import EasyDict
 import srt
 from datetime import timedelta
+import xml.etree.cElementTree as ET
+from xml.dom import minidom
+import json
 import os
 from tqdm import tqdm
 
@@ -38,13 +41,52 @@ config = set_device(config)
 if config.model == 'M1':
     model = StreamingM1(config)
 else:
-    assert 'model card' is 'not available'
+    assert 'model card' == 'not available'
+
+def srts2xml(srts, f_wo_ext):
+
+    #list of subtitles objects. used before the compose function
+    split_path = f_wo_ext.split('/') 
+    if len(split_path) > 1:
+        file_id = split_path[-2]
+    else:
+        file_id = split_path[-1]
+    
+    root = ET.Element("AudioDoc", name=file_id)
+    doc = ET.SubElement(root, "SoundCaptionList")
+    for window_n, sub in enumerate(srts):
+        ET.SubElement(doc, "SoundSegment", stime=str(float(window_n)), dur="1.00").text = sub.content
+
+    tree = ET.ElementTree(root)
+    xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="    ")
+    with open(f_wo_ext+'.xml', 'w') as f:
+        f.write(xmlstr)
+
+def srts2json(srts, f_wo_ext):
+
+    #list of subtitles objects. used before the compose function
+    jsons = []
+    for window_n, sub in enumerate(srts):
+        jsons.append({"stime": float(window_n), "dur": float(1), "caption": sub.content })
+    json_string = json.dumps({"sound":jsons}, indent=4)
+    
+    with open(f_wo_ext+'.json', 'w') as f:
+        f.write(json_string)
+
+
+def srts2srt(srts, srt_save_path):
+    srts = srt.compose(srts, reindex=True)
+    with open(srt_save_path,'w') as f:
+            f.write(srts) 
+
+
 
 
 def main():
     if os.path.isfile(config.demo):
         paths = [config.demo]
     else:
+        print(config.demo)
         assert os.path.isdir(config.demo)
         paths = [os.path.join(config.demo,p) for p in os.listdir(config.demo)]
 
@@ -52,7 +94,8 @@ def main():
         if p[-4:] not in ['.mp3', '.mp4', '.wav']:
             continue
         wav = librosa.load(p , sr=config.sample_rate)[0]
-        srt_save_path = '.'.join(p.split(".")[:-1]) + '.srt'
+        f_wo_ext = '.'.join(p.split(".")[:-1])
+        srt_save_path =  f_wo_ext + '.srt'
         if os.path.exists(srt_save_path):
             with open(srt_save_path,'r') as f:
                 lines = f.readlines() 
@@ -76,10 +119,9 @@ def main():
                 srts[curr_window].content += '\n'+ formatted_preds
             else:
                 srts.append(srt.Subtitle(index=None,start=timedelta(seconds=curr_window), end=timedelta(seconds=curr_window+1), content=formatted_preds))
-        srts = srt.compose(srts, reindex=True)
-        
-        with open(srt_save_path,'w') as f:
-            f.write(srts) 
+        srts2xml(srts, f_wo_ext)
+        srts2json(srts, f_wo_ext)
+        srts2srt(srts, srt_save_path)
 
     # example output predictions: ['chatter', 'others', 'screaming', 'motor_vehicle_road', 'emergency_vehicle']
 
