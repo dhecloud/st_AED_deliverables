@@ -28,3 +28,5 @@ channel_stds_path: data/statistics/16.0k/channel_stds_logmelspec_012.npy
 target_names: ['breaking', 'chatter', 'crying_sobbing', 'emergency_vehicle', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road', 'screaming', 'siren', 'others']
 num_classes: 10
 k: 1                                                # top-k results to return 
+prefix: "M1:"                                          # prefix of each subtitle in the SRT file. eg {M1: chatter, others, breaking}
+model: M1

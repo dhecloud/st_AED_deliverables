@@ -14,7 +14,7 @@ from utils import Task5Model, getSampleRateString
 import librosa
 
 
-class StreamingModel():
+class StreamingM1():
     '''Master class for generating outputs per 3 sec audio.
 
     Args:
