@@ -346,6 +346,74 @@ class Task5Model(nn.Module):
                 raise Exception(
                     f'Invalid model_arch={model_arch} paramater. Must be one of {model_archs}')
             self.model_arch = model_arch
+            
+
+        if self.model_arch == 'mobilenetv2':
+            self.bw2col = nn.Sequential(
+                nn.BatchNorm2d(1),
+                nn.Conv2d(1, 10, 1, padding=0), nn.ReLU(), # (128, 656) -> (64, 656) 
+                # nn.Conv2d(1, 10, (64, 2), padding=0), nn.ReLU(), # (128, 656) -> (64, 656) 
+                nn.Conv2d(10, 3, 1, padding=0), nn.ReLU())
+            self.mv2 = torchvision.models.mobilenet_v2(pretrained=True)
+
+            self.final = nn.Sequential(
+                nn.Linear(1280, 512), nn.ReLU(), nn.BatchNorm1d(512),
+                nn.Linear(512, num_classes))
+
+        elif self.model_arch == 'pann_cnn10':
+            if len(pann_encoder_ckpt_path) > 0 and os.path.exists(pann_encoder_ckpt_path) == False:
+                raise Exception(
+                    f"Model checkpoint path '{pann_encoder_ckpt_path}' does not exist/not found.")
+            self.pann_encoder_ckpt_path = pann_encoder_ckpt_path
+            self.AveragePool = nn.AvgPool2d((1, 2), (1, 2))
+            self.encoder = Cnn10()
+            if self.pann_encoder_ckpt_path!='':
+                self.encoder.load_state_dict(torch.load(self.pann_encoder_ckpt_path)['model'], strict = False)
+                print(f'loaded pann_cnn10 pretrained encoder state from {self.pann_encoder_ckpt_path}')
+            self.final = nn.Sequential(
+                nn.Linear(512, 256), nn.ReLU(), nn.BatchNorm1d(256),
+                nn.Linear(256, num_classes))
+
+    def forward(self, x):
+        if self.model_arch == 'mobilenetv2':
+            x = self.bw2col(x) # -> (batch_size, 3, n_mels, num_frames)
+            x = self.mv2.features(x)
+           
+        elif self.model_arch == 'pann_cnn10':
+            x = x # -> (batch_size, 1, n_mels, num_frames)
+            x = x.permute(0, 1, 3, 2) # -> (batch_size, 1, num_frames, n_mels)
+            x = self.AveragePool(x) # -> (batch_size, 1, num_frames, n_mels/2) 
+            # try to use a linear layer here.
+            x = torch.squeeze(x, 1) # -> (batch_size, num_frames, 64)
+            x = self.encoder(x)
+        # x-> (batch_size, 1280/512, H, W)
+        # x = x.max(dim=-1)[0].max(dim=-1)[0] # change it to mean
+        x = torch.mean(x, dim=(-1, -2))
+        x = self.final(x)# -> (batch_size, num_classes)
+        return x
+
+class Task5Modelb(nn.Module):
+
+    def __init__(self, num_classes, model_arch: str = model_archs[0], pann_encoder_ckpt_path: str = ''):
+        """Initialising model for Task 5 of DCASE
+
+        Args:
+            num_classes (int): Number of classes_
+            model_arch (str, optional): Model architecture to be used. One of ['mobilenetv2', 'pann_cnn10']. Defaults to model_archs[0].
+            pann_encoder_ckpt_path (str, optional): File path for downloaded pretrained model checkpoint. Defaults to None.
+
+        Raises:
+            Exception: Invalid model_arch paramater passed.
+            Exception: Model checkpoint path does not exist/not found.
+        """
+        super().__init__()
+        self.num_classes = num_classes
+
+        if len(model_arch) > 0:
+            if model_arch not in model_archs:
+                raise Exception(
+                    f'Invalid model_arch={model_arch} paramater. Must be one of {model_archs}')
+            self.model_arch = model_arch
 
         if self.model_arch == 'mobilenetv2':
             self.bw2col = nn.Sequential(
