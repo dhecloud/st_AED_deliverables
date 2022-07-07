@@ -1,6 +1,8 @@
 from typing import Iterator
 import pandas as pd
-from config import feature_type, permutation, sample_rate, num_frames, use_cbam, cbam_kernel_size, cbam_reduction_factor, use_median_filter, use_pna, n_basis_kernels, temperature, pool_dim
+from easydict import EasyDict
+with open('config.yaml', "rb") as stream:
+    config = EasyDict(yaml.full_load(stream))
 from attention.CBAM import CBAMBlock
 import numpy as np
 import torch
@@ -136,8 +138,8 @@ class Dynamic_conv2d(nn.Module):
     """To perform Frequency Dynamic Convolution or Time Dynamic Convolution.
     """
 
-    def __init__(self, in_planes, out_planes, kernel_size, groups=1, stride=1, padding=0, bias=False, n_basis_kernels=n_basis_kernels,
-                 temperature=temperature, pool_dim=pool_dim):
+    def __init__(self, in_planes, out_planes, kernel_size, groups=1, stride=1, padding=0, bias=False, n_basis_kernels=config.n_basis_kernels,
+                 temperature=config.temperature, pool_dim=config.pool_dim):
         super(Dynamic_conv2d, self).__init__()
 
         self.in_planes = in_planes
@@ -207,7 +209,7 @@ class Dynamic_conv2d(nn.Module):
 
 class AudioDataset(Dataset):
 
-    def __init__(self, workspace, df, feature_type=feature_type, perm=permutation, spec_transform=None, image_transform=None, resize=num_frames, sample_rate=sample_rate):
+    def __init__(self, workspace, df, feature_type=config.feature_type, perm=config.permutation, spec_transform=None, image_transform=None, resize=config.num_frames, sample_rate=config.sample_rate):
 
         self.workspace = workspace
         self.df = df
@@ -449,7 +451,7 @@ class Task5Modelb(nn.Module):
 
             if self.use_cbam:
                 self.cbam = CBAMBlock(
-                    channel=512, reduction=cbam_reduction_factor, kernel_size=cbam_kernel_size)
+                    channel=512, reduction=config.cbam_reduction_factor, kernel_size=config.cbam_kernel_size)
 
             self.encoder = nn.Sequential(
                 self.encoder_pann,
