@@ -1,8 +1,12 @@
-
 ## Description
 `main.py` is an example script to get predictions from the `StreamingModel` class. Please build your own streaming wrapper around this model.
 
 The function to call for every 3 sec wav audio is `model.predict_3sec(wav)`. Refer to `main.py` for more details.
+
+### Update 07/07/22
+Now also creates xml and json captions (same captions as the srt, just different format).   
+You can now specify your caption prefix (eg 'M1:') and model to generate the captions in config.   
+Example command `python main.py --demo test_1min.wav -k 5 -p M1: -m M1`   
 
 ### Update 30/6/22
 Now creates srt file for the audio. Load the audio-srt pair using VLC player.   
