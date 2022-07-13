@@ -472,7 +472,7 @@ class Task5Modelb(nn.Module):
 
             if self.use_cbam:
                 self.cbam = CBAMBlock(
-                    channel=512, reduction=config.cbam_reduction_factor, kernel_size=config.cbam_kernel_size)
+                    channel=512, reduction=16, kernel_size=7)
 
             self.encoder = nn.Sequential(
                 self.encoder_pann,
