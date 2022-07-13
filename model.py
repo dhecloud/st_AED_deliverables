@@ -158,7 +158,7 @@ class StreamingM2():
 
         #buffer init
         self.buffer = []
-
+        print("USING M2 ===============")
     def load_model(self, path):
         ''' loads model checkpoint into Task5Model at self.model
 
@@ -170,7 +170,7 @@ class StreamingM2():
 
 
         '''
-        self.model.load_state_dict(torch.load(path, map_location=self.p.device))
+        self.model.load_state_dict(torch.load(path, map_location=self.p.device)['model_state_dict'])
         self.model.eval()
 
 
