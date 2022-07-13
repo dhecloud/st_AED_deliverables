@@ -7,7 +7,7 @@ __maintainer__ = "Andrew Koh"
 __email__ = "andr0081@ntu.edu.sg"
 '''
 
-from model import StreamingM1, StreamingM2
+from model import StreamingM1, StreamingM2, StreamingM3
 import librosa
 import argparse
 from utils import set_device
@@ -42,6 +42,8 @@ if config.model == 'M1':
     model = StreamingM1(config)
 elif config.model == 'M2':
     model = StreamingM2(config)
+elif config.model == 'M3':
+    model = StreamingM3(config)
 else:
     assert 'model card' == 'not available'
 

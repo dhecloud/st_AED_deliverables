@@ -418,6 +418,9 @@ class Task5Modelb(nn.Module):
                 raise Exception(
                     f'Invalid model_arch={model_arch} paramater. Must be one of {model_archs}')
             self.model_arch = model_arch
+        
+        self.use_cbam = True
+
 
         if self.model_arch == 'mobilenetv2':
             self.bw2col = nn.Sequential(
@@ -425,16 +428,32 @@ class Task5Modelb(nn.Module):
                 Dynamic_conv2d(10, 3, 1, padding=0),
                 nn.BatchNorm2d(3),
             )
-            # self.bw2col = nn.Sequential(
-            #     nn.BatchNorm2d(1),
-            #     nn.Conv2d(1, 10, 1, padding=0), nn.ReLU(), # (128, 656) -> (64, 656)
-            #     # nn.Conv2d(1, 10, (64, 2), padding=0), nn.ReLU(), # (128, 656) -> (64, 656)
-            #     nn.Conv2d(10, 3, 1, padding=0), nn.ReLU())
             self.mv2 = torchvision.models.mobilenet_v2(pretrained=True)
+
+            if self.use_cbam:
+                self.cbam = CBAMBlock(
+                    channel=1280, reduction=16, kernel_size=7)
 
             self.final = nn.Sequential(
                 nn.Linear(1280, 512), nn.ReLU(), nn.BatchNorm1d(512),
                 nn.Linear(512, num_classes))
+
+        elif self.model_arch == 'mobilenetv3':
+            self.bw2col = nn.Sequential(
+                Dynamic_conv2d(1, 10, 1, padding=0),
+                Dynamic_conv2d(10, 3, 1, padding=0),
+                nn.BatchNorm2d(3),
+            )
+            self.mv3 = torchvision.models.mobilenet_v3_large(pretrained=True)
+
+            if self.use_cbam:
+                self.cbam = CBAMBlock(
+                    channel=960, reduction=16, kernel_size=7)
+
+            self.final = nn.Sequential(
+                nn.Linear(960, 512), nn.ReLU(), nn.BatchNorm1d(512),
+                nn.Linear(512, num_classes))
+
 
         elif self.model_arch == 'pann_cnn10':
             if len(pann_encoder_ckpt_path) > 0 and os.path.exists(pann_encoder_ckpt_path) == False:
@@ -471,6 +490,10 @@ class Task5Modelb(nn.Module):
         if self.model_arch == 'mobilenetv2':
             x = self.bw2col(x)  # -> (batch_size, 3, n_mels, num_frames)
             x = self.mv2.features(x)
+
+        elif self.model_arch == 'mobilenetv3':
+            x = self.bw2col(x)  # -> (batch_size, 3, n_mels, num_frames)
+            x = self.mv3.features(x)
 
         elif self.model_arch == 'pann_cnn10':
             x = x  # -> (batch_size, 1, n_mels, num_frames)

@@ -30,3 +30,4 @@ num_classes: 10
 k: 1                                                # top-k results to return 
 prefix: "M1:"                                          # prefix of each subtitle in the SRT file. eg {M1: chatter, others, breaking}
 model: M1
+pann_encoder_ckpt_path: /notebooks/sound-event-classification/audioset/model/Cnn10_mAP=0.380.pth
