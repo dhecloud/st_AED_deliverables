@@ -463,9 +463,9 @@ class Task5Modelb(nn.Module):
 
             self.AveragePool = nn.AvgPool2d((1, 2), (1, 2))
 
-            self.encoder_pann = Cnn10()
+            self.encoder = Cnn10()
             if self.pann_encoder_ckpt_path != '':
-                self.encoder_pann.load_state_dict(torch.load(
+                self.encoder.load_state_dict(torch.load(
                     self.pann_encoder_ckpt_path)['model'], strict=False)
                 print(
                     f'loaded pann_cnn14 pretrained encoder state from {self.pann_encoder_ckpt_path}')
@@ -473,17 +473,16 @@ class Task5Modelb(nn.Module):
             if self.use_cbam:
                 self.cbam = CBAMBlock(
                     channel=512, reduction=16, kernel_size=7)
-
-            self.encoder = nn.Sequential(
-                self.encoder_pann,
+            
+            self.pann_head = nn.Sequential(
                 self.cbam if self.use_cbam else nn.Identity(),
-                Dynamic_conv2d(512, 256, (10, 1)),
-                Dynamic_conv2d(256, 128, (10, 1)),
+                Dynamic_conv2d(512, 256, (1, 1)),
+                Dynamic_conv2d(256, 128, (1, 1)),
             )
             # output shape of CNN10 [-1, 512, 39, 4]
 
             self.final = nn.Sequential(
-                nn.Linear(128, 64), nn.ReLU(), nn.BatchNorm1d(256),
+                nn.Linear(128, 64), nn.ReLU(), nn.BatchNorm1d(64),
                 nn.Linear(64, num_classes))
 
     def forward(self, x):
@@ -502,6 +501,8 @@ class Task5Modelb(nn.Module):
             # try to use a linear layer here.
             x = torch.squeeze(x, 1)  # -> (batch_size, num_frames, 64)
             x = self.encoder(x)
+            x = self.pann_head(x)
+            
         # x-> (batch_size, 1280/512, H, W)
         # x = x.max(dim=-1)[0].max(dim=-1)[0] # change it to mean
         x = torch.mean(x, dim=(-1, -2))
