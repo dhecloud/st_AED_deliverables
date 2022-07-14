@@ -122,6 +122,6 @@ def return_file(output_type, file_id):
         return response
 
 if __name__ == "__main__":
-    app.run('0.0.0.0',port=5000, debug=True)
+    app.run('0.0.0.0',port=5050, debug=True)
     # serve(app, port=8080)
 

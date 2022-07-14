@@ -1,0 +1,1218 @@
+1
+00:00:00,000 --> 00:00:01,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: siren 
+M3 0: emergency_vehicle 1: others 2: siren 3: motor_vehicle_road 4: explosion 
+
+2
+00:00:01,000 --> 00:00:02,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: breaking 
+M3 0: emergency_vehicle 1: others 2: siren 3: motor_vehicle_road 4: explosion 
+
+3
+00:00:02,000 --> 00:00:03,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: explosion 
+M3 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: siren 4: chatter 
+
+4
+00:00:03,000 --> 00:00:04,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: chatter 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: chatter 4: siren 
+
+5
+00:00:04,000 --> 00:00:05,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: chatter 
+
+6
+00:00:05,000 --> 00:00:06,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+7
+00:00:06,000 --> 00:00:07,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: gunshot_gunfire 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: siren 
+
+8
+00:00:07,000 --> 00:00:08,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: crying_sobbing 
+
+9
+00:00:08,000 --> 00:00:09,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: breaking 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+10
+00:00:09,000 --> 00:00:10,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: siren 2: others 3: emergency_vehicle 4: breaking 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: crying_sobbing 
+
+11
+00:00:10,000 --> 00:00:11,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: siren 2: others 3: emergency_vehicle 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+12
+00:00:11,000 --> 00:00:12,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: siren 2: motor_vehicle_road 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+13
+00:00:12,000 --> 00:00:13,000
+M1 0: emergency_vehicle 1: screaming 2: siren 3: crying_sobbing 4: others 
+M2 0: siren 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: explosion 
+M3 0: siren 1: others 2: motor_vehicle_road 3: emergency_vehicle 4: gunshot_gunfire 
+
+14
+00:00:13,000 --> 00:00:14,000
+M1 0: emergency_vehicle 1: screaming 2: siren 3: crying_sobbing 4: others 
+M2 0: siren 1: others 2: motor_vehicle_road 3: emergency_vehicle 4: explosion 
+M3 0: siren 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: explosion 
+
+15
+00:00:14,000 --> 00:00:15,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: siren 1: motor_vehicle_road 2: emergency_vehicle 3: others 4: explosion 
+M3 0: siren 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: explosion 
+
+16
+00:00:15,000 --> 00:00:16,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: siren 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: breaking 
+M3 0: siren 1: motor_vehicle_road 2: emergency_vehicle 3: others 4: explosion 
+
+17
+00:00:16,000 --> 00:00:17,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: gunshot_gunfire 
+
+18
+00:00:17,000 --> 00:00:18,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: gunshot_gunfire 4: screaming 
+M2 0: gunshot_gunfire 1: others 2: explosion 3: breaking 4: motor_vehicle_road 
+M3 0: gunshot_gunfire 1: others 2: explosion 3: motor_vehicle_road 4: breaking 
+
+19
+00:00:18,000 --> 00:00:19,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: gunshot_gunfire 4: explosion 
+M2 0: others 1: explosion 2: gunshot_gunfire 3: breaking 4: motor_vehicle_road 
+M3 0: gunshot_gunfire 1: others 2: explosion 3: breaking 4: motor_vehicle_road 
+
+20
+00:00:19,000 --> 00:00:20,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: emergency_vehicle 
+M2 0: others 1: gunshot_gunfire 2: explosion 3: motor_vehicle_road 4: breaking 
+M3 0: gunshot_gunfire 1: others 2: explosion 3: motor_vehicle_road 4: breaking 
+
+21
+00:00:20,000 --> 00:00:21,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+22
+00:00:21,000 --> 00:00:22,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: explosion 2: gunshot_gunfire 3: motor_vehicle_road 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+23
+00:00:22,000 --> 00:00:23,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+M2 0: others 1: explosion 2: gunshot_gunfire 3: breaking 4: motor_vehicle_road 
+M3 0: others 1: motor_vehicle_road 2: siren 3: gunshot_gunfire 4: emergency_vehicle 
+
+24
+00:00:23,000 --> 00:00:24,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: explosion 2: gunshot_gunfire 3: screaming 4: motor_vehicle_road 
+M3 0: others 1: emergency_vehicle 2: siren 3: motor_vehicle_road 4: explosion 
+
+25
+00:00:24,000 --> 00:00:25,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: gunshot_gunfire 
+M3 0: emergency_vehicle 1: siren 2: motor_vehicle_road 3: others 4: explosion 
+
+26
+00:00:25,000 --> 00:00:26,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: gunshot_gunfire 
+M2 0: others 1: emergency_vehicle 2: chatter 3: gunshot_gunfire 4: motor_vehicle_road 
+M3 0: emergency_vehicle 1: siren 2: motor_vehicle_road 3: others 4: explosion 
+
+27
+00:00:26,000 --> 00:00:27,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: others 1: chatter 2: gunshot_gunfire 3: motor_vehicle_road 4: emergency_vehicle 
+M3 0: emergency_vehicle 1: others 2: motor_vehicle_road 3: siren 4: explosion 
+
+28
+00:00:27,000 --> 00:00:28,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: emergency_vehicle 
+M3 0: emergency_vehicle 1: others 2: motor_vehicle_road 3: siren 4: explosion 
+
+29
+00:00:28,000 --> 00:00:29,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: chatter 
+
+30
+00:00:29,000 --> 00:00:30,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: explosion 4: siren 
+
+31
+00:00:30,000 --> 00:00:31,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: crying_sobbing 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: siren 
+
+32
+00:00:31,000 --> 00:00:32,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: crying_sobbing 
+M3 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: crying_sobbing 4: siren 
+
+33
+00:00:32,000 --> 00:00:33,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: siren 4: gunshot_gunfire 
+M3 0: others 1: gunshot_gunfire 2: emergency_vehicle 3: crying_sobbing 4: siren 
+
+34
+00:00:33,000 --> 00:00:34,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: emergency_vehicle 2: siren 3: motor_vehicle_road 4: chatter 
+M3 0: others 1: gunshot_gunfire 2: emergency_vehicle 3: siren 4: breaking 
+
+35
+00:00:34,000 --> 00:00:35,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: emergency_vehicle 2: siren 3: motor_vehicle_road 4: chatter 
+M3 0: others 1: gunshot_gunfire 2: emergency_vehicle 3: siren 4: motor_vehicle_road 
+
+36
+00:00:35,000 --> 00:00:36,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: emergency_vehicle 1: others 2: siren 3: motor_vehicle_road 4: gunshot_gunfire 
+M3 0: others 1: gunshot_gunfire 2: emergency_vehicle 3: siren 4: motor_vehicle_road 
+
+37
+00:00:36,000 --> 00:00:37,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: emergency_vehicle 1: others 2: siren 3: motor_vehicle_road 4: gunshot_gunfire 
+M3 0: others 1: emergency_vehicle 2: gunshot_gunfire 3: siren 4: motor_vehicle_road 
+
+38
+00:00:37,000 --> 00:00:38,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: emergency_vehicle 1: siren 2: others 3: motor_vehicle_road 4: gunshot_gunfire 
+M3 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: siren 4: gunshot_gunfire 
+
+39
+00:00:38,000 --> 00:00:39,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: emergency_vehicle 1: siren 2: motor_vehicle_road 3: others 4: gunshot_gunfire 
+M3 0: emergency_vehicle 1: others 2: siren 3: motor_vehicle_road 4: gunshot_gunfire 
+
+40
+00:00:39,000 --> 00:00:40,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: emergency_vehicle 1: siren 2: others 3: motor_vehicle_road 4: gunshot_gunfire 
+M3 0: emergency_vehicle 1: siren 2: others 3: motor_vehicle_road 4: gunshot_gunfire 
+
+41
+00:00:40,000 --> 00:00:41,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: emergency_vehicle 2: siren 3: motor_vehicle_road 4: explosion 
+M3 0: emergency_vehicle 1: siren 2: motor_vehicle_road 3: others 4: gunshot_gunfire 
+
+42
+00:00:41,000 --> 00:00:42,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: siren 4: chatter 
+M3 0: emergency_vehicle 1: others 2: siren 3: motor_vehicle_road 4: gunshot_gunfire 
+
+43
+00:00:42,000 --> 00:00:43,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: siren 4: chatter 
+M3 0: emergency_vehicle 1: others 2: motor_vehicle_road 3: siren 4: chatter 
+
+44
+00:00:43,000 --> 00:00:44,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: explosion 4: screaming 
+M3 0: motor_vehicle_road 1: emergency_vehicle 2: others 3: siren 4: explosion 
+
+45
+00:00:44,000 --> 00:00:45,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: chatter 1: others 2: explosion 3: motor_vehicle_road 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+46
+00:00:45,000 --> 00:00:46,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: explosion 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: screaming 4: siren 
+
+47
+00:00:46,000 --> 00:00:47,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: explosion 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: chatter 3: emergency_vehicle 4: screaming 
+
+48
+00:00:47,000 --> 00:00:48,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: explosion 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: chatter 3: emergency_vehicle 4: explosion 
+
+49
+00:00:48,000 --> 00:00:49,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: explosion 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: chatter 
+
+50
+00:00:49,000 --> 00:00:50,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: siren 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: chatter 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+51
+00:00:50,000 --> 00:00:51,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+
+52
+00:00:51,000 --> 00:00:52,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: chatter 4: siren 
+M3 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: crying_sobbing 
+
+53
+00:00:52,000 --> 00:00:53,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: crying_sobbing 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: crying_sobbing 
+
+54
+00:00:53,000 --> 00:00:54,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: motor_vehicle_road 1: emergency_vehicle 2: others 3: siren 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: crying_sobbing 4: explosion 
+
+55
+00:00:54,000 --> 00:00:55,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: motor_vehicle_road 1: emergency_vehicle 2: others 3: siren 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: crying_sobbing 
+
+56
+00:00:55,000 --> 00:00:56,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: siren 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: gunshot_gunfire 4: emergency_vehicle 
+
+57
+00:00:56,000 --> 00:00:57,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: others 1: emergency_vehicle 2: motor_vehicle_road 3: siren 4: crying_sobbing 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: gunshot_gunfire 
+
+58
+00:00:57,000 --> 00:00:58,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: emergency_vehicle 1: motor_vehicle_road 2: others 3: siren 4: explosion 
+M3 0: others 1: crying_sobbing 2: motor_vehicle_road 3: emergency_vehicle 4: gunshot_gunfire 
+
+59
+00:00:58,000 --> 00:00:59,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: motor_vehicle_road 1: emergency_vehicle 2: others 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: gunshot_gunfire 
+
+60
+00:00:59,000 --> 00:01:00,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: gunshot_gunfire 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: gunshot_gunfire 
+
+61
+00:01:00,000 --> 00:01:01,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: crying_sobbing 
+M3 0: others 1: crying_sobbing 2: motor_vehicle_road 3: emergency_vehicle 4: gunshot_gunfire 
+
+62
+00:01:01,000 --> 00:01:02,000
+M1 0: motor_vehicle_road 1: screaming 2: emergency_vehicle 3: gunshot_gunfire 4: others 
+M2 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: crying_sobbing 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: gunshot_gunfire 4: emergency_vehicle 
+
+63
+00:01:02,000 --> 00:01:03,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: motor_vehicle_road 1: emergency_vehicle 2: siren 3: others 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: explosion 
+
+64
+00:01:03,000 --> 00:01:04,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: chatter 4: screaming 
+M2 0: motor_vehicle_road 1: emergency_vehicle 2: breaking 3: others 4: siren 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: explosion 
+
+65
+00:01:04,000 --> 00:01:05,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: breaking 4: crying_sobbing 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: chatter 
+
+66
+00:01:05,000 --> 00:01:06,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: explosion 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: chatter 
+
+67
+00:01:06,000 --> 00:01:07,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: chatter 4: gunshot_gunfire 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: chatter 
+
+68
+00:01:07,000 --> 00:01:08,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: chatter 4: gunshot_gunfire 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+69
+00:01:08,000 --> 00:01:09,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+70
+00:01:09,000 --> 00:01:10,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+71
+00:01:10,000 --> 00:01:11,000
+M1 0: screaming 1: motor_vehicle_road 2: emergency_vehicle 3: gunshot_gunfire 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: crying_sobbing 4: siren 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: explosion 
+
+72
+00:01:11,000 --> 00:01:12,000
+M1 0: screaming 1: emergency_vehicle 2: motor_vehicle_road 3: gunshot_gunfire 4: others 
+M2 0: motor_vehicle_road 1: others 2: siren 3: breaking 4: crying_sobbing 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: crying_sobbing 4: screaming 
+
+73
+00:01:12,000 --> 00:01:13,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: crying_sobbing 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: breaking 3: chatter 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: breaking 4: gunshot_gunfire 
+
+74
+00:01:13,000 --> 00:01:14,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: breaking 3: chatter 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: emergency_vehicle 
+
+75
+00:01:14,000 --> 00:01:15,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: siren 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+76
+00:01:15,000 --> 00:01:16,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: chatter 4: siren 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: chatter 
+M3 0: motor_vehicle_road 1: others 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+
+77
+00:01:16,000 --> 00:01:17,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: siren 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: crying_sobbing 
+
+78
+00:01:17,000 --> 00:01:18,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: others 1: motor_vehicle_road 2: screaming 3: crying_sobbing 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: crying_sobbing 4: siren 
+
+79
+00:01:18,000 --> 00:01:19,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: emergency_vehicle 2: others 3: siren 4: chatter 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+80
+00:01:19,000 --> 00:01:20,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: chatter 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+81
+00:01:20,000 --> 00:01:21,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: chatter 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+82
+00:01:21,000 --> 00:01:22,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: chatter 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+83
+00:01:22,000 --> 00:01:23,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: emergency_vehicle 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+84
+00:01:23,000 --> 00:01:24,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: chatter 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+85
+00:01:24,000 --> 00:01:25,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+86
+00:01:25,000 --> 00:01:26,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: siren 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+87
+00:01:26,000 --> 00:01:27,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+88
+00:01:27,000 --> 00:01:28,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: emergency_vehicle 2: others 3: siren 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: crying_sobbing 
+
+89
+00:01:28,000 --> 00:01:29,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: emergency_vehicle 4: siren 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: crying_sobbing 
+
+90
+00:01:29,000 --> 00:01:30,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: chatter 
+
+91
+00:01:30,000 --> 00:01:31,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: siren 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+92
+00:01:31,000 --> 00:01:32,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: siren 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+93
+00:01:32,000 --> 00:01:33,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+94
+00:01:33,000 --> 00:01:34,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: crying_sobbing 
+
+95
+00:01:34,000 --> 00:01:35,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: crying_sobbing 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: siren 4: emergency_vehicle 
+
+96
+00:01:35,000 --> 00:01:36,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: siren 4: emergency_vehicle 
+
+97
+00:01:36,000 --> 00:01:37,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: gunshot_gunfire 4: crying_sobbing 
+
+98
+00:01:37,000 --> 00:01:38,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: screaming 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: gunshot_gunfire 
+
+99
+00:01:38,000 --> 00:01:39,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: screaming 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: gunshot_gunfire 
+
+100
+00:01:39,000 --> 00:01:40,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+101
+00:01:40,000 --> 00:01:41,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+102
+00:01:41,000 --> 00:01:42,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: explosion 4: siren 
+
+103
+00:01:42,000 --> 00:01:43,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+M2 0: explosion 1: motor_vehicle_road 2: others 3: breaking 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: screaming 4: breaking 
+
+104
+00:01:43,000 --> 00:01:44,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: explosion 2: others 3: gunshot_gunfire 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: explosion 4: breaking 
+
+105
+00:01:44,000 --> 00:01:45,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: explosion 4: chatter 
+
+106
+00:01:45,000 --> 00:01:46,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+107
+00:01:46,000 --> 00:01:47,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: chatter 3: emergency_vehicle 4: siren 
+
+108
+00:01:47,000 --> 00:01:48,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: chatter 2: others 3: screaming 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+109
+00:01:48,000 --> 00:01:49,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: explosion 4: siren 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: breaking 4: explosion 
+
+110
+00:01:49,000 --> 00:01:50,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: screaming 4: crying_sobbing 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: screaming 4: emergency_vehicle 
+
+111
+00:01:50,000 --> 00:01:51,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: breaking 
+
+112
+00:01:51,000 --> 00:01:52,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: breaking 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+113
+00:01:52,000 --> 00:01:53,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: breaking 4: gunshot_gunfire 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+114
+00:01:53,000 --> 00:01:54,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: siren 4: gunshot_gunfire 
+M3 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+
+115
+00:01:54,000 --> 00:01:55,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: siren 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+
+116
+00:01:55,000 --> 00:01:56,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+117
+00:01:56,000 --> 00:01:57,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: chatter 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+118
+00:01:57,000 --> 00:01:58,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: gunshot_gunfire 
+
+119
+00:01:58,000 --> 00:01:59,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: siren 4: screaming 
+
+120
+00:01:59,000 --> 00:02:00,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: explosion 
+M2 0: others 1: motor_vehicle_road 2: breaking 3: explosion 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: explosion 4: emergency_vehicle 
+
+121
+00:02:00,000 --> 00:02:01,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: explosion 2: motor_vehicle_road 3: breaking 4: siren 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: screaming 
+
+122
+00:02:01,000 --> 00:02:02,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: gunshot_gunfire 2: explosion 3: breaking 4: motor_vehicle_road 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: explosion 
+
+123
+00:02:02,000 --> 00:02:03,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: siren 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: crying_sobbing 
+
+124
+00:02:03,000 --> 00:02:04,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: crying_sobbing 
+
+125
+00:02:04,000 --> 00:02:05,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: gunshot_gunfire 
+
+126
+00:02:05,000 --> 00:02:06,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: screaming 4: siren 
+
+127
+00:02:06,000 --> 00:02:07,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: others 1: siren 2: motor_vehicle_road 3: explosion 4: screaming 
+M3 0: others 1: explosion 2: motor_vehicle_road 3: screaming 4: gunshot_gunfire 
+
+128
+00:02:07,000 --> 00:02:08,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: others 1: siren 2: motor_vehicle_road 3: explosion 4: breaking 
+M3 0: others 1: explosion 2: motor_vehicle_road 3: gunshot_gunfire 4: siren 
+
+129
+00:02:08,000 --> 00:02:09,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: gunshot_gunfire 3: siren 4: explosion 
+
+130
+00:02:09,000 --> 00:02:10,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: screaming 
+M3 0: others 1: motor_vehicle_road 2: gunshot_gunfire 3: explosion 4: siren 
+
+131
+00:02:10,000 --> 00:02:11,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: screaming 
+M2 0: siren 1: emergency_vehicle 2: others 3: motor_vehicle_road 4: screaming 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+
+132
+00:02:11,000 --> 00:02:12,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: siren 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+M3 0: others 1: siren 2: motor_vehicle_road 3: emergency_vehicle 4: crying_sobbing 
+
+133
+00:02:12,000 --> 00:02:13,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: siren 3: crying_sobbing 4: gunshot_gunfire 
+
+134
+00:02:13,000 --> 00:02:14,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: siren 1: others 2: motor_vehicle_road 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: crying_sobbing 4: gunshot_gunfire 
+
+135
+00:02:14,000 --> 00:02:15,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: chatter 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: explosion 
+
+136
+00:02:15,000 --> 00:02:16,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: siren 4: screaming 
+M3 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: emergency_vehicle 
+
+137
+00:02:16,000 --> 00:02:17,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: siren 4: screaming 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: siren 4: emergency_vehicle 
+
+138
+00:02:17,000 --> 00:02:18,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: crying_sobbing 4: siren 
+
+139
+00:02:18,000 --> 00:02:19,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: crying_sobbing 
+
+140
+00:02:19,000 --> 00:02:20,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: screaming 4: siren 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: siren 
+
+141
+00:02:20,000 --> 00:02:21,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: siren 
+
+142
+00:02:21,000 --> 00:02:22,000
+M1 0: motor_vehicle_road 1: crying_sobbing 2: others 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+143
+00:02:22,000 --> 00:02:23,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: gunshot_gunfire 
+
+144
+00:02:23,000 --> 00:02:24,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: gunshot_gunfire 
+
+145
+00:02:24,000 --> 00:02:25,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+
+146
+00:02:25,000 --> 00:02:26,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+147
+00:02:26,000 --> 00:02:27,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: crying_sobbing 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+148
+00:02:27,000 --> 00:02:28,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: gunshot_gunfire 
+
+149
+00:02:28,000 --> 00:02:29,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: siren 3: gunshot_gunfire 4: explosion 
+
+150
+00:02:29,000 --> 00:02:30,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: siren 3: gunshot_gunfire 4: emergency_vehicle 
+
+151
+00:02:30,000 --> 00:02:31,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: gunshot_gunfire 3: emergency_vehicle 4: siren 
+
+152
+00:02:31,000 --> 00:02:32,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: gunshot_gunfire 
+
+153
+00:02:32,000 --> 00:02:33,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+M3 0: others 1: motor_vehicle_road 2: gunshot_gunfire 3: explosion 4: siren 
+
+154
+00:02:33,000 --> 00:02:34,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: siren 3: explosion 4: gunshot_gunfire 
+
+155
+00:02:34,000 --> 00:02:35,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: screaming 3: others 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: siren 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: siren 3: gunshot_gunfire 4: explosion 
+
+156
+00:02:35,000 --> 00:02:36,000
+M1 0: motor_vehicle_road 1: crying_sobbing 2: screaming 3: emergency_vehicle 4: others 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: screaming 4: siren 
+M3 0: others 1: motor_vehicle_road 2: gunshot_gunfire 3: crying_sobbing 4: explosion 
+
+157
+00:02:36,000 --> 00:02:37,000
+M1 0: motor_vehicle_road 1: crying_sobbing 2: screaming 3: emergency_vehicle 4: others 
+M2 0: motor_vehicle_road 1: others 2: screaming 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: gunshot_gunfire 3: crying_sobbing 4: explosion 
+
+158
+00:02:37,000 --> 00:02:38,000
+M1 0: motor_vehicle_road 1: crying_sobbing 2: screaming 3: emergency_vehicle 4: others 
+M2 0: motor_vehicle_road 1: others 2: screaming 3: siren 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: crying_sobbing 3: gunshot_gunfire 4: siren 
+
+159
+00:02:38,000 --> 00:02:39,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: emergency_vehicle 
+
+160
+00:02:39,000 --> 00:02:40,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: explosion 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: emergency_vehicle 
+
+161
+00:02:40,000 --> 00:02:41,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: gunshot_gunfire 4: siren 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: emergency_vehicle 
+
+162
+00:02:41,000 --> 00:02:42,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: explosion 4: siren 
+
+163
+00:02:42,000 --> 00:02:43,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: gunshot_gunfire 
+
+164
+00:02:43,000 --> 00:02:44,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+165
+00:02:44,000 --> 00:02:45,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+166
+00:02:45,000 --> 00:02:46,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+167
+00:02:46,000 --> 00:02:47,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: chatter 4: siren 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+
+168
+00:02:47,000 --> 00:02:48,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: gunshot_gunfire 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: explosion 
+
+169
+00:02:48,000 --> 00:02:49,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: breaking 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: screaming 
+
+170
+00:02:49,000 --> 00:02:50,000
+M1 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: gunshot_gunfire 4: breaking 
+M3 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: emergency_vehicle 
+
+171
+00:02:50,000 --> 00:02:51,000
+M1 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: breaking 
+M3 0: gunshot_gunfire 1: motor_vehicle_road 2: others 3: explosion 4: emergency_vehicle 
+
+172
+00:02:51,000 --> 00:02:52,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: siren 
+M3 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: emergency_vehicle 
+
+173
+00:02:52,000 --> 00:02:53,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: explosion 4: siren 
+
+174
+00:02:53,000 --> 00:02:54,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+175
+00:02:54,000 --> 00:02:55,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+M2 0: motor_vehicle_road 1: others 2: chatter 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+176
+00:02:55,000 --> 00:02:56,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: screaming 4: chatter 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+177
+00:02:56,000 --> 00:02:57,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+178
+00:02:57,000 --> 00:02:58,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+179
+00:02:58,000 --> 00:02:59,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+180
+00:02:59,000 --> 00:03:00,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: screaming 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: screaming 
+
+181
+00:03:00,000 --> 00:03:01,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: siren 4: chatter 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: screaming 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: explosion 
+
+182
+00:03:01,000 --> 00:03:02,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: screaming 4: breaking 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: emergency_vehicle 4: screaming 
+
+183
+00:03:02,000 --> 00:03:03,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: motor_vehicle_road 2: explosion 3: siren 4: chatter 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+184
+00:03:03,000 --> 00:03:04,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: others 1: siren 2: motor_vehicle_road 3: emergency_vehicle 4: chatter 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+185
+00:03:04,000 --> 00:03:05,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: screaming 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+
+186
+00:03:05,000 --> 00:03:06,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: screaming 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+187
+00:03:06,000 --> 00:03:07,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: explosion 
+M2 0: motor_vehicle_road 1: others 2: siren 3: explosion 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: gunshot_gunfire 
+
+188
+00:03:07,000 --> 00:03:08,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+M3 0: motor_vehicle_road 1: others 2: siren 3: emergency_vehicle 4: explosion 
+
+189
+00:03:08,000 --> 00:03:09,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+190
+00:03:09,000 --> 00:03:10,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+191
+00:03:10,000 --> 00:03:11,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+192
+00:03:11,000 --> 00:03:12,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: siren 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: siren 4: explosion 
+
+193
+00:03:12,000 --> 00:03:13,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: emergency_vehicle 4: siren 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+194
+00:03:13,000 --> 00:03:14,000
+M1 0: motor_vehicle_road 1: others 2: crying_sobbing 3: emergency_vehicle 4: screaming 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: emergency_vehicle 
+M3 0: motor_vehicle_road 1: others 2: emergency_vehicle 3: explosion 4: siren 
+
+195
+00:03:14,000 --> 00:03:15,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: explosion 
+
+196
+00:03:15,000 --> 00:03:16,000
+M1 0: crying_sobbing 1: motor_vehicle_road 2: others 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: gunshot_gunfire 4: screaming 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: crying_sobbing 
+
+197
+00:03:16,000 --> 00:03:17,000
+M1 0: others 1: motor_vehicle_road 2: crying_sobbing 3: screaming 4: emergency_vehicle 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: chatter 4: gunshot_gunfire 
+M3 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: crying_sobbing 
+
+198
+00:03:17,000 --> 00:03:18,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: siren 4: explosion 
+M2 0: motor_vehicle_road 1: others 2: explosion 3: chatter 4: emergency_vehicle 
+M3 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: crying_sobbing 
+
+199
+00:03:18,000 --> 00:03:19,000
+M1 0: others 1: breaking 2: motor_vehicle_road 3: screaming 4: siren 
+M2 0: others 1: explosion 2: motor_vehicle_road 3: chatter 4: screaming 
+M3 0: gunshot_gunfire 1: others 2: screaming 3: emergency_vehicle 4: siren 
+
+200
+00:03:19,000 --> 00:03:20,000
+M1 0: others 1: breaking 2: motor_vehicle_road 3: screaming 4: siren 
+M2 0: others 1: explosion 2: motor_vehicle_road 3: chatter 4: screaming 
+M3 0: gunshot_gunfire 1: others 2: screaming 3: emergency_vehicle 4: siren 
+
+201
+00:03:20,000 --> 00:03:21,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: siren 4: breaking 
+M2 0: others 1: explosion 2: motor_vehicle_road 3: screaming 4: breaking 
+M3 0: others 1: gunshot_gunfire 2: screaming 3: emergency_vehicle 4: siren 
+
+202
+00:03:21,000 --> 00:03:22,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: siren 4: breaking 
+M2 0: others 1: explosion 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+M3 0: others 1: gunshot_gunfire 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+203
+00:03:22,000 --> 00:03:23,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: gunshot_gunfire 
+M2 0: others 1: explosion 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+M3 0: others 1: motor_vehicle_road 2: explosion 3: gunshot_gunfire 4: emergency_vehicle 
+

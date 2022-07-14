@@ -106,9 +106,6 @@ dependencies:
   - python=3.8.13=ha86cf86_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.8=2_cp38
-  - pytorch=1.10.2=cuda102py38h9fb240c_0
-  - pytorch-gpu=1.10.2=cuda102py38hf05f184_0
-  - pytorch-mutex=1.0=cuda
   - pytz=2022.1=pyhd8ed1ab_0
   - pyyaml=6.0=py38h0a891b7_4
   - readline=8.1=h46c0cb4_0
@@ -123,8 +120,6 @@ dependencies:
   - tbb=2021.5.0=h4bd325d_0
   - threadpoolctl=3.1.0=pyh8a188c0_0
   - tk=8.6.12=h27826a3_0
-  - torchaudio=0.10.2=py38_cu102
-  - torchvision=0.10.1=py38cuda102h1e64cea_0_cuda
   - typing_extensions=4.1.1=pyha770c72_0
   - unicodedata2=14.0.0=py38h497a2fe_0
   - wheel=0.37.1=pyhd8ed1ab_0
