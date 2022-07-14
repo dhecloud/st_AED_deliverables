@@ -18,6 +18,11 @@ Now also allows folder input for `-d`. Ignore other files that are not '.mp3', '
 2. `conda install pytorch torchvision torchaudio cpuonly -c pytorch`  
 3. `conda activate streaming`  
 
+## Dockerfile
+
+1. docker build .
+2. docker run -i -t -p <your_port>:5050 <image_id>
+
 ## How to use with your streaming wrapper
 `main.py` is an example script for deployment. Note that you have to create your own input streaming wrapper around the model and use its function as you see fit.
 
