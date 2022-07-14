@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<AudioDoc name="mwluk7xe-9mlx-4kbq-lnwu-bujwijnwaedu">
+    <SoundCaptionList>
+        <SoundSegment stime="0.0" dur="1.00">M1: 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle </SoundSegment>
+        <SoundSegment stime="1.0" dur="1.00">M1: 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle </SoundSegment>
+        <SoundSegment stime="2.0" dur="1.00">M1: 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: emergency_vehicle </SoundSegment>
+    </SoundCaptionList>
+</AudioDoc>

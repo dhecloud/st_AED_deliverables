@@ -1,0 +1,19 @@
+{
+    "sound": [
+        {
+            "stime": 0.0,
+            "dur": 1.0,
+            "caption": "M1: 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle "
+        },
+        {
+            "stime": 1.0,
+            "dur": 1.0,
+            "caption": "M1: 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle "
+        },
+        {
+            "stime": 2.0,
+            "dur": 1.0,
+            "caption": "M1: 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: emergency_vehicle "
+        }
+    ]
+}
