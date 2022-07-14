@@ -1,0 +1,1588 @@
+1
+00:00:00,000 --> 00:00:01,000
+M1 0: others 1: breaking 2: motor_vehicle_road 3: screaming 4: siren 
+
+2
+00:00:01,000 --> 00:00:02,000
+M1 0: others 1: breaking 2: motor_vehicle_road 3: screaming 4: siren 
+
+3
+00:00:02,000 --> 00:00:03,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: emergency_vehicle 
+
+4
+00:00:03,000 --> 00:00:04,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+5
+00:00:04,000 --> 00:00:05,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+6
+00:00:05,000 --> 00:00:06,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+7
+00:00:06,000 --> 00:00:07,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: chatter 
+
+8
+00:00:07,000 --> 00:00:08,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+9
+00:00:08,000 --> 00:00:09,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: emergency_vehicle 
+
+10
+00:00:09,000 --> 00:00:10,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: emergency_vehicle 
+
+11
+00:00:10,000 --> 00:00:11,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: chatter 
+
+12
+00:00:11,000 --> 00:00:12,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+13
+00:00:12,000 --> 00:00:13,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+14
+00:00:13,000 --> 00:00:14,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+15
+00:00:14,000 --> 00:00:15,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+16
+00:00:15,000 --> 00:00:16,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+17
+00:00:16,000 --> 00:00:17,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+18
+00:00:17,000 --> 00:00:18,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+19
+00:00:18,000 --> 00:00:19,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+20
+00:00:19,000 --> 00:00:20,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+21
+00:00:20,000 --> 00:00:21,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+22
+00:00:21,000 --> 00:00:22,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+23
+00:00:22,000 --> 00:00:23,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+24
+00:00:23,000 --> 00:00:24,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+25
+00:00:24,000 --> 00:00:25,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+26
+00:00:25,000 --> 00:00:26,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+27
+00:00:26,000 --> 00:00:27,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+28
+00:00:27,000 --> 00:00:28,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+29
+00:00:28,000 --> 00:00:29,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+30
+00:00:29,000 --> 00:00:30,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: chatter 4: screaming 
+
+31
+00:00:30,000 --> 00:00:31,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+32
+00:00:31,000 --> 00:00:32,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+33
+00:00:32,000 --> 00:00:33,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+34
+00:00:33,000 --> 00:00:34,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+35
+00:00:34,000 --> 00:00:35,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+36
+00:00:35,000 --> 00:00:36,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: chatter 
+
+37
+00:00:36,000 --> 00:00:37,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+38
+00:00:37,000 --> 00:00:38,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+39
+00:00:38,000 --> 00:00:39,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: chatter 4: screaming 
+
+40
+00:00:39,000 --> 00:00:40,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+41
+00:00:40,000 --> 00:00:41,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+42
+00:00:41,000 --> 00:00:42,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+43
+00:00:42,000 --> 00:00:43,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+44
+00:00:43,000 --> 00:00:44,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: chatter 4: siren 
+
+45
+00:00:44,000 --> 00:00:45,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+46
+00:00:45,000 --> 00:00:46,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+47
+00:00:46,000 --> 00:00:47,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+48
+00:00:47,000 --> 00:00:48,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+49
+00:00:48,000 --> 00:00:49,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+50
+00:00:49,000 --> 00:00:50,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+51
+00:00:50,000 --> 00:00:51,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: chatter 
+
+52
+00:00:51,000 --> 00:00:52,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+53
+00:00:52,000 --> 00:00:53,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+54
+00:00:53,000 --> 00:00:54,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+55
+00:00:54,000 --> 00:00:55,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+56
+00:00:55,000 --> 00:00:56,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+57
+00:00:56,000 --> 00:00:57,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+58
+00:00:57,000 --> 00:00:58,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+59
+00:00:58,000 --> 00:00:59,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+60
+00:00:59,000 --> 00:01:00,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+61
+00:01:00,000 --> 00:01:01,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+62
+00:01:01,000 --> 00:01:02,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: screaming 
+
+63
+00:01:02,000 --> 00:01:03,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: emergency_vehicle 4: chatter 
+
+64
+00:01:03,000 --> 00:01:04,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+65
+00:01:04,000 --> 00:01:05,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+66
+00:01:05,000 --> 00:01:06,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+67
+00:01:06,000 --> 00:01:07,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+68
+00:01:07,000 --> 00:01:08,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+69
+00:01:08,000 --> 00:01:09,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+70
+00:01:09,000 --> 00:01:10,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+71
+00:01:10,000 --> 00:01:11,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: screaming 4: chatter 
+
+72
+00:01:11,000 --> 00:01:12,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: chatter 4: screaming 
+
+73
+00:01:12,000 --> 00:01:13,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+74
+00:01:13,000 --> 00:01:14,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+75
+00:01:14,000 --> 00:01:15,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+76
+00:01:15,000 --> 00:01:16,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+77
+00:01:16,000 --> 00:01:17,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+78
+00:01:17,000 --> 00:01:18,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+79
+00:01:18,000 --> 00:01:19,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+80
+00:01:19,000 --> 00:01:20,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+81
+00:01:20,000 --> 00:01:21,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+82
+00:01:21,000 --> 00:01:22,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+83
+00:01:22,000 --> 00:01:23,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+84
+00:01:23,000 --> 00:01:24,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+85
+00:01:24,000 --> 00:01:25,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+86
+00:01:25,000 --> 00:01:26,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+87
+00:01:26,000 --> 00:01:27,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+88
+00:01:27,000 --> 00:01:28,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+89
+00:01:28,000 --> 00:01:29,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+90
+00:01:29,000 --> 00:01:30,000
+M1 0: chatter 1: others 2: siren 3: motor_vehicle_road 4: breaking 
+
+91
+00:01:30,000 --> 00:01:31,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: siren 4: screaming 
+
+92
+00:01:31,000 --> 00:01:32,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+93
+00:01:32,000 --> 00:01:33,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+94
+00:01:33,000 --> 00:01:34,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+95
+00:01:34,000 --> 00:01:35,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+96
+00:01:35,000 --> 00:01:36,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+97
+00:01:36,000 --> 00:01:37,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+98
+00:01:37,000 --> 00:01:38,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+99
+00:01:38,000 --> 00:01:39,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+100
+00:01:39,000 --> 00:01:40,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+101
+00:01:40,000 --> 00:01:41,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+102
+00:01:41,000 --> 00:01:42,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+103
+00:01:42,000 --> 00:01:43,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+104
+00:01:43,000 --> 00:01:44,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+105
+00:01:44,000 --> 00:01:45,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+106
+00:01:45,000 --> 00:01:46,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+107
+00:01:46,000 --> 00:01:47,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+108
+00:01:47,000 --> 00:01:48,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+109
+00:01:48,000 --> 00:01:49,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+110
+00:01:49,000 --> 00:01:50,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+111
+00:01:50,000 --> 00:01:51,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+112
+00:01:51,000 --> 00:01:52,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: breaking 
+
+113
+00:01:52,000 --> 00:01:53,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+
+114
+00:01:53,000 --> 00:01:54,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+115
+00:01:54,000 --> 00:01:55,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+116
+00:01:55,000 --> 00:01:56,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+117
+00:01:56,000 --> 00:01:57,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+118
+00:01:57,000 --> 00:01:58,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+119
+00:01:58,000 --> 00:01:59,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+120
+00:01:59,000 --> 00:02:00,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+121
+00:02:00,000 --> 00:02:01,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+122
+00:02:01,000 --> 00:02:02,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+123
+00:02:02,000 --> 00:02:03,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+124
+00:02:03,000 --> 00:02:04,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+125
+00:02:04,000 --> 00:02:05,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+126
+00:02:05,000 --> 00:02:06,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+127
+00:02:06,000 --> 00:02:07,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+128
+00:02:07,000 --> 00:02:08,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+129
+00:02:08,000 --> 00:02:09,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+130
+00:02:09,000 --> 00:02:10,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+131
+00:02:10,000 --> 00:02:11,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+132
+00:02:11,000 --> 00:02:12,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+133
+00:02:12,000 --> 00:02:13,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+134
+00:02:13,000 --> 00:02:14,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+135
+00:02:14,000 --> 00:02:15,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+136
+00:02:15,000 --> 00:02:16,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+137
+00:02:16,000 --> 00:02:17,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: breaking 
+
+138
+00:02:17,000 --> 00:02:18,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+
+139
+00:02:18,000 --> 00:02:19,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+140
+00:02:19,000 --> 00:02:20,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+141
+00:02:20,000 --> 00:02:21,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+142
+00:02:21,000 --> 00:02:22,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+143
+00:02:22,000 --> 00:02:23,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+144
+00:02:23,000 --> 00:02:24,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+145
+00:02:24,000 --> 00:02:25,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+146
+00:02:25,000 --> 00:02:26,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+147
+00:02:26,000 --> 00:02:27,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+148
+00:02:27,000 --> 00:02:28,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+
+149
+00:02:28,000 --> 00:02:29,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+
+150
+00:02:29,000 --> 00:02:30,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: breaking 
+
+151
+00:02:30,000 --> 00:02:31,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+152
+00:02:31,000 --> 00:02:32,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+153
+00:02:32,000 --> 00:02:33,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+
+154
+00:02:33,000 --> 00:02:34,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+
+155
+00:02:34,000 --> 00:02:35,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+156
+00:02:35,000 --> 00:02:36,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+157
+00:02:36,000 --> 00:02:37,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+158
+00:02:37,000 --> 00:02:38,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+159
+00:02:38,000 --> 00:02:39,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+160
+00:02:39,000 --> 00:02:40,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+161
+00:02:40,000 --> 00:02:41,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+162
+00:02:41,000 --> 00:02:42,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+163
+00:02:42,000 --> 00:02:43,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+164
+00:02:43,000 --> 00:02:44,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+165
+00:02:44,000 --> 00:02:45,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+166
+00:02:45,000 --> 00:02:46,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+167
+00:02:46,000 --> 00:02:47,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+168
+00:02:47,000 --> 00:02:48,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+169
+00:02:48,000 --> 00:02:49,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+170
+00:02:49,000 --> 00:02:50,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+171
+00:02:50,000 --> 00:02:51,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+172
+00:02:51,000 --> 00:02:52,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+173
+00:02:52,000 --> 00:02:53,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+174
+00:02:53,000 --> 00:02:54,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+175
+00:02:54,000 --> 00:02:55,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+176
+00:02:55,000 --> 00:02:56,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+177
+00:02:56,000 --> 00:02:57,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: crying_sobbing 4: emergency_vehicle 
+
+178
+00:02:57,000 --> 00:02:58,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: crying_sobbing 4: emergency_vehicle 
+
+179
+00:02:58,000 --> 00:02:59,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+180
+00:02:59,000 --> 00:03:00,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+181
+00:03:00,000 --> 00:03:01,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+182
+00:03:01,000 --> 00:03:02,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+183
+00:03:02,000 --> 00:03:03,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+184
+00:03:03,000 --> 00:03:04,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+185
+00:03:04,000 --> 00:03:05,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+186
+00:03:05,000 --> 00:03:06,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+187
+00:03:06,000 --> 00:03:07,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+188
+00:03:07,000 --> 00:03:08,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: emergency_vehicle 4: screaming 
+
+189
+00:03:08,000 --> 00:03:09,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+190
+00:03:09,000 --> 00:03:10,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+191
+00:03:10,000 --> 00:03:11,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+192
+00:03:11,000 --> 00:03:12,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+193
+00:03:12,000 --> 00:03:13,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+194
+00:03:13,000 --> 00:03:14,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+195
+00:03:14,000 --> 00:03:15,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+196
+00:03:15,000 --> 00:03:16,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+197
+00:03:16,000 --> 00:03:17,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+198
+00:03:17,000 --> 00:03:18,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+199
+00:03:18,000 --> 00:03:19,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+200
+00:03:19,000 --> 00:03:20,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+201
+00:03:20,000 --> 00:03:21,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: crying_sobbing 
+
+202
+00:03:21,000 --> 00:03:22,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+203
+00:03:22,000 --> 00:03:23,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+204
+00:03:23,000 --> 00:03:24,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+205
+00:03:24,000 --> 00:03:25,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+206
+00:03:25,000 --> 00:03:26,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+207
+00:03:26,000 --> 00:03:27,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+208
+00:03:27,000 --> 00:03:28,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+209
+00:03:28,000 --> 00:03:29,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+210
+00:03:29,000 --> 00:03:30,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+211
+00:03:30,000 --> 00:03:31,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+212
+00:03:31,000 --> 00:03:32,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+213
+00:03:32,000 --> 00:03:33,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+214
+00:03:33,000 --> 00:03:34,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+215
+00:03:34,000 --> 00:03:35,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+216
+00:03:35,000 --> 00:03:36,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+217
+00:03:36,000 --> 00:03:37,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+218
+00:03:37,000 --> 00:03:38,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+219
+00:03:38,000 --> 00:03:39,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+220
+00:03:39,000 --> 00:03:40,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+221
+00:03:40,000 --> 00:03:41,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+222
+00:03:41,000 --> 00:03:42,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+223
+00:03:42,000 --> 00:03:43,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+224
+00:03:43,000 --> 00:03:44,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+225
+00:03:44,000 --> 00:03:45,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+226
+00:03:45,000 --> 00:03:46,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+227
+00:03:46,000 --> 00:03:47,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+228
+00:03:47,000 --> 00:03:48,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+229
+00:03:48,000 --> 00:03:49,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+230
+00:03:49,000 --> 00:03:50,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+231
+00:03:50,000 --> 00:03:51,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+232
+00:03:51,000 --> 00:03:52,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+233
+00:03:52,000 --> 00:03:53,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+234
+00:03:53,000 --> 00:03:54,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+235
+00:03:54,000 --> 00:03:55,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+236
+00:03:55,000 --> 00:03:56,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+237
+00:03:56,000 --> 00:03:57,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+238
+00:03:57,000 --> 00:03:58,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: siren 
+
+239
+00:03:58,000 --> 00:03:59,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: siren 
+
+240
+00:03:59,000 --> 00:04:00,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+241
+00:04:00,000 --> 00:04:01,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+242
+00:04:01,000 --> 00:04:02,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+243
+00:04:02,000 --> 00:04:03,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+244
+00:04:03,000 --> 00:04:04,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+245
+00:04:04,000 --> 00:04:05,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+246
+00:04:05,000 --> 00:04:06,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+247
+00:04:06,000 --> 00:04:07,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+248
+00:04:07,000 --> 00:04:08,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+249
+00:04:08,000 --> 00:04:09,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+250
+00:04:09,000 --> 00:04:10,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+251
+00:04:10,000 --> 00:04:11,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+252
+00:04:11,000 --> 00:04:12,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+253
+00:04:12,000 --> 00:04:13,000
+M1 0: chatter 1: others 2: screaming 3: crying_sobbing 4: motor_vehicle_road 
+
+254
+00:04:13,000 --> 00:04:14,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+255
+00:04:14,000 --> 00:04:15,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+256
+00:04:15,000 --> 00:04:16,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+257
+00:04:16,000 --> 00:04:17,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+258
+00:04:17,000 --> 00:04:18,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+259
+00:04:18,000 --> 00:04:19,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+260
+00:04:19,000 --> 00:04:20,000
+M1 0: others 1: motor_vehicle_road 2: emergency_vehicle 3: siren 4: chatter 
+
+261
+00:04:20,000 --> 00:04:21,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+262
+00:04:21,000 --> 00:04:22,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+263
+00:04:22,000 --> 00:04:23,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+264
+00:04:23,000 --> 00:04:24,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+265
+00:04:24,000 --> 00:04:25,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+266
+00:04:25,000 --> 00:04:26,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+267
+00:04:26,000 --> 00:04:27,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+268
+00:04:27,000 --> 00:04:28,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+269
+00:04:28,000 --> 00:04:29,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+270
+00:04:29,000 --> 00:04:30,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+271
+00:04:30,000 --> 00:04:31,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+272
+00:04:31,000 --> 00:04:32,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+273
+00:04:32,000 --> 00:04:33,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+274
+00:04:33,000 --> 00:04:34,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+275
+00:04:34,000 --> 00:04:35,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+276
+00:04:35,000 --> 00:04:36,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+277
+00:04:36,000 --> 00:04:37,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+278
+00:04:37,000 --> 00:04:38,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+279
+00:04:38,000 --> 00:04:39,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+280
+00:04:39,000 --> 00:04:40,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: siren 4: emergency_vehicle 
+
+281
+00:04:40,000 --> 00:04:41,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: siren 
+
+282
+00:04:41,000 --> 00:04:42,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+283
+00:04:42,000 --> 00:04:43,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+284
+00:04:43,000 --> 00:04:44,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+285
+00:04:44,000 --> 00:04:45,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: breaking 
+
+286
+00:04:45,000 --> 00:04:46,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: breaking 
+
+287
+00:04:46,000 --> 00:04:47,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+288
+00:04:47,000 --> 00:04:48,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+289
+00:04:48,000 --> 00:04:49,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+290
+00:04:49,000 --> 00:04:50,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+291
+00:04:50,000 --> 00:04:51,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+292
+00:04:51,000 --> 00:04:52,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+293
+00:04:52,000 --> 00:04:53,000
+M1 0: chatter 1: others 2: screaming 3: emergency_vehicle 4: motor_vehicle_road 
+
+294
+00:04:53,000 --> 00:04:54,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+295
+00:04:54,000 --> 00:04:55,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: breaking 
+
+296
+00:04:55,000 --> 00:04:56,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+297
+00:04:56,000 --> 00:04:57,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: breaking 
+
+298
+00:04:57,000 --> 00:04:58,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: breaking 
+
+299
+00:04:58,000 --> 00:04:59,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: gunshot_gunfire 4: screaming 
+
+300
+00:04:59,000 --> 00:05:00,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: siren 
+
+301
+00:05:00,000 --> 00:05:01,000
+M1 0: screaming 1: others 2: crying_sobbing 3: motor_vehicle_road 4: chatter 
+
+302
+00:05:01,000 --> 00:05:02,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: crying_sobbing 
+
+303
+00:05:02,000 --> 00:05:03,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+304
+00:05:03,000 --> 00:05:04,000
+M1 0: others 1: chatter 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+305
+00:05:04,000 --> 00:05:05,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+306
+00:05:05,000 --> 00:05:06,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+307
+00:05:06,000 --> 00:05:07,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+308
+00:05:07,000 --> 00:05:08,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+309
+00:05:08,000 --> 00:05:09,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+310
+00:05:09,000 --> 00:05:10,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+311
+00:05:10,000 --> 00:05:11,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+312
+00:05:11,000 --> 00:05:12,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+313
+00:05:12,000 --> 00:05:13,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+314
+00:05:13,000 --> 00:05:14,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+315
+00:05:14,000 --> 00:05:15,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+316
+00:05:15,000 --> 00:05:16,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+317
+00:05:16,000 --> 00:05:17,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+318
+00:05:17,000 --> 00:05:18,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+319
+00:05:18,000 --> 00:05:19,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+320
+00:05:19,000 --> 00:05:20,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+321
+00:05:20,000 --> 00:05:21,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: screaming 
+
+322
+00:05:21,000 --> 00:05:22,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+323
+00:05:22,000 --> 00:05:23,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+324
+00:05:23,000 --> 00:05:24,000
+M1 0: chatter 1: others 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+325
+00:05:24,000 --> 00:05:25,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+326
+00:05:25,000 --> 00:05:26,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+327
+00:05:26,000 --> 00:05:27,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+328
+00:05:27,000 --> 00:05:28,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+329
+00:05:28,000 --> 00:05:29,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+330
+00:05:29,000 --> 00:05:30,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+331
+00:05:30,000 --> 00:05:31,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+332
+00:05:31,000 --> 00:05:32,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+333
+00:05:32,000 --> 00:05:33,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+334
+00:05:33,000 --> 00:05:34,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+335
+00:05:34,000 --> 00:05:35,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+336
+00:05:35,000 --> 00:05:36,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+337
+00:05:36,000 --> 00:05:37,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+338
+00:05:37,000 --> 00:05:38,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+339
+00:05:38,000 --> 00:05:39,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: screaming 
+
+340
+00:05:39,000 --> 00:05:40,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: screaming 
+
+341
+00:05:40,000 --> 00:05:41,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+342
+00:05:41,000 --> 00:05:42,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+343
+00:05:42,000 --> 00:05:43,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+344
+00:05:43,000 --> 00:05:44,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+345
+00:05:44,000 --> 00:05:45,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+346
+00:05:45,000 --> 00:05:46,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+347
+00:05:46,000 --> 00:05:47,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: screaming 
+
+348
+00:05:47,000 --> 00:05:48,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+349
+00:05:48,000 --> 00:05:49,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: siren 
+
+350
+00:05:49,000 --> 00:05:50,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+351
+00:05:50,000 --> 00:05:51,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+352
+00:05:51,000 --> 00:05:52,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+353
+00:05:52,000 --> 00:05:53,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+354
+00:05:53,000 --> 00:05:54,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+355
+00:05:54,000 --> 00:05:55,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+356
+00:05:55,000 --> 00:05:56,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+357
+00:05:56,000 --> 00:05:57,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+358
+00:05:57,000 --> 00:05:58,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: screaming 
+
+359
+00:05:58,000 --> 00:05:59,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+360
+00:05:59,000 --> 00:06:00,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+361
+00:06:00,000 --> 00:06:01,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: siren 4: emergency_vehicle 
+
+362
+00:06:01,000 --> 00:06:02,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+363
+00:06:02,000 --> 00:06:03,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+364
+00:06:03,000 --> 00:06:04,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+365
+00:06:04,000 --> 00:06:05,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+366
+00:06:05,000 --> 00:06:06,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+367
+00:06:06,000 --> 00:06:07,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+368
+00:06:07,000 --> 00:06:08,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+369
+00:06:08,000 --> 00:06:09,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+370
+00:06:09,000 --> 00:06:10,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+371
+00:06:10,000 --> 00:06:11,000
+M1 0: chatter 1: others 2: screaming 3: motor_vehicle_road 4: emergency_vehicle 
+
+372
+00:06:11,000 --> 00:06:12,000
+M1 0: others 1: chatter 2: motor_vehicle_road 3: screaming 4: emergency_vehicle 
+
+373
+00:06:12,000 --> 00:06:13,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+374
+00:06:13,000 --> 00:06:14,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: siren 4: crying_sobbing 
+
+375
+00:06:14,000 --> 00:06:15,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: emergency_vehicle 
+
+376
+00:06:15,000 --> 00:06:16,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+377
+00:06:16,000 --> 00:06:17,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+378
+00:06:17,000 --> 00:06:18,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+379
+00:06:18,000 --> 00:06:19,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+380
+00:06:19,000 --> 00:06:20,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+381
+00:06:20,000 --> 00:06:21,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+382
+00:06:21,000 --> 00:06:22,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+383
+00:06:22,000 --> 00:06:23,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+384
+00:06:23,000 --> 00:06:24,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+385
+00:06:24,000 --> 00:06:25,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+386
+00:06:25,000 --> 00:06:26,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: chatter 
+
+387
+00:06:26,000 --> 00:06:27,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+388
+00:06:27,000 --> 00:06:28,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: emergency_vehicle 4: screaming 
+
+389
+00:06:28,000 --> 00:06:29,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+390
+00:06:29,000 --> 00:06:30,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+391
+00:06:30,000 --> 00:06:31,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: screaming 4: emergency_vehicle 
+
+392
+00:06:31,000 --> 00:06:32,000
+M1 0: others 1: motor_vehicle_road 2: chatter 3: emergency_vehicle 4: screaming 
+
+393
+00:06:32,000 --> 00:06:33,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: chatter 4: emergency_vehicle 
+
+394
+00:06:33,000 --> 00:06:34,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: emergency_vehicle 
+
+395
+00:06:34,000 --> 00:06:35,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: explosion 
+
+396
+00:06:35,000 --> 00:06:36,000
+M1 0: others 1: motor_vehicle_road 2: screaming 3: chatter 4: siren 
+
+397
+00:06:36,000 --> 00:06:37,000
+M1 0: others 1: motor_vehicle_road 2: siren 3: screaming 4: gunshot_gunfire 
+
