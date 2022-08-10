@@ -160,7 +160,7 @@ class StreamingM2():
 
         #buffer init
         self.buffer = []
-        print("USING M2 ===============")
+        
     def load_model(self, path):
         ''' loads model checkpoint into Task5Model at self.model
 

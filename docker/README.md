@@ -12,6 +12,15 @@ Alternatively, you could simply copy `Dockerfile` from this folder to your local
 
 After the image is done building, get the `image_id` and run `docker run -t -d -p <your_port>:5050 <image_id>`. Check [Functions and usage](#Functions-and-usage) for further details.
 
+## Models available
+
+There are two available models now, namely M1 and M2. 
+
+1. M1 - mobilenet trained on datasetv1
+2. M2 - mobilenet + CBAM + FDY head trained on datasetv2, which is more balanced. predictions should be more accurate.
+
+note: datasetv3 is in the works, with more classes. 
+
 ## Functions and usage
 
 Note that the Dockerfile includes an entrypoint command. If u want to modify the code/config/checkpoints, you should use the git repo and not docker. However, if you still want to use docker for some reason, then comment out the `ENTRYPOINT` command on the last line of the `Dockerfile`. Then you can run the container interactively with the `-i` flag.
@@ -26,12 +35,12 @@ There are 3 endpoints:
 
 Currently, `output_type` can be `xml`, `srt`, or `json`. You can use any REST api client to send requests to the endpoints. 
 
-### caption\/final\/\<output_type\>
+### caption\/final\/\<model\>/\<output_type\>
 
 
 This endpoint takes in a file with a POST request and creates its corresponding captions in `srt`, `xml` and `json` format. If the audio file is received successfully, a `file_id` will be returned. `wav`, `mp3` and `mp4` formats are supported.
 
-For instance, if `your_port` is `5050`, i can send an wav file to the endpoint via `curl --form "file=@test_1min.wav" http://127.0.0.1:5050/caption/final/json` and it will return
+For instance, if `your_port` is `5050`, `model` is `M2`, i can send an wav file to the endpoint via `curl --form "file=@test_1min.wav" http://127.0.0.1:5050/caption/final/M2/json` and it will return
 
 ```
 {
@@ -141,8 +150,6 @@ For instance, if i want to get predictions in `xml` format, i can do `curl -X GE
 ```
 </p>
 </details>  
-
-
 
 
 Note that you should pipe the response of this endpoint to a file.

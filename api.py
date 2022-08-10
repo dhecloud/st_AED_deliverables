@@ -24,9 +24,10 @@ def home():
             )
     return response
 
-@app.route('/caption/final/<output_type>', methods=['POST'])
-def get_captions(output_type):
+@app.route('/caption/final/<model>/<output_type>', methods=['POST'])
+def get_captions(model, output_type):
     try:
+        print(model, output_type)
         new_file_id = createRandomFileID()
         while os.path.isdir(new_file_id):
             new_file_id = createRandomFileID()
@@ -54,7 +55,7 @@ def get_captions(output_type):
         audio.save(audio_path)
 
         audio.close()
-        subprocess.Popen(["python","main.py","--demo", f"{audio_path}", "-k", "3" ])
+        subprocess.Popen(["python","main.py","--demo", f"{audio_path}", "-k", "3", "-m", f"{model}", "-p", f"{model}:" ])
         # os.system(f"python main.py --demo {audio_path} -k 5")      
 
         response = make_response(
