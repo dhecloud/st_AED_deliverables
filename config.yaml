@@ -1,4 +1,4 @@
-# __author__ = "Andrew Koh Jin Jie, Anushka Jain and Soham Tiwari"
+# __author__ = "Andrew Koh Jin Jie, and Soham Tiwari"
 # __credits__ = ["Prof Chng Eng Siong", "Yan Zhen", "Tanmay Khandelwal"]
 # __license__ = "GPL"
 # __version__ = "0.0.0"
@@ -20,7 +20,6 @@ fmax: 8000
 num_frames: 192                                     #formula: int(np.ceil(sample_rate*3/hop_length)) used in resizing spectrogram
 
 # model_loading 
-model_path: model/16.0k/model_logmelspec_012
 channel_means_path: data/statistics/16.0k/channel_means_logmelspec_012.npy
 channel_stds_path: data/statistics/16.0k/channel_stds_logmelspec_012.npy
 
@@ -30,3 +29,4 @@ num_classes: 10
 k: 1                                                # top-k results to return 
 prefix: "M1:"                                          # prefix of each subtitle in the SRT file. eg {M1: chatter, others, breaking}
 model: M1
+pann_encoder_ckpt_path:  models/Cnn10_mAP0.380.pth
