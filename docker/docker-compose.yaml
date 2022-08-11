@@ -1,0 +1,8 @@
+version: '2.1'
+services:
+    st-aed:
+        image: ntuspeechlab.azurecr.io/st-aed:1.0 # The image name must match with the name when you run docker build -t <image-id>
+        restart: unless-stopped
+        ports:
+            # You can change the port on the left side (8080 to other port of your favour)
+            - "8080:5050"

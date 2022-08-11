@@ -4,13 +4,35 @@ This details how to set up the docker image and run the repository with 3 API en
 
 ## Setting up
 
+### Docker and docker-compose
+
+```
+# Install docker engine
+curl -fsSL https://get.docker.com -o get-docker.sh
+sh ./get-docker.sh
+
+# Install docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+# Add docker to sudoers so don’t need to run sudo every time using docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+### Install and start AED application
 1. `git clone https://github.com/dhecloud/st_AED_deliverables.git`
 2. `cd docker`
-3. `docker build .`
+3. `docker build -t st-aed:aug2022 .`
 
 Alternatively, you could simply copy `Dockerfile` from this folder to your local machine and run `docker build .`
 
-After the image is done building, get the `image_id` and run `docker run -t -d -p <your_port>:5050 <image_id>`. Check [Functions and usage](#Functions-and-usage) for further details.
+After the image is done building, get the `image_id` (st-aed:aug2022) and run `docker run -t -d -p <your_port>:5050 <image_id>`, or `docker-compose -f docker-compose.yaml up -d`
+
+(Option -d: detachable)
+
+Check [Functions and usage](#Functions-and-usage) for further details.
+
 
 ## Models available
 
@@ -47,6 +69,11 @@ For instance, if `your_port` is `5050`, `model` is `M2`, i can send an wav file 
   "file_id": "9jdepho3-e1c0-oi3l-nm6r-vt2bjhyswx4i"
 }
 ```
+
+Notes:
+   - `M2` if you want to submit job to `M2` model. Choose `M1` if you want to verify the result with `M1` model (previous version)
+   - json in the path is just the response format (the file id return as JSON object)
+
 
 Note that the successful response of `file_id` does not indicate that the `srt`, `xml` and `json` files have been created. Once the audio file has been recieved, the audio clip will be processed. How long it takes depends on the available compute power and the length of the audio clip.
 
