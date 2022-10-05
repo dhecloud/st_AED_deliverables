@@ -6,9 +6,8 @@ __version__ = "0.0.0"
 __maintainer__ = "Andrew Koh"
 __email__ = "andr0081@ntu.edu.sg"
 '''
-
-from model import StreamingM1, StreamingM2
 import librosa
+from model import StreamingM1, StreamingM2, StreamingM3_temp
 import argparse
 from utils import set_device
 import yaml
@@ -20,7 +19,8 @@ from xml.dom import minidom
 import json
 import os
 from tqdm import tqdm
-
+from vad import VAD
+import time
 with open('config.yaml', "rb") as stream:
     config = EasyDict(yaml.full_load(stream))
 parser = argparse.ArgumentParser(description='args for streaming model')
@@ -31,6 +31,7 @@ parser.add_argument('-g', '--gpu', type=bool, default=config.gpu)
 parser.add_argument('-k', '--k', type=int, default=config.k)
 parser.add_argument('-p', '--prefix', type=str, default=config.prefix)
 parser.add_argument('-m', '--model', type=str, default=config.model)
+parser.add_argument('-v', '--vad', type=bool, default=config.vad)
 args = parser.parse_args()
 for k,v in args._get_kwargs():
     config[k] = v
@@ -42,8 +43,15 @@ if config.model == 'M1':
     model = StreamingM1(config)
 elif config.model == 'M2':
     model = StreamingM2(config)
+elif config.model == 'M3':
+    config.sample_rate = 44100
+    assert config.sample_rate == 44100
+    model = StreamingM3_temp(config)
 else:
     assert 'model card' == 'not available'
+
+if config.vad is True:
+    vad = VAD()
 
 def srts2xml(srts, f_wo_ext):
 
@@ -111,16 +119,25 @@ def main():
 
         # for every 3 second wav, pass that segment to predict_3sec
         for curr_window, curr_frame in enumerate(range(0,len(wav), config.sample_rate)):
+            #check silence using vad
+            audio_window = wav[curr_frame:curr_frame+(config.sample_rate*3)]
+            if config.vad:
+                #val_pred=1 means not silent
+                vad_pred = vad.predict(audio_window, config.sample_rate, -80 , plot=False)
+                # print(curr_window, vad_pred)
             # send 3 sec segment to model for prediction
-            predictions = model.predict_3sec(wav[curr_frame:curr_frame+(config.sample_rate*3)], config.k)
+            predictions = model.predict_3sec(audio_window, config.k)
             # print(f"{curr_window}:, {predictions}")
-            formatted_preds = config.prefix+' '
+            if config.vad and not vad_pred:
+                formatted_preds = config.prefix+' 0: Silence '
+            else:
+                formatted_preds = config.prefix+' '
             for i in range(config.k):
-                formatted_preds += f"{i}: {predictions[i]} "
+                formatted_preds += f"{i+1}: {predictions[i]} "
             if append_flag == True:
                 srts[curr_window].content += '\n'+ formatted_preds
             else:
-                srts.append(srt.Subtitle(index=None,start=timedelta(seconds=curr_window), end=timedelta(seconds=curr_window+1), content=formatted_preds))
+                srts.append(srt.Subtitle(index=None,start=timedelta(seconds=curr_window+1), end=timedelta(seconds=curr_window+2), content=formatted_preds))
         srts2xml(srts, f_wo_ext)
         srts2json(srts, f_wo_ext)
         srts2srt(srts, srt_save_path)
