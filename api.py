@@ -55,7 +55,7 @@ def get_captions(model, output_type):
         audio.save(audio_path)
 
         audio.close()
-        subprocess.Popen(["python","main.py","--demo", f"{audio_path}", "-k", "3", "-m", f"{model}", "-p", f"{model}:" ])
+        subprocess.Popen(["python","main.py","--demo", f"{audio_path}", "-k", "3", "-m", f"{model}", "-p", f"{model}:", '-v', 'True' ])
         # os.system(f"python main.py --demo {audio_path} -k 5")      
 
         response = make_response(

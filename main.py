@@ -8,6 +8,7 @@ __email__ = "andr0081@ntu.edu.sg"
 '''
 import librosa
 from model import StreamingM1, StreamingM2, StreamingM3_temp, StreamingM4
+import numpy as np
 import argparse
 from utils import set_device
 import yaml
@@ -105,6 +106,7 @@ def main():
         paths = [os.path.join(config.demo,p) for p in os.listdir(config.demo)]
 
     for p in tqdm(paths):
+        print(p)
         if p[-4:] not in ['.mp3', '.mp4', '.wav']:
             continue
         wav = librosa.load(p , sr=config.sample_rate)[0]
@@ -125,7 +127,11 @@ def main():
         for curr_window, curr_frame in enumerate(range(0,len(wav), config.sample_rate)):
             #check silence using vad
             audio_window = wav[curr_frame:curr_frame+(config.sample_rate*3)]
-            print(audio_window.shape)
+            # print(curr_window, curr_frame, audio_window.shape)
+            cur_window_size = audio_window.shape[0]
+            if cur_window_size != config.sample_rate*3:
+                pad_len = (config.sample_rate*3) - cur_window_size
+                audio_window = np.pad(audio_window, pad_len, mode='constant', constant_values=0 )
             if config.vad:
                 #val_pred=1 means not silent
                 vad_pred = vad.predict(audio_window, config.sample_rate, -80 , plot=False)
