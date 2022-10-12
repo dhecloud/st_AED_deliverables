@@ -10,7 +10,7 @@ __email__ = "andr0081@ntu.edu.sg"
 import torch
 from augmentation.SpecTransforms import ResizeSpectrogram
 import numpy as np
-from utils import Task5Model, getSampleRateString, Task5Modelb,Task5ModelM3
+from utils import Task5Model, getSampleRateString, Task5Modelb,Task5ModelM3, EfficientNetClassifier
 import librosa
 
 
@@ -360,6 +360,112 @@ class StreamingM3_temp():
         if len(sample.shape) <= 3:
             sample = torch.unsqueeze(sample, 0)
         return sample
+
+
+    def clear_buffer(self):
+        self.buffer = []
+
+    def reload_params(self,p):
+        self.p = p
+
+
+from stft import STFT
+from librosa.util import normalize
+class StreamingM4():
+    '''Master class for generating outputs per 3 sec audio.
+    M4: EfficientNet B0
+
+    Args:
+        p : list of parameters from argparse
+
+    '''
+    def __init__(self, p):
+        
+        self.MAX_WAV_VALUE = 32768.0
+
+        self.stft_obj = STFT(filter_length=1024, \
+            hop_length=512, win_length=1024, \
+            n_mel_channels=80, \
+            sampling_rate=16000, \
+            mel_fmin=0.0, \
+            mel_fmax=8000, \
+            window='hann')
+        #save parameters
+        self.p = p
+
+        #load model
+        self.model = EfficientNetClassifier(0).to(p.device)
+        self.model_path = "models/M4/16k/00003000"
+        self.load_model(self.model_path)
+
+        #prediction params:
+        self.threshold = p.threshold
+        self.labels = p.target_namesM2
+        #buffer init
+        self.buffer = []
+        
+    def load_model(self, path):
+        ''' loads model checkpoint into Task5Model at self.model
+        input
+            path: path to checkpoint
+        output
+            None
+        '''
+        state_dict = torch.load(path, map_location=self.p.device)
+        self.model.load_state_dict(state_dict['classifier'])
+
+        self.model.eval()
+
+    def predict_3sec(self, input_wav, k=1):
+        '''takes in wav input and returns the prediction
+        args:
+            input_wav: list containg the values for a 3 sec audio. for eg [0, 0, 0.2, ..., 0.4, 0.4]
+        output:
+            predictions: tensor containing confidence probability for each class
+        Example:
+            wav = librosa.load(wav, sr=sample_rate)[0]
+            predictions: model.predict_3secs(input_wav)
+        '''
+        # _, audio= scipy.io.wavfile.read(filename)
+
+        melspec = self.preprocess(input_wav).to(self.p.device)
+
+        with torch.no_grad():
+            outputs = self.model(melspec)[0]
+            self.buffer.append(outputs)
+
+        labels = self.return_topk_labels(outputs, k)
+        return labels
+
+    def return_topk_labels(self, outputs, k):
+        ''' converts predicted values to labels and returns the mots k probable
+        '''
+        values, indices = torch.topk(outputs, k=k)
+        labels = [self.labels[i] for i in indices]
+        return labels
+
+
+    def preprocess(self, input_wav):
+        ''' Does preprocessing of the wav input.
+            Specifically converts wav to a logmel spectogram and normalizes the spectogram
+        Args:
+            input: list containg the values for a 3 sec audio. for eg [0, 0, 0.2, ..., 0.4, 0.4]
+        output:
+            logmel: torch tensor of shape (1, 1, mel_bins, seq_len)
+        Example:
+            wav = librosa.load(wav, sr=sample_rate)[0]
+            log_mel model.preprocess(input_wav)
+        notes:
+            will be used in predict_3sec, but u can use this function on its own for other purposes.
+        '''
+
+        mel, _ = self.stft_obj.stft(input_wav)
+        if len(mel.size()) == 2:
+            mel = mel.unsqueeze(0)
+        if mel.size(2) == 80:
+            mel = mel.permute(0,2,1)
+
+        return mel
 
 
     def clear_buffer(self):
