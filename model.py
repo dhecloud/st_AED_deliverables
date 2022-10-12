@@ -400,7 +400,7 @@ class StreamingM4():
 
         #prediction params:
         self.threshold = p.threshold
-        self.labels = p.target_namesM2
+        self.labels = p.target_namesM4
         #buffer init
         self.buffer = []
         

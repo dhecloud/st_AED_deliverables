@@ -53,6 +53,7 @@ elif config.model == 'M4':
 else:
     assert 'model card' == 'not available'
 
+print(model)
 if config.vad is True:
     vad = VAD()
 
@@ -124,6 +125,7 @@ def main():
         for curr_window, curr_frame in enumerate(range(0,len(wav), config.sample_rate)):
             #check silence using vad
             audio_window = wav[curr_frame:curr_frame+(config.sample_rate*3)]
+            print(audio_window.shape)
             if config.vad:
                 #val_pred=1 means not silent
                 vad_pred = vad.predict(audio_window, config.sample_rate, -80 , plot=False)
