@@ -7,8 +7,8 @@ __maintainer__ = "Andrew Koh"
 __email__ = "andr0081@ntu.edu.sg"
 '''
 import librosa
+from model import StreamingM1, StreamingM2, StreamingM3_temp, StreamingM4
 import numpy as np
-from model import StreamingM1, StreamingM2, StreamingM3_temp
 import argparse
 from utils import set_device
 import yaml
@@ -48,9 +48,13 @@ elif config.model == 'M3':
     config.sample_rate = 44100
     assert config.sample_rate == 44100
     model = StreamingM3_temp(config)
+elif config.model == 'M4':
+    assert config.sample_rate == 16000
+    model = StreamingM4(config)
 else:
     assert 'model card' == 'not available'
 
+print(model)
 if config.vad is True:
     vad = VAD()
 
