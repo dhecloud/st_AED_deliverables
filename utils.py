@@ -533,6 +533,32 @@ class attention2d(nn.Module):
 
         return F.softmax(x / self.temperature, 1)
 
+from efficientnet_pytorch import EfficientNet
+class EfficientNetClassifier(nn.Module):
+    def __init__(self, backbone=0, n_classes=10):     
+        super().__init__()  
+        
+        self.transform = nn.Linear(1,3)
+        self.mv2 = EfficientNet.from_pretrained('efficientnet-b'+str(backbone), dropout_rate=0.5)
+        self.l1 = nn.Linear(1000 , 256)
+        self.dropout = nn.Dropout(0.5)
+        self.l2 = nn.Linear(256, n_classes)
+        self.relu = nn.LeakyReLU()
+    
+    def forward(self, x):
+
+        x = x.unsqueeze(-1)
+        x = self.transform(x)
+        x = x.permute(0, 3, 1, 2)
+        x = self.mv2(x)
+
+        emb = self.dropout(self.relu(self.l1(x)))
+        x = self.l2(emb)
+        x = torch.nn.functional.log_softmax(x, dim=1)
+        return x
+
+
+
 def mixup_data(x, y, alpha):
     '''Compute the mixup data. Return mixed inputs, pairs of targets, and lambda'''
     if alpha > 0.:
