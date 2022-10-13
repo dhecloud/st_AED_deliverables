@@ -36,12 +36,13 @@ Check [Functions and usage](#Functions-and-usage) for further details.
 
 ## Models available
 
-There are two available models now, namely M1 and M2. 
+There are three available models now, namely M1, M2 and M3. M3 is the latest model 
 
 1. M1 - mobilenet trained on datasetv1
 2. M2 - mobilenet + CBAM + FDY head trained on datasetv2, which is more balanced. predictions should be more accurate.
-
-note: datasetv3 is in the works, with more classes. 
+2. M3 - mobilenet + CBAM + FDY head trained on datasetv3. datasetv3 is datasetv2 + additional classes such as 'male speech', 'female speech'.  
+ 
+In addition to these models, there is an additional silence detector. This is turned on by default.
 
 ## Functions and usage
 
