@@ -3,6 +3,12 @@
 
 The function to call for every 3 sec wav audio is `model.predict_3sec(wav)`. Refer to `main.py` for more details.
 
+### Update 13/10/22 Alpha release
+Includes a new silence detector module. In `api.py` and the docker image, the silence detector is turned on by default.  
+In `main.py`, the silence detector is off by default. Use the `-v True` argument to turn it on.  Example command `python main.py --demo test_1min.wav -k 5 -p M3: -m M3 -v True`  
+Also includes a new model M3 which is trained on additional speech data.
+
+
 ### Update 07/07/22
 Now also creates xml and json captions (same captions as the srt, just different format).   
 You can now specify your caption prefix (eg 'M1:') and model to generate the captions in config.   
@@ -61,9 +67,4 @@ On 3 sec wav file with top 3 probable classes: `python main.py --demo audio_fold
 
 ![](example_command1.png)
 
-
-## Dockerfile
-
-1. docker build .
-2. docker run -i -t -p <your_port>:5050 <image_id>
 

@@ -28,8 +28,8 @@ target_namesM1: ['breaking', 'chatter', 'crying_sobbing', 'emergency_vehicle', '
 target_namesM2: ['breaking', 'chatter', 'crying_sobbing', 'emergency_vehicle', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road', 'screaming', 'siren', 'others']
 target_namesM3: ['breaking', 'crowd', 'crying_sobbing', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road', 'screaming', 'siren', 'male_speech', 'female_speech']
 target_namesM4: ['motor_vehicle_road', 'screaming', 'explosion', 'female_speech', 'male_speech', 'breaking', 'crowd', 'crying_sobbing', 'siren', 'gunshot_gunfire']
-k: 1                                                # top-k results to return 
-prefix: "M1:"                                          # prefix of each subtitle in the SRT file. eg {M1: chatter, others, breaking}
-model: M1
+k: 3                                                # top-k results to return 
+prefix: "M3:"                                          # prefix of each subtitle in the SRT file. eg {M1: chatter, others, breaking}
+model: M3
 pann_encoder_ckpt_path:  models/Cnn10_mAP0.380.pth
 vad: False
