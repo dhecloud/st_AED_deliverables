@@ -49,7 +49,6 @@ elif config.model == 'M3':
     assert config.sample_rate == 44100
     model = StreamingM3_temp(config)
 elif config.model == 'M4':
-    assert config.sample_rate == 16000
     model = StreamingM4(config)
 else:
     assert 'model card' == 'not available'

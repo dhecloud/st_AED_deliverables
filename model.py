@@ -382,20 +382,32 @@ class StreamingM4():
     def __init__(self, p):
         
         self.MAX_WAV_VALUE = 32768.0
-
-        self.stft_obj = STFT(filter_length=1024, \
-            hop_length=512, win_length=1024, \
-            n_mel_channels=80, \
-            sampling_rate=16000, \
-            mel_fmin=0.0, \
-            mel_fmax=8000, \
-            window='hann')
-        #save parameters
-        self.p = p
-
-        #load model
         self.model = EfficientNetClassifier(0).to(p.device)
-        self.model_path = "models/M4/16k/00003000"
+
+        if p.sample_rate == 16000:
+            self.stft_obj = STFT(filter_length=1024, \
+                hop_length=512, win_length=1024, \
+                n_mel_channels=80, \
+                sampling_rate=16000, \
+                mel_fmin=0.0, \
+                mel_fmax=8000, \
+                window='hann')
+            
+            self.model_path = "models/M4/16k/00010000"
+            print("Use 16kHz model")
+        
+        else:
+            self.stft_obj = STFT(filter_length=2048, \
+                hop_length=512, win_length=2048, \
+                n_mel_channels=128, \
+                sampling_rate=44100, \
+                mel_fmin=0.0, \
+                mel_fmax=12000, \
+                window='hann')
+            self.model_path = "models/M4/44k/00025000"
+            print("Use 44kHz model")
+
+        self.p = p
         self.load_model(self.model_path)
 
         #prediction params:
@@ -462,7 +474,7 @@ class StreamingM4():
         mel, _ = self.stft_obj.stft(input_wav)
         if len(mel.size()) == 2:
             mel = mel.unsqueeze(0)
-        if mel.size(2) == 80:
+        if mel.size(2) == 80 or mel.size(2) == 128:
             mel = mel.permute(0,2,1)
 
         return mel
