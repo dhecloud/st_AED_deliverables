@@ -7,7 +7,7 @@ __maintainer__ = "Andrew Koh"
 __email__ = "andr0081@ntu.edu.sg"
 '''
 import librosa
-from model import StreamingM1, StreamingM2, StreamingM3_temp, StreamingM4
+from model import StreamingM1, StreamingM2, StreamingM3
 import numpy as np
 import argparse
 from utils import set_device
@@ -48,9 +48,9 @@ elif config.model == 'M2':
 elif config.model == 'M3':
     config.sample_rate = 44100
     assert config.sample_rate == 44100
-    model = StreamingM3_temp(config)
-elif config.model == 'M4':
-    model = StreamingM4(config)
+    model = StreamingM3(config)
+# elif config.model == 'M4':
+    # model = StreamingM4(config)
 else:
     assert 'model card' == 'not available'
 

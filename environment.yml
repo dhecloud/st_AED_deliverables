@@ -150,5 +150,5 @@ dependencies:
     - werkzeug==2.1.2
     - zipp==3.8.0
     - pyannote.audio==2.1.1
-    - efficientnet_pytorch==0.7.1
+    # - efficientnet_pytorch==0.7.1
 prefix: /export/home/andr0081/miniconda3/envs/streaming

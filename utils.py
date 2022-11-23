@@ -15,7 +15,7 @@ import os
 import random, string
 
 __author__ = "Andrew Koh Jin Jie, Yan Zhen"
-__credits__ = ["Prof Chng Eng Siong", "Yan Zhen", "Tanmay Khandelwal", "Anushka Jain"]
+__credits__ = ["Prof Chng Eng Siong", "Yan Zhen", "Tanmay Khandelwal"]
 __license__ = "GPL"
 __version__ = "0.0.0"
 __maintainer__ = "Soham Tiwari"
@@ -533,35 +533,35 @@ class attention2d(nn.Module):
 
         return F.softmax(x / self.temperature, 1)
 
-from efficientnet_pytorch import EfficientNet
-class EfficientNetClassifier(nn.Module):
-    def __init__(self, backbone=0, n_classes=10):    
-        super().__init__()  
-        self.transform = nn.Linear(1,3)
-        self.mv2 = EfficientNet.from_pretrained('efficientnet-b'+str(backbone), dropout_rate=0.5)
+# from efficientnet_pytorch import EfficientNet
+# class EfficientNetClassifier(nn.Module):
+#     def __init__(self, backbone=0, n_classes=10):    
+#         super().__init__()  
+#         self.transform = nn.Linear(1,3)
+#         self.mv2 = EfficientNet.from_pretrained('efficientnet-b'+str(backbone), dropout_rate=0.5)
         
-        self.bottleneck = nn.Sequential(
-                nn.Dropout(0.25),
-                nn.Linear(1000, 256),
-                nn.ReLU(),
-                nn.BatchNorm1d(256),
-                nn.Dropout(0.25),
-                nn.Linear(256, 128),
-                nn.ReLU(),
-                nn.BatchNorm1d(128))
-        self.classifier = nn.Linear(128, n_classes)
+#         self.bottleneck = nn.Sequential(
+#                 nn.Dropout(0.25),
+#                 nn.Linear(1000, 256),
+#                 nn.ReLU(),
+#                 nn.BatchNorm1d(256),
+#                 nn.Dropout(0.25),
+#                 nn.Linear(256, 128),
+#                 nn.ReLU(),
+#                 nn.BatchNorm1d(128))
+#         self.classifier = nn.Linear(128, n_classes)
     
-    def forward(self, x):
+#     def forward(self, x):
 
-        x = x.unsqueeze(-1)
-        x = self.transform(x)
-        x = x.permute(0, 3, 1, 2)
-        x = self.mv2(x)
+#         x = x.unsqueeze(-1)
+#         x = self.transform(x)
+#         x = x.permute(0, 3, 1, 2)
+#         x = self.mv2(x)
 
-        embedding = self.bottleneck(x)
-        x = self.classifier(embedding)
-        x = torch.nn.functional.log_softmax(x, dim=1)
-        return x
+#         embedding = self.bottleneck(x)
+#         x = self.classifier(embedding)
+#         x = torch.nn.functional.log_softmax(x, dim=1)
+#         return x
 
 def mixup_data(x, y, alpha):
     '''Compute the mixup data. Return mixed inputs, pairs of targets, and lambda'''
