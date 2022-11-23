@@ -3,6 +3,10 @@
 
 The function to call for every 3 sec wav audio is `model.predict_3sec(wav)`. Refer to `main.py` for more details.
 
+
+### Update 23/11/22 hugging face data collection for VAD module
+Huggingface has suddenly decided to require users to sign in before being able to use their models. As such, I have included my own READ access token in this repo. For some reason in the future if it expires or fails to work, please regenerate your own access token following the issue [here](https://github.com/pyannote/pyannote-audio/issues/1128). the auth token goes in 'vad.py' under the `PYAN` class
+
 ### Update 13/10/22 Alpha release
 Includes a new silence detector module. In `api.py` and the docker image, the silence detector is turned on by default.  
 In `main.py`, the silence detector is off by default. Use the `-v True` argument to turn it on.  Example command `python main.py --demo test_1min.wav -k 5 -p M3: -m M3 -v True`  
