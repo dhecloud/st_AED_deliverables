@@ -396,7 +396,7 @@ class StreamingM4():
             self.model_path = "models/M4/16k/00010000"
             print("Use 16kHz model")
         
-        else:
+        elif p.sample_rate == 44100:
             self.stft_obj = STFT(filter_length=2048, \
                 hop_length=512, win_length=2048, \
                 n_mel_channels=128, \
@@ -406,7 +406,8 @@ class StreamingM4():
                 window='hann')
             self.model_path = "models/M4/44k/00025000"
             print("Use 44kHz model")
-
+        else:
+            assert 'sample_rate' == '44100 or 16000 only'
         self.p = p
         self.load_model(self.model_path)
 

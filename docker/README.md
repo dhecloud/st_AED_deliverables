@@ -52,7 +52,7 @@ The dockerfile sets up the working environment along with the apis. The model ch
 
 There are 3 endpoints:
 
-1. `<ip_address>:<your_port>/caption/final/<output_type>` - use this for incoming new audio clips
+1. `<ip_address>:<your_port>/caption/final/<MODEL>/<output_type>` - use this for incoming new audio clips
 2. `<ip_address>:<your_port>/getJobStatus/<output_type>/<file_id>` - use this to get job status/completion
 3. `<ip_address>:<your_port>/returnFile/<output_type>/<file_id>` - use this to get the file containing the predicted classes
 
@@ -63,7 +63,7 @@ Currently, `output_type` can be `xml`, `srt`, or `json`. You can use any REST ap
 
 This endpoint takes in a file with a POST request and creates its corresponding captions in `srt`, `xml` and `json` format. If the audio file is received successfully, a `file_id` will be returned. `wav`, `mp3` and `mp4` formats are supported.
 
-For instance, if `your_port` is `5050`, `model` is `M2`, i can send an wav file to the endpoint via `curl --form "file=@test_1min.wav" http://127.0.0.1:5050/caption/final/M2/json` and it will return
+For instance, if `your_port` is `5050`, `model` is `M3`, i can send an wav file to the endpoint via `curl --form "file=@test_1min.wav" http://127.0.0.1:5050/caption/final/M3/json` and it will return
 
 ```
 {
