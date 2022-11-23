@@ -88,7 +88,7 @@ def get_job_status(output_type, file_id):
             status = 'Done'
         else:
             status = 'Not Done'
-            if (time.time() - int(metadata['time_received'])) > 1800:   #if more than 30min, probably error happened.
+            if (time.time() - int(float(metadata['time_received']))) > 1800:   #if more than 30min, probably error happened.
                 status = "Timeout" #Something wrong happened. send in the audio again.
 
 
