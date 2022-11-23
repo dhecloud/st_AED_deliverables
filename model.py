@@ -10,7 +10,7 @@ __email__ = "andr0081@ntu.edu.sg"
 import torch
 from augmentation.SpecTransforms import ResizeSpectrogram
 import numpy as np
-from utils import Task5Model, getSampleRateString, Task5Modelb,Task5ModelM3,
+from utils import Task5Model, getSampleRateString, Task5Modelb,Task5ModelM3
  #from utils import EfficientNetClassifier
 import librosa
 
