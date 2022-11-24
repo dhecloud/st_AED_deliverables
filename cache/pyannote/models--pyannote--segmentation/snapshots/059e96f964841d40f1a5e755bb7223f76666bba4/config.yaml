@@ -1,0 +1,93 @@
+protocol: X.SpeakerDiarization.Custom
+patience: 20
+task:
+  _target_: pyannote.audio.tasks.Segmentation
+  duration: 5.0
+  warm_up: 0.0
+  balance: null
+  overlap:
+    probability: 0.5
+    snr_min: 0.0
+    snr_max: 10.0
+  weight: null
+  batch_size: 32
+  num_workers: 10
+  pin_memory: false
+  loss: bce
+  vad_loss: bce
+model:
+  _target_: pyannote.audio.models.segmentation.PyanNet
+  sincnet:
+    stride: 10
+  lstm:
+    num_layers: 4
+    monolithic: true
+    dropout: 0.5
+  linear:
+    num_layers: 2
+optimizer:
+  _target_: torch.optim.Adam
+  lr: 0.001
+  betas:
+  - 0.9
+  - 0.999
+  eps: 1.0e-08
+  weight_decay: 0
+  amsgrad: false
+trainer:
+  _target_: pytorch_lightning.Trainer
+  accelerator: ddp
+  accumulate_grad_batches: 1
+  amp_backend: native
+  amp_level: O2
+  auto_lr_find: false
+  auto_scale_batch_size: false
+  auto_select_gpus: true
+  benchmark: true
+  check_val_every_n_epoch: 1
+  checkpoint_callback: true
+  deterministic: false
+  fast_dev_run: false
+  flush_logs_every_n_steps: 100
+  gpus: -1
+  gradient_clip_val: 0.5
+  limit_test_batches: 1.0
+  limit_train_batches: 1.0
+  limit_val_batches: 1.0
+  log_every_n_steps: 50
+  log_gpu_memory: null
+  max_epochs: 1000
+  max_steps: null
+  min_epochs: 1
+  min_steps: null
+  num_nodes: 1
+  num_processes: 1
+  num_sanity_val_steps: 2
+  overfit_batches: 0.0
+  precision: 32
+  prepare_data_per_node: true
+  process_position: 0
+  profiler: null
+  progress_bar_refresh_rate: 1
+  reload_dataloaders_every_epoch: false
+  replace_sampler_ddp: true
+  sync_batchnorm: false
+  terminate_on_nan: false
+  tpu_cores: null
+  track_grad_norm: -1
+  truncated_bptt_steps: null
+  val_check_interval: 1.0
+  weights_save_path: null
+  weights_summary: top
+augmentation:
+  transform: Compose
+  params:
+    shuffle: false
+    transforms:
+    - transform: AddBackgroundNoise
+      params:
+        background_paths: /gpfswork/rech/eie/commun/data/background/musan
+        min_snr_in_db: 5.0
+        max_snr_in_db: 15.0
+        mode: per_example
+        p: 0.9

@@ -305,7 +305,8 @@ class STE():
 
 class PYAN():
     def __init__(self):
-        self.pipeline = Pipeline.from_pretrained("pyannote/voice-activity-detection", use_auth_token="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")
+        # self.pipeline = Pipeline.from_pretrained("pyannote/voice-activity-detection", use_auth_token="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")
+        self.pipeline = Pipeline.from_pretrained("cache/pyannote/models--pyannote--voice-activity-detection/snapshots/f3b1193d5288ed24de9d81b8b070d1d0482b6e68/config.yaml")
         
     def filter(self, audio, sample_rate = 16000):
         # audio = 'trials/Male speech-01989.wav'
