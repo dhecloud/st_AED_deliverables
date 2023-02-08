@@ -10,6 +10,7 @@ __email__ = "andr0081@ntu.edu.sg"
 import torch
 from augmentation.SpecTransforms import ResizeSpectrogram
 import numpy as np
+from pathlib import Path
 from utils import Task5Model, getSampleRateString, Task5Modelb,Task5ModelM3,Task5ModelM4,Task5ModelM5
  #from utils import EfficientNetClassifier
 import librosa
@@ -384,7 +385,20 @@ class StreamingM4():
         #load model
         self.model = Task5ModelM4(len(p.target_namesM4),model_arch="resnet18").to(p.device)
         self.model_path = 'models/M4/16.0k/model_logmelspec_012_resnet18_use_cbam_False'
-        self.load_model(self.model_path)
+
+        #TODO perhaps there could be a format for github model releases
+        self.model_url = "https://github.com/dhecloud/st_AED_deliverables/releases/download/2023_jan17_model/M5_16k_model_logmelspec_012_resnet18_use_cbam_False"
+        
+        if Path(self.model_path).exists==True:
+            _model_state_dict = self.get_local_model_state_dict(self.model_path)
+        else:
+            # Download model from Github release
+            print(f"{self.model_path} does not exist. Attempting to download from the Github repo ... ")
+            _model_state_dict = self.get_remote_model_state_dict(self.model_url)
+            
+        # self.load_model(self.model_path)
+
+        self.load_model_from_state_dict(_model_state_dict)
 
         #load preprocessing stuff
         self.channel_means = np.load(p.channel_means_path).reshape(1, -1, 1)
@@ -397,6 +411,30 @@ class StreamingM4():
 
         #buffer init
         self.buffer = []
+
+    def get_remote_model_state_dict(self,url:str):
+        """
+        Loads model state dict from remote storage
+        """
+        try:
+            return torch.hub.load_state_dict_from_url(url,map_location=self.p.device)['model_state_dict']
+        except Exception as e:
+            print(f"Failed to load model from {url}.")
+            raise e
+
+
+    def get_local_model_state_dict(self,path:str):
+        """
+        Loads model state dict from local storage
+        """
+        return torch.load(path, map_location=self.p.device)['model_state_dict']
+    
+    def load_model_from_state_dict(self,model_state_dict):
+        """
+        Loads model checkpoints directly from state dict objects
+        """
+        self.model.load_state_dict(model_state_dict)
+        self.model.eval()
 
     def load_model(self, path):
         ''' loads model checkpoint into Task5Model at self.model
@@ -518,7 +556,20 @@ class StreamingM5():
         #load model
         self.model = Task5ModelM5(len(p.target_namesM5),model_arch="resnet18").to(p.device)
         self.model_path = 'models/M5/16.0k/model_logmelspec_012_resnet18_use_cbam_False'
-        self.load_model(self.model_path)
+
+        #TODO perhaps there could be a format for github model releases
+        self.model_url = "https://github.com/dhecloud/st_AED_deliverables/releases/download/2023_jan26_model/M6_16k_model_logmelspec_012_resnet18_use_cbam_False"
+        
+        if Path(self.model_path).exists==True:
+            _model_state_dict = self.get_local_model_state_dict(self.model_path)
+        else:
+            # Download model from Github release
+            print(f"{self.model_path} does not exist. Attempting to download from the Github repo ... ")
+            _model_state_dict = self.get_remote_model_state_dict(self.model_url)
+            
+        # self.load_model(self.model_path)
+
+        self.load_model_from_state_dict(_model_state_dict)
 
         #load preprocessing stuff
         self.channel_means = np.load(p.channel_means_path).reshape(1, -1, 1)
@@ -527,10 +578,35 @@ class StreamingM5():
 
         #prediction params:
         self.threshold = p.threshold
-        self.labels = p.target_namesM5
+        self.labels = p.target_namesM4
 
         #buffer init
         self.buffer = []
+
+    def get_remote_model_state_dict(self,url:str):
+        """
+        Loads model state dict from remote storage
+        """
+        try:
+            return torch.hub.load_state_dict_from_url(url,map_location=self.p.device)['model_state_dict']
+        except Exception as e:
+            print(f"Failed to load model from {url}.")
+            raise e
+
+
+    def get_local_model_state_dict(self,path:str):
+        """
+        Loads model state dict from local storage
+        """
+        return torch.load(path, map_location=self.p.device)['model_state_dict']
+    
+    def load_model_from_state_dict(self,model_state_dict):
+        """
+        Loads model checkpoints directly from state dict objects
+        """
+        self.model.load_state_dict(model_state_dict)
+        self.model.eval()
+
 
     def load_model(self, path):
         ''' loads model checkpoint into Task5Model at self.model
