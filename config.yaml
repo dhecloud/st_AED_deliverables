@@ -11,7 +11,7 @@ feature_type: logmelspec
 num_bins: 128
 gpu: False
 sample_rate: 16000
-threshold: 0.9
+threshold: 0.75
 n_fft: 928                                          #formula: (2560*sample_rate)//44100
 hop_length: 251                                     #formula: (694*sample_rate)//44100
 n_mels: 128
@@ -27,9 +27,13 @@ channel_stds_path: data/statistics/16.0k/channel_stds_logmelspec_012.npy
 target_namesM1: ['breaking', 'chatter', 'crying_sobbing', 'emergency_vehicle', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road', 'screaming', 'siren', 'others']
 target_namesM2: ['breaking', 'chatter', 'crying_sobbing', 'emergency_vehicle', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road', 'screaming', 'siren', 'others']
 target_namesM3: ['breaking', 'crowd', 'crying_sobbing', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road', 'screaming', 'siren', 'male_speech', 'female_speech']
+target_namesM4: ['breaking', 'crowd/screaming', 'crying_sobbing', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road','screaming(merged)','siren', 'speech']
+target_namesM5: ['breaking', 'crowd/screaming', 'crying_sobbing', 'explosion', 'gunshot_gunfire', 'motor_vehicle_road','siren', 'speech']
+
 # target_namesM4: ['motor_vehicle_road', 'screaming', 'explosion', 'female_speech', 'male_speech', 'breaking', 'crowd', 'crying_sobbing', 'siren', 'gunshot_gunfire']
 k: 3                                                # top-k results to return 
-prefix: "M3:"                                          # prefix of each subtitle in the SRT file. eg {M1: chatter, others, breaking}
+prefix: "M5:"                                          # prefix of each subtitle in the SRT file. eg {M1: chatter, others, breaking}
 model: M3
 pann_encoder_ckpt_path:  models/Cnn10_mAP0.380.pth
 vad: False
+device: cpu

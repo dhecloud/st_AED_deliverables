@@ -22,7 +22,7 @@ __maintainer__ = "Soham Tiwari"
 __email__ = "soham.tiwari800@gmail.com"
 __status__ = "Development"
 
-model_archs = ['mobilenetv2', 'pann_cnn10']
+model_archs = ['mobilenetv2', 'pann_cnn10','resnet18','resnet34','resnet50']
 class_mapping = {}
 class_mapping['breaking'] = 0
 class_mapping['chatter'] = 1
@@ -36,6 +36,15 @@ class_mapping['siren'] = 8
 class_mapping['others'] = 9
 
 random_erasing = RandomErasing()
+
+class ExponentialLayer(nn.Module):
+    def __init__(self, bias:bool=True) -> None:
+        super().__init__()
+        self.weight = nn.Parameter(torch.ones(1))
+        self.bias = nn.Parameter(torch.randn(1) if bias else torch.zeros(1))
+    def forward(self, x):
+        return torch.exp(x*(self.weight).to(x.device) + self.bias.to(x.device))
+
 
 def createRandomFileID():
     result = createStringbyLength(8) + '-' + createStringbyLength(4) + '-' + createStringbyLength(4) + '-' + createStringbyLength(4) + '-' + createStringbyLength(12)
@@ -405,6 +414,161 @@ class Task5ModelM3(nn.Module):
         x = self.final(x)  # -> (batch_size, num_classes)
         return x
 
+
+class Task5ModelM4(nn.Module):
+
+    def __init__(self, num_classes, model_arch: str = model_archs[0], pann_cnn10_encoder_ckpt_path: str = '', pann_cnn14_encoder_ckpt_path: str = '', use_cbam: bool = False, use_pna: bool = False, use_median_filter: bool = False):
+        """Initialising model for Task 5 of DCASE
+
+        Args:
+            num_classes (int): Number of classes_
+            model_arch (str, optional): Model architecture to be used. One of ['mobilenetv2', 'pann_cnn10', 'pann_cnn14']. Defaults to model_archs[0].
+            pann_cnn10_encoder_ckpt_path (str, optional): File path for downloaded pretrained model checkpoint. Defaults to None.
+            pann_cnn14_encoder_ckpt_path (str, optional): File path for downloaded pretrained model checkpoint. Defaults to None.
+
+        Raises:
+            Exception: Invalid model_arch paramater passed.
+            Exception: Model checkpoint path does not exist/not found.
+        """
+        super().__init__()
+        self.num_classes = num_classes
+
+        if len(model_arch) > 0:
+            if model_arch not in model_archs:
+                raise Exception(
+                    f'Invalid model_arch={model_arch} paramater. Must be one of {model_archs}')
+            self.model_arch = model_arch
+
+        self.use_cbam = use_cbam
+        self.use_pna = use_pna
+        self.use_median_filter = use_median_filter
+
+        if model_arch.startswith("resnet"):
+            self.pools = (
+                nn.Identity(),
+                nn.AvgPool2d((5,3),stride=(1,1),padding=(2,1)),
+                nn.AvgPool2d((7,3),stride=(1,1),padding=(3,1)),
+                nn.AvgPool2d((7,5),stride=(1,1),padding=(3,2)),
+                nn.MaxPool2d((5,3),stride=(1,1),padding=(2,1)),
+                nn.MaxPool2d((7,3),stride=(1,1),padding=(3,1)),
+                nn.MaxPool2d((7,5),stride=(1,1),padding=(3,2)),
+            )
+            input_channels = len(self.pools)
+            self.bw2col = nn.Sequential(
+                Dynamic_conv2d(input_channels, input_channels, 1, padding=0),
+                nn.Dropout(0),
+                Dynamic_conv2d(input_channels, 3, 1, padding=0),
+                nn.BatchNorm2d(3),
+                nn.Identity()
+            )
+            self.resnet = torch.hub.load('pytorch/vision:v0.10.0', model_arch)
+            self.mlp = nn.Sequential(
+                # nn.Linear(hidden_size*gru_layers, hidden_size*2),
+                nn.Linear(1000, 1024),
+                nn.ReLU(),
+                nn.Linear(1024,512),
+                nn.BatchNorm1d(512),
+                nn.Linear(512, 256),
+                nn.ReLU(),
+                nn.Linear(256, 10),
+            )
+
+    def forward(self, x):
+        
+        if self.model_arch.startswith("resnet"):
+            x = torch.cat([pool(x) for pool in self.pools],dim=1)
+            x = self.bw2col(x)
+            x = self.resnet(x)
+            return self.mlp(x)
+        
+        # x-> (batch_size, 1280/512, H, W)
+        # x = x.max(dim=-1)[0].max(dim=-1)[0] # change it to mean
+        if self.use_cbam:
+            x = self.cbam(x)
+        if self.use_pna:
+            x = self.pna(x)
+        x = torch.mean(x, dim=(-1, -2))
+        x = self.final(x)  # -> (batch_size, num_classes)
+        return x
+
+
+class Task5ModelM5(nn.Module):
+
+    def __init__(self, num_classes, model_arch: str = model_archs[0], pann_cnn10_encoder_ckpt_path: str = '', pann_cnn14_encoder_ckpt_path: str = '', use_cbam: bool = False, use_pna: bool = False, use_median_filter: bool = False):
+        """Initialising model for Task 5 of DCASE
+
+        Args:
+            num_classes (int): Number of classes_
+            model_arch (str, optional): Model architecture to be used. One of ['mobilenetv2', 'pann_cnn10', 'pann_cnn14']. Defaults to model_archs[0].
+            pann_cnn10_encoder_ckpt_path (str, optional): File path for downloaded pretrained model checkpoint. Defaults to None.
+            pann_cnn14_encoder_ckpt_path (str, optional): File path for downloaded pretrained model checkpoint. Defaults to None.
+
+        Raises:
+            Exception: Invalid model_arch paramater passed.
+            Exception: Model checkpoint path does not exist/not found.
+        """
+        super().__init__()
+        self.num_classes = num_classes
+
+        if len(model_arch) > 0:
+            if model_arch not in model_archs:
+                raise Exception(
+                    f'Invalid model_arch={model_arch} paramater. Must be one of {model_archs}')
+            self.model_arch = model_arch
+
+        self.use_cbam = use_cbam
+        self.use_pna = use_pna
+        self.use_median_filter = use_median_filter
+
+        if model_arch.startswith("resnet"):
+            self.exp_layer = ExponentialLayer(True)
+            self.pools = (
+                nn.Identity(),
+                self.exp_layer,
+                nn.AvgPool2d((5,3),stride=(1,1),padding=(2,1)),
+                nn.AvgPool2d((7,3),stride=(1,1),padding=(3,1)),
+                nn.AvgPool2d((7,5),stride=(1,1),padding=(3,2)),
+                nn.MaxPool2d((5,3),stride=(1,1),padding=(2,1)),
+                nn.MaxPool2d((7,3),stride=(1,1),padding=(3,1)),
+                nn.MaxPool2d((7,5),stride=(1,1),padding=(3,2)),
+            )
+            input_channels = len(self.pools)
+            self.bw2col = nn.Sequential(
+                Dynamic_conv2d(input_channels, input_channels, 1, padding=0),
+                nn.Dropout(0),
+                Dynamic_conv2d(input_channels, 3, 1, padding=0),
+                nn.BatchNorm2d(3),
+                nn.Identity()
+            )
+            self.resnet = torch.hub.load('pytorch/vision:v0.10.0', model_arch)
+            self.mlp = nn.Sequential(
+                # nn.Linear(hidden_size*gru_layers, hidden_size*2),
+                nn.Linear(1000, 1024),
+                nn.ReLU(),
+                nn.Linear(1024,512),
+                nn.BatchNorm1d(512),
+                nn.Linear(512, 256),
+                nn.ReLU(),
+                nn.Linear(256, 8),
+            )
+
+    def forward(self, x):
+        
+        if self.model_arch.startswith("resnet"):
+            x = torch.cat([pool(x) for pool in self.pools],dim=1)
+            x = self.bw2col(x)
+            x = self.resnet(x)
+            return self.mlp(x)
+        
+        # x-> (batch_size, 1280/512, H, W)
+        # x = x.max(dim=-1)[0].max(dim=-1)[0] # change it to mean
+        if self.use_cbam:
+            x = self.cbam(x)
+        if self.use_pna:
+            x = self.pna(x)
+        x = torch.mean(x, dim=(-1, -2))
+        x = self.final(x)  # -> (batch_size, num_classes)
+        return x
 
 class Dynamic_conv2d(nn.Module):
     """To perform Frequency Dynamic Convolution or Time Dynamic Convolution.

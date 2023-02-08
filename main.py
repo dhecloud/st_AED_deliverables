@@ -7,7 +7,7 @@ __maintainer__ = "Andrew Koh"
 __email__ = "andr0081@ntu.edu.sg"
 '''
 import librosa
-from model import StreamingM1, StreamingM2, StreamingM3
+from model import StreamingM1, StreamingM2, StreamingM3,StreamingM4,StreamingM5
 import numpy as np
 import argparse
 from utils import set_device
@@ -49,8 +49,10 @@ elif config.model == 'M3':
     config.sample_rate = 44100
     assert config.sample_rate == 44100
     model = StreamingM3(config)
-# elif config.model == 'M4':
-    # model = StreamingM4(config)
+elif config.model == 'M4':
+    model = StreamingM4(config)
+elif config.model == 'M5':
+    model = StreamingM5(config)
 else:
     assert 'model card' == 'not available'
 
@@ -140,7 +142,8 @@ def main():
                 formatted_preds = config.prefix+' 0: Silence '
             else:
                 formatted_preds = config.prefix+' '
-            for i in range(config.k):
+            # for i in range(config.k):
+            for i in range(min(config.k, len(predictions))):
                 formatted_preds += f"{i+1}: {predictions[i]} "
             if append_flag == True:
                 srts[curr_window].content += '\n'+ formatted_preds
