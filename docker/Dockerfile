@@ -8,10 +8,10 @@ RUN conda env create -f environment.yml
 SHELL ["conda", "run", "-n", "streaming", "/bin/bash", "-c"]
 RUN conda install  -n streaming pytorch torchvision torchaudio cpuonly -c pytorch 
 RUN conda install -c conda-forge conda-pack
-RUN conda-pack -n streaming -o /tmp/env.tar && \
+RUN conda-pack --ignore-missing-files -n streaming -o /tmp/env.tar && \
   mkdir /venv && cd /venv && tar xf /tmp/env.tar && \
   rm /tmp/env.tar
-
+  
 RUN /venv/bin/conda-unpack
 
 FROM debian:buster AS runtime
