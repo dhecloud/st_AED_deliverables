@@ -20,7 +20,7 @@ from xml.dom import minidom
 import json
 import os
 from tqdm import tqdm
-from vad import VAD
+# from vad import VAD
 import time
 with open('config.yaml', "rb") as stream:
     config = EasyDict(yaml.full_load(stream))
