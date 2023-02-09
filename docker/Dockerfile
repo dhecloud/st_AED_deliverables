@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3 AS build
 
-RUN git clone https://github.com/dhecloud/st_AED_deliverables.git
+RUN git clone -b 23feb8_resnet https://github.com/dhecloud/st_AED_deliverables.git
 WORKDIR st_AED_deliverables/
 
 
@@ -20,7 +20,7 @@ COPY --from=build /venv /venv
 SHELL ["/bin/bash", "-c"]
 RUN apt-get update
 RUN apt-get install git -y
-RUN git clone https://github.com/dhecloud/st_AED_deliverables.git
+RUN git clone -b 23feb8_resnet https://github.com/dhecloud/st_AED_deliverables.git
 WORKDIR st_AED_deliverables/
 ENTRYPOINT source /venv/bin/activate && \
            python api.py

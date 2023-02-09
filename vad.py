@@ -12,7 +12,7 @@ import numpy as np
 import scipy
 import scipy.signal
 # from  scipy.io import wavfile
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 # import pandas as pd
 
 # from pydub import AudioSegment
@@ -98,26 +98,26 @@ class STE():
         vframes = np.array(frames.flatten()[np.where(vad==1)], dtype=sig.dtype)
         return energy, vad, np.array(vframes, dtype=np.float64)
 
-    def multi_plots(self, data, titles, fs, plot_rows, step=1, colors=["b", "r", "m", "g", "b", "y"]):
-        # first fig
-        # plt.subplots(plot_rows, 1, figsize=(20, 10))
-        # plt.subplots_adjust(left=0.125, right=0.9, bottom=0.1, top=0.99, wspace=0.4, hspace=0.99)
+    # def multi_plots(self, data, titles, fs, plot_rows, step=1, colors=["b", "r", "m", "g", "b", "y"]):
+    #     # first fig
+    #     # plt.subplots(plot_rows, 1, figsize=(20, 10))
+    #     # plt.subplots_adjust(left=0.125, right=0.9, bottom=0.1, top=0.99, wspace=0.4, hspace=0.99)
 
-        # for i in range(plot_rows):
-        #     plt.subplot(plot_rows, 1, i+1)
-        #     y = data[i]
-        #     plt.plot([i/fs for i in range(0, len(y), step)], y, colors[i])
-        #     plt.gca().set_title(titles[i])
-        # plt.show()
+    #     # for i in range(plot_rows):
+    #     #     plt.subplot(plot_rows, 1, i+1)
+    #     #     y = data[i]
+    #     #     plt.plot([i/fs for i in range(0, len(y), step)], y, colors[i])
+    #     #     plt.gca().set_title(titles[i])
+    #     # plt.show()
 
-        # second fig
-        sig, vad = data[0], data[-2]
-        # plot VAD and orginal signal
-        plt.subplots(1, 1, figsize=(20, 10))
-        plt.plot([i/fs for i in range(len(sig))], sig, label="Signal")
-        plt.plot([i/fs for i in range(len(vad))], max(sig)*vad, label="VAD")
-        plt.legend(loc='best')
-        plt.show()
+    #     # second fig
+    #     sig, vad = data[0], data[-2]
+    #     # plot VAD and orginal signal
+    #     plt.subplots(1, 1, figsize=(20, 10))
+    #     plt.plot([i/fs for i in range(len(sig))], sig, label="Signal")
+    #     plt.plot([i/fs for i in range(len(vad))], max(sig)*vad, label="VAD")
+    #     plt.legend(loc='best')
+    #     plt.show()
 
     # if __name__ == "__main__":
     def filter(self, audio, sample_rate, threshold=-20):
