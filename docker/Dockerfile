@@ -6,7 +6,7 @@ WORKDIR st_AED_deliverables/
 
 RUN conda env create -f environment.yml
 SHELL ["conda", "run", "-n", "streaming", "/bin/bash", "-c"]
-RUN conda install  -n streaming pytorch torchvision=0.10 torchaudio cpuonly -c pytorch 
+RUN conda install  -n streaming pytorch torchvision=0.13 torchaudio cpuonly -c pytorch 
 RUN conda install -c conda-forge conda-pack
 RUN conda-pack --ignore-missing-files -n streaming -o /tmp/env.tar && \
   mkdir /venv && cd /venv && tar xf /tmp/env.tar && \

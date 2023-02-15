@@ -461,7 +461,7 @@ class Task5ModelM4(nn.Module):
                 nn.BatchNorm2d(3),
                 nn.Identity()
             )
-            self.resnet = torch.hub.load('pytorch/vision:v0.10.0', model_arch)
+            self.resnet = torch.hub.load('pytorch/vision:v0.13.0', model_arch)
             self.mlp = nn.Sequential(
                 # nn.Linear(hidden_size*gru_layers, hidden_size*2),
                 nn.Linear(1000, 1024),
@@ -540,7 +540,7 @@ class Task5ModelM5(nn.Module):
                 nn.BatchNorm2d(3),
                 nn.Identity()
             )
-            self.resnet = torch.hub.load('pytorch/vision:v0.10.0', model_arch)
+            self.resnet = torch.hub.load('pytorch/vision:v0.13.0', model_arch)
             self.mlp = nn.Sequential(
                 # nn.Linear(hidden_size*gru_layers, hidden_size*2),
                 nn.Linear(1000, 1024),
