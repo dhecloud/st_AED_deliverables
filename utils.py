@@ -22,7 +22,7 @@ __maintainer__ = "Soham Tiwari"
 __email__ = "soham.tiwari800@gmail.com"
 __status__ = "Development"
 
-model_archs = ['mobilenetv2', 'pann_cnn10','resnet18','resnet34','resnet50']
+model_archs = ['mobilenetv2', 'pann_cnn10','resnet18','resnet34','resnet50','multimobilenetv3']
 class_mapping = {}
 class_mapping['breaking'] = 0
 class_mapping['chatter'] = 1
@@ -551,7 +551,32 @@ class Task5ModelM5(nn.Module):
                 nn.ReLU(),
                 nn.Linear(256, 8),
             )
+        elif model_arch == "multimobilenetv3":
+            self.exp_layer = ExponentialLayer()
+            self.pools = (
+                nn.Identity(),
+                self.exp_layer,
+                nn.AvgPool2d((5,3),stride=(1,1),padding=(2,1)),
+                nn.AvgPool2d((7,3),stride=(1,1),padding=(3,1)),
+                nn.AvgPool2d((7,5),stride=(1,1),padding=(3,2)),
+                nn.MaxPool2d((5,3),stride=(1,1),padding=(2,1)),
+                nn.MaxPool2d((7,3),stride=(1,1),padding=(3,1)),
+                nn.MaxPool2d((7,5),stride=(1,1),padding=(3,2)),
+            )
+            input_channels = len(self.pools)
+            self.bw2col = nn.Sequential(
+                Dynamic_conv2d(input_channels, input_channels, 1, padding=0),
+                nn.BatchNorm2d(input_channels),
+                nn.Dropout(0),
+                Dynamic_conv2d(input_channels, 3, 1, padding=0),
+                nn.BatchNorm2d(3),
+            )
+            self.mv3 = torchvision.models.mobilenet_v3_large(pretrained=True)
 
+            self.final = nn.Sequential(
+                nn.Linear(960, 512), nn.ReLU(), nn.Dropout(0), nn.BatchNorm1d(512),
+                nn.Linear(512, num_classes))
+            
     def forward(self, x):
         
         if self.model_arch.startswith("resnet"):
@@ -559,6 +584,10 @@ class Task5ModelM5(nn.Module):
             x = self.bw2col(x)
             x = self.resnet(x)
             return self.mlp(x)
+        elif self.model_arch == "multimobilenetv3":
+            x = torch.cat([pool(x) for pool in self.pools],dim=1)
+            x = self.bw2col(x)
+            x = self.mv3.features(x)
         
         # x-> (batch_size, 1280/512, H, W)
         # x = x.max(dim=-1)[0].max(dim=-1)[0] # change it to mean
