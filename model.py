@@ -556,14 +556,14 @@ class StreamingM5():
         #load model
         # self.model = Task5ModelM5(len(p.target_namesM5),model_arch="resnet18").to(p.device)
         self.model = Task5ModelM5(len(p.target_namesM5),model_arch="multimobilenetv3").to(p.device)
-        self.model_path = 'models/M5/16.0k/model_logmelspec_012_resnet18_use_cbam_False'
-        self.model_path = 'models/M7/16.0k/model_logmelspec_012_multimobilenetv3_use_cbam_False'
-
+        # self.model_path = 'models/M5/16.0k/model_logmelspec_012_resnet18_use_cbam_False'
+        # self.model_path = 'models/M7/16.0k/model_logmelspec_012_multimobilenetv3_use_cbam_False'
+        self.model_path = 'models/M5/16.0k/20230220_model_logmelspec_012_multimobilenetv3_use_cbam_False'
         #TODO perhaps there could be a format for github model releases
         self.model_url = "https://github.com/dhecloud/st_AED_deliverables/releases/download/2023_jan26_model/M6_16k_model_logmelspec_012_resnet18_use_cbam_False"
         self.model_url = "https://github.com/dhecloud/st_AED_deliverables/releases/download/2023_feb16_model/M7_16k_model_logmelspec_012_multimobilenetv3_use_cbam_False"
 
-        if Path(self.model_path).exists==True:
+        if Path(self.model_path).exists()==True:
             _model_state_dict = self.get_local_model_state_dict(self.model_path)
         else:
             # Download model from Github release
