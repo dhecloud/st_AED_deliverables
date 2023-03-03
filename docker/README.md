@@ -1,6 +1,6 @@
 # Docker Instructions
 
-This details how to set up the docker image and run the repository with 3 API endpoints. This docker image is meant for easy deployment for the models. If you want to modify the code/config/checkpoints, you should work directly on the git repository. The docker image is around 4GB.
+This details how to set up the docker image and run the repository with 3 API endpoints. This docker image is meant for easy deployment for the models. If you want to modify the code/config/checkpoints, you should work directly on the git repository. 
 
 ## Setting up
 
@@ -34,15 +34,16 @@ After the image is done building, get the `image_id` (st-aed:aug2022) and run `d
 Check [Functions and usage](#Functions-and-usage) for further details.
 
 
-## Models available
+## Model available
 
-There are three available models now, namely M1, M2 and M3. M3 is the latest model 
+There is only 1 available model in this commit, namely A2. For previous models, please refer to previous commits.
 
-1. M1 - mobilenet trained on datasetv1
-2. M2 - mobilenet + CBAM + FDY head trained on datasetv2, which is more balanced. predictions should be more accurate.
-2. M3 - mobilenet + CBAM + FDY head trained on datasetv3. datasetv3 is datasetv2 + additional classes such as 'male speech', 'female speech'.  
- 
-In addition to these models, there is an additional silence detector. This is turned on by default.
+1. A2 - mobilenetv2 trained on our final processed dataset
+
+
+`A2` predicts these classes - breaking, crowd_scream, crying_sobbing, explosion, gunshot_gunfire, motor_vehicle_road, siren, speech, silence.  
+
+
 
 ## Functions and usage
 
@@ -52,7 +53,7 @@ The dockerfile sets up the working environment along with the apis. The model ch
 
 There are 3 endpoints:
 
-1. `<ip_address>:<your_port>/caption/final/<MODEL>/<output_type>` - use this for incoming new audio clips
+1. `<ip_address>:<your_port>/caption/final/A2/<output_type>` - use this for incoming new audio clips
 2. `<ip_address>:<your_port>/getJobStatus/<output_type>/<file_id>` - use this to get job status/completion
 3. `<ip_address>:<your_port>/returnFile/<output_type>/<file_id>` - use this to get the file containing the predicted classes
 
@@ -61,9 +62,9 @@ Currently, `output_type` can be `xml`, `srt`, or `json`. You can use any REST ap
 ### caption\/final\/\<model\>/\<output_type\>
 
 
-This endpoint takes in a file with a POST request and creates its corresponding captions in `srt`, `xml` and `json` format. If the audio file is received successfully, a `file_id` will be returned. `wav`, `mp3` and `mp4` formats are supported.
+This endpoint takes in a file with a POST request and creates its corresponding captions in `srt`, `xml` and `json` format. If the audio file is received successfully, a `file_id` will be returned. `wav`, `mp3` and `mp4` formats are supported and all other formats will be ignored.
 
-For instance, if `your_port` is `5050`, `model` is `M3`, i can send an wav file to the endpoint via `curl --form "file=@test_1min.wav" http://127.0.0.1:5050/caption/final/M3/json` and it will return
+For instance, if `your_port` is `5050`, `model` is `A2`, i can send an wav file to the endpoint via `curl --form "file=@test_1min.wav" http://127.0.0.1:5050/caption/final/A2/json` and it will return
 
 ```
 {
@@ -72,11 +73,11 @@ For instance, if `your_port` is `5050`, `model` is `M3`, i can send an wav file 
 ```
 
 Notes:
-   - `M2` if you want to submit job to `M2` model. Choose `M1` if you want to verify the result with `M1` model (previous version)
+   - `A2` if you want to submit job to `A2` model.
    - json in the path is just the response format (the file id return as JSON object)
 
 
-Note that the successful response of `file_id` does not indicate that the `srt`, `xml` and `json` files have been created. Once the audio file has been recieved, the audio clip will be processed. How long it takes depends on the available compute power and the length of the audio clip.
+Note that the successful response of `file_id` does not indicate that the `srt`, `xml` and `json` files have been created. Once the audio file has been recieved, the audio clip will be processed. How long it takes depends on the compute power available and the length of the audio clip.
 
 ### getJobStatus\/\<output_type\>\/\<file_id\>
 
@@ -189,10 +190,10 @@ Note that you should pipe the response of this endpoint to a file.
 No, there is no limitation. However, it does depends on your machine compute power. A 1 min clip should take around 10 to 20 seconds to fully process. It is recommended to break extremely long audio clips into smaller parts.
 
 #### Can i change the model or use a different model checkpoint?
-Yes, but not in this docker image. This docker image is meant for easy deployment. Modify the repository directly for any changes (don't use docker).
+Yes, but not in this docker image. This docker image is meant for easy deployment. Modify the repository directly for any changes. If you are familiar with docker, then you can work within the container. 
 
 #### How do i interpret the results?
-The model predicts for every 3 second window and outputs a caption every 1 second. Therefore, there is a prediction every second. The top 3 most probable classes will be returned. `M1: 0: others 1: motor_vehicle_road 2: siren` is an example of a prediction. `M1` is the model name, `0:` indicates that `others` is the most probable class, followed by `1:` which indicates `motor_vehicle_road` is the next probable class, and so on.
+The model predicts for every 3 second window and outputs a caption every 1 second. Therefore, there is a prediction every second. The top 3 most probable classes will be returned. `A2: 0: silence 1: motor_vehicle_road 2: siren` is an example of a prediction. `A2` is the model name, `0:` indicates that `silence` is the most probable class, followed by `1:` which indicates `motor_vehicle_road` is the next probable class, and so on.
 
 #### Error catching
 Feel free to contact me if there are any errors for which you cannot solve.

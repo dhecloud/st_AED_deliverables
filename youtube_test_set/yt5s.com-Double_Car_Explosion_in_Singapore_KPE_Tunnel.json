@@ -1,0 +1,134 @@
+{
+    "sound": [
+        {
+            "stime": 0.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crowd_scream 3: gunshot_gunfire "
+        },
+        {
+            "stime": 1.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: crowd_scream "
+        },
+        {
+            "stime": 2.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: gunshot_gunfire 3: breaking "
+        },
+        {
+            "stime": 3.0,
+            "dur": 1.0,
+            "caption": "A2: 1: gunshot_gunfire 2: speech 3: breaking "
+        },
+        {
+            "stime": 4.0,
+            "dur": 1.0,
+            "caption": "A2: 1: breaking 2: speech 3: gunshot_gunfire "
+        },
+        {
+            "stime": 5.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: breaking "
+        },
+        {
+            "stime": 6.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: motor_vehicle_road 3: crying_sobbing "
+        },
+        {
+            "stime": 7.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: gunshot_gunfire 3: motor_vehicle_road "
+        },
+        {
+            "stime": 8.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: gunshot_gunfire 3: crying_sobbing "
+        },
+        {
+            "stime": 9.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: motor_vehicle_road "
+        },
+        {
+            "stime": 10.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: siren "
+        },
+        {
+            "stime": 11.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: siren 3: crowd_scream "
+        },
+        {
+            "stime": 12.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 13.0,
+            "dur": 1.0,
+            "caption": "A2: 1: gunshot_gunfire 2: explosion 3: breaking "
+        },
+        {
+            "stime": 14.0,
+            "dur": 1.0,
+            "caption": "A2: 1: gunshot_gunfire 2: speech 3: explosion "
+        },
+        {
+            "stime": 15.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: gunshot_gunfire 3: explosion "
+        },
+        {
+            "stime": 16.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: motor_vehicle_road "
+        },
+        {
+            "stime": 17.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 18.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: siren 3: gunshot_gunfire "
+        },
+        {
+            "stime": 19.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: crowd_scream 3: speech "
+        },
+        {
+            "stime": 20.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: siren 3: crowd_scream "
+        },
+        {
+            "stime": 21.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crowd_scream 3: crying_sobbing "
+        },
+        {
+            "stime": 22.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: speech 3: gunshot_gunfire "
+        },
+        {
+            "stime": 23.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crowd_scream 3: siren "
+        },
+        {
+            "stime": 24.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: silence 3: crowd_scream "
+        },
+        {
+            "stime": 25.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: crying_sobbing 3: crowd_scream "
+        }
+    ]
+}

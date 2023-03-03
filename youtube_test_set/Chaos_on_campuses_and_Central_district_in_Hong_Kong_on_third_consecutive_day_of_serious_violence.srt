@@ -1,2472 +1,2472 @@
 1
 00:00:01,000 --> 00:00:02,000
-M4: 1: breaking 2: speech 
+A2: 1: gunshot_gunfire 2: breaking 3: crying_sobbing 
 
 2
 00:00:02,000 --> 00:00:03,000
-M4: 1: breaking 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: breaking 3: crying_sobbing 
 
 3
 00:00:03,000 --> 00:00:04,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 4
 00:00:04,000 --> 00:00:05,000
-M4: 1: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 5
 00:00:05,000 --> 00:00:06,000
-M4: 1: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: gunshot_gunfire 3: speech 
 
 6
 00:00:06,000 --> 00:00:07,000
-M4: 1: breaking 2: motor_vehicle_road 3: speech 
+A2: 1: speech 2: gunshot_gunfire 3: breaking 
 
 7
 00:00:07,000 --> 00:00:08,000
-M4: 1: breaking 2: speech 3: gunshot_gunfire 
+A2: 1: crowd_scream 2: speech 3: breaking 
 
 8
 00:00:08,000 --> 00:00:09,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 9
 00:00:09,000 --> 00:00:10,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 10
 00:00:10,000 --> 00:00:11,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: speech 
 
 11
 00:00:11,000 --> 00:00:12,000
-M4: 1: crowd/screaming 2: speech 3: gunshot_gunfire 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 12
 00:00:12,000 --> 00:00:13,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: breaking 
 
 13
 00:00:13,000 --> 00:00:14,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: breaking 3: gunshot_gunfire 
 
 14
 00:00:14,000 --> 00:00:15,000
-M4: 1: breaking 2: gunshot_gunfire 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: breaking 3: explosion 
 
 15
 00:00:15,000 --> 00:00:16,000
-M4: 1: breaking 2: gunshot_gunfire 3: explosion 
+A2: 1: breaking 2: gunshot_gunfire 3: explosion 
 
 16
 00:00:16,000 --> 00:00:17,000
-M4: 1: breaking 2: gunshot_gunfire 
+A2: 1: gunshot_gunfire 2: breaking 3: crying_sobbing 
 
 17
 00:00:17,000 --> 00:00:18,000
-M4: 1: gunshot_gunfire 2: crowd/screaming 
+A2: 1: gunshot_gunfire 2: breaking 3: speech 
 
 18
 00:00:18,000 --> 00:00:19,000
-M4: 1: gunshot_gunfire 2: crowd/screaming 
+A2: 1: gunshot_gunfire 2: breaking 3: motor_vehicle_road 
 
 19
 00:00:19,000 --> 00:00:20,000
-M4: 1: gunshot_gunfire 2: breaking 3: crowd/screaming 
+A2: 1: gunshot_gunfire 2: breaking 3: explosion 
 
 20
 00:00:20,000 --> 00:00:21,000
-M4: 1: gunshot_gunfire 2: breaking 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: breaking 3: motor_vehicle_road 
 
 21
 00:00:21,000 --> 00:00:22,000
-M4: 1: gunshot_gunfire 2: breaking 
+A2: 1: gunshot_gunfire 2: breaking 3: silence 
 
 22
 00:00:22,000 --> 00:00:23,000
-M4: 1: gunshot_gunfire 2: breaking 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: breaking 
 
 23
 00:00:23,000 --> 00:00:24,000
-M4: 1: breaking 2: gunshot_gunfire 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: breaking 3: speech 
 
 24
 00:00:24,000 --> 00:00:25,000
-M4: 1: gunshot_gunfire 
+A2: 1: gunshot_gunfire 2: speech 3: breaking 
 
 25
 00:00:25,000 --> 00:00:26,000
-M4: 1: gunshot_gunfire 2: motor_vehicle_road 3: breaking 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 26
 00:00:26,000 --> 00:00:27,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 27
 00:00:27,000 --> 00:00:28,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 28
 00:00:28,000 --> 00:00:29,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 29
 00:00:29,000 --> 00:00:30,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 30
 00:00:30,000 --> 00:00:31,000
-M4: 1: siren 2: gunshot_gunfire 3: breaking 
+A2: 1: siren 2: breaking 3: gunshot_gunfire 
 
 31
 00:00:31,000 --> 00:00:32,000
-M4: 1: gunshot_gunfire 2: siren 3: breaking 
+A2: 1: siren 2: gunshot_gunfire 3: breaking 
 
 32
 00:00:32,000 --> 00:00:33,000
-M4: 1: gunshot_gunfire 2: siren 
+A2: 1: siren 2: breaking 3: gunshot_gunfire 
 
 33
 00:00:33,000 --> 00:00:34,000
-M4: 1: breaking 2: gunshot_gunfire 3: crowd/screaming 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: breaking 
 
 34
 00:00:34,000 --> 00:00:35,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 35
 00:00:35,000 --> 00:00:36,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 36
 00:00:36,000 --> 00:00:37,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 37
 00:00:37,000 --> 00:00:38,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 38
 00:00:38,000 --> 00:00:39,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 39
 00:00:39,000 --> 00:00:40,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 40
 00:00:40,000 --> 00:00:41,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 41
 00:00:41,000 --> 00:00:42,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 42
 00:00:42,000 --> 00:00:43,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 43
 00:00:43,000 --> 00:00:44,000
-M4: 1: crowd/screaming 2: speech 3: crying_sobbing 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 44
 00:00:44,000 --> 00:00:45,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 45
 00:00:45,000 --> 00:00:46,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 46
 00:00:46,000 --> 00:00:47,000
-M4: 1: crying_sobbing 2: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 47
 00:00:47,000 --> 00:00:48,000
-M4: 1: crowd/screaming 2: speech 3: crying_sobbing 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 48
 00:00:48,000 --> 00:00:49,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 49
 00:00:49,000 --> 00:00:50,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 50
 00:00:50,000 --> 00:00:51,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 51
 00:00:51,000 --> 00:00:52,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 52
 00:00:52,000 --> 00:00:53,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 53
 00:00:53,000 --> 00:00:54,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 54
 00:00:54,000 --> 00:00:55,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 55
 00:00:55,000 --> 00:00:56,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 56
 00:00:56,000 --> 00:00:57,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire 
 
 57
 00:00:57,000 --> 00:00:58,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 58
 00:00:58,000 --> 00:00:59,000
-M4: 1: motor_vehicle_road 2: breaking 3: speech 
+A2: 1: gunshot_gunfire 2: speech 3: crowd_scream 
 
 59
 00:00:59,000 --> 00:01:00,000
-M4: 1: breaking 2: motor_vehicle_road 3: speech 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: speech 
 
 60
 00:01:00,000 --> 00:01:01,000
-M4: 1: motor_vehicle_road 2: breaking 3: speech 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: motor_vehicle_road 
 
 61
 00:01:01,000 --> 00:01:02,000
-M4: 1: motor_vehicle_road 2: breaking 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: crowd_scream 
 
 62
 00:01:02,000 --> 00:01:03,000
-M4: 1: motor_vehicle_road 2: breaking 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: speech 
 
 63
 00:01:03,000 --> 00:01:04,000
-M4: 1: breaking 2: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: speech 
 
 64
 00:01:04,000 --> 00:01:05,000
-M4: 1: motor_vehicle_road 2: breaking 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: breaking 
 
 65
 00:01:05,000 --> 00:01:06,000
-M4: 1: motor_vehicle_road 2: breaking 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: speech 
 
 66
 00:01:06,000 --> 00:01:07,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: gunshot_gunfire 2: speech 3: crowd_scream 
 
 67
 00:01:07,000 --> 00:01:08,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 3: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 68
 00:01:08,000 --> 00:01:09,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 69
 00:01:09,000 --> 00:01:10,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 70
 00:01:10,000 --> 00:01:11,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 71
 00:01:11,000 --> 00:01:12,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 72
 00:01:12,000 --> 00:01:13,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 73
 00:01:13,000 --> 00:01:14,000
-M4: 1: speech 
+A2: 1: motor_vehicle_road 2: speech 3: siren 
 
 74
 00:01:14,000 --> 00:01:15,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: siren 
 
 75
 00:01:15,000 --> 00:01:16,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: siren 2: speech 3: crowd_scream 
 
 76
 00:01:16,000 --> 00:01:17,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 77
 00:01:17,000 --> 00:01:18,000
-M4: 1: speech 
+A2: 1: siren 2: speech 3: crowd_scream 
 
 78
 00:01:18,000 --> 00:01:19,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 79
 00:01:19,000 --> 00:01:20,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 80
 00:01:20,000 --> 00:01:21,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 81
 00:01:21,000 --> 00:01:22,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 82
 00:01:22,000 --> 00:01:23,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 83
 00:01:23,000 --> 00:01:24,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 84
 00:01:24,000 --> 00:01:25,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 85
 00:01:25,000 --> 00:01:26,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 86
 00:01:26,000 --> 00:01:27,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 87
 00:01:27,000 --> 00:01:28,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 88
 00:01:28,000 --> 00:01:29,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 89
 00:01:29,000 --> 00:01:30,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 90
 00:01:30,000 --> 00:01:31,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 91
 00:01:31,000 --> 00:01:32,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 92
 00:01:32,000 --> 00:01:33,000
-M4: 1: speech 
+A2: 1: speech 2: motor_vehicle_road 3: gunshot_gunfire 
 
 93
 00:01:33,000 --> 00:01:34,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire 
 
 94
 00:01:34,000 --> 00:01:35,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 95
 00:01:35,000 --> 00:01:36,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: siren 3: crying_sobbing 
 
 96
 00:01:36,000 --> 00:01:37,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: siren 
 
 97
 00:01:37,000 --> 00:01:38,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 98
 00:01:38,000 --> 00:01:39,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 99
 00:01:39,000 --> 00:01:40,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 100
 00:01:40,000 --> 00:01:41,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 101
 00:01:41,000 --> 00:01:42,000
-M4: 1: speech 2: crowd/screaming 3: siren 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 102
 00:01:42,000 --> 00:01:43,000
-M4: 1: speech 2: crowd/screaming 3: siren 
+A2: 1: motor_vehicle_road 2: crying_sobbing 3: speech 
 
 103
 00:01:43,000 --> 00:01:44,000
-M4: 1: crowd/screaming 2: speech 3: siren 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 104
 00:01:44,000 --> 00:01:45,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 105
 00:01:45,000 --> 00:01:46,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 106
 00:01:46,000 --> 00:01:47,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 107
 00:01:47,000 --> 00:01:48,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 108
 00:01:48,000 --> 00:01:49,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: breaking 
 
 109
 00:01:49,000 --> 00:01:50,000
-M4: 1: speech 
+A2: 1: breaking 2: gunshot_gunfire 3: motor_vehicle_road 
 
 110
 00:01:50,000 --> 00:01:51,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: breaking 2: speech 3: crowd_scream 
 
 111
 00:01:51,000 --> 00:01:52,000
-M4: 1: crowd/screaming 2: speech 3: crying_sobbing 
+A2: 1: speech 2: crowd_scream 3: breaking 
 
 112
 00:01:52,000 --> 00:01:53,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 113
 00:01:53,000 --> 00:01:54,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 114
 00:01:54,000 --> 00:01:55,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 115
 00:01:55,000 --> 00:01:56,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 116
 00:01:56,000 --> 00:01:57,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 117
 00:01:57,000 --> 00:01:58,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 118
 00:01:58,000 --> 00:01:59,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 3: speech 
+A2: 1: breaking 2: crowd_scream 3: speech 
 
 119
 00:01:59,000 --> 00:02:00,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: breaking 2: crying_sobbing 3: crowd_scream 
 
 120
 00:02:00,000 --> 00:02:01,000
-M4: 1: motor_vehicle_road 2: speech 
+A2: 1: breaking 2: crowd_scream 3: siren 
 
 121
 00:02:01,000 --> 00:02:02,000
-M4: 1: motor_vehicle_road 2: speech 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 122
 00:02:02,000 --> 00:02:03,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 123
 00:02:03,000 --> 00:02:04,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: gunshot_gunfire 2: breaking 3: crowd_scream 
 
 124
 00:02:04,000 --> 00:02:05,000
-M4: 1: breaking 2: speech 3: gunshot_gunfire 
+A2: 1: gunshot_gunfire 2: breaking 3: crying_sobbing 
 
 125
 00:02:05,000 --> 00:02:06,000
-M4: 1: breaking 2: speech 
+A2: 1: gunshot_gunfire 2: breaking 3: crying_sobbing 
 
 126
 00:02:06,000 --> 00:02:07,000
-M4: 1: speech 2: breaking 
+A2: 1: breaking 2: speech 3: gunshot_gunfire 
 
 127
 00:02:07,000 --> 00:02:08,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 128
 00:02:08,000 --> 00:02:09,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 129
 00:02:09,000 --> 00:02:10,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: breaking 3: speech 
 
 130
 00:02:10,000 --> 00:02:11,000
-M4: 1: motor_vehicle_road 
+A2: 1: breaking 2: gunshot_gunfire 3: crowd_scream 
 
 131
 00:02:11,000 --> 00:02:12,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: breaking 3: crowd_scream 
 
 132
 00:02:12,000 --> 00:02:13,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: siren 3: speech 
 
 133
 00:02:13,000 --> 00:02:14,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 134
 00:02:14,000 --> 00:02:15,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 135
 00:02:15,000 --> 00:02:16,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 136
 00:02:16,000 --> 00:02:17,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: siren 2: speech 3: crowd_scream 
 
 137
 00:02:17,000 --> 00:02:18,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 138
 00:02:18,000 --> 00:02:19,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: speech 3: breaking 
 
 139
 00:02:19,000 --> 00:02:20,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 140
 00:02:20,000 --> 00:02:21,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 141
 00:02:21,000 --> 00:02:22,000
-M4: 1: speech 2: breaking 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 142
 00:02:22,000 --> 00:02:23,000
-M4: 1: speech 2: breaking 
+A2: 1: speech 2: gunshot_gunfire 3: motor_vehicle_road 
 
 143
 00:02:23,000 --> 00:02:24,000
-M4: 1: speech 2: breaking 3: crowd/screaming 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 144
 00:02:24,000 --> 00:02:25,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 145
 00:02:25,000 --> 00:02:26,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 146
 00:02:26,000 --> 00:02:27,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: gunshot_gunfire 2: speech 3: crowd_scream 
 
 147
 00:02:27,000 --> 00:02:28,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: speech 
 
 148
 00:02:28,000 --> 00:02:29,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 149
 00:02:29,000 --> 00:02:30,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 150
 00:02:30,000 --> 00:02:31,000
-M4: 1: speech 2: breaking 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 151
 00:02:31,000 --> 00:02:32,000
-M4: 1: speech 2: breaking 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 152
 00:02:32,000 --> 00:02:33,000
-M4: 1: speech 2: breaking 
+A2: 1: breaking 2: crowd_scream 3: gunshot_gunfire 
 
 153
 00:02:33,000 --> 00:02:34,000
-M4: 1: speech 
+A2: 1: crying_sobbing 2: gunshot_gunfire 3: speech 
 
 154
 00:02:34,000 --> 00:02:35,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 155
 00:02:35,000 --> 00:02:36,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 156
 00:02:36,000 --> 00:02:37,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 157
 00:02:37,000 --> 00:02:38,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 158
 00:02:38,000 --> 00:02:39,000
-M4: 1: crowd/screaming 2: speech 3: crying_sobbing 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 159
 00:02:39,000 --> 00:02:40,000
-M4: 1: crowd/screaming 2: speech 3: crying_sobbing 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 160
 00:02:40,000 --> 00:02:41,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 161
 00:02:41,000 --> 00:02:42,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 162
 00:02:42,000 --> 00:02:43,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 163
 00:02:43,000 --> 00:02:44,000
-M4: 1: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 164
 00:02:44,000 --> 00:02:45,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 165
 00:02:45,000 --> 00:02:46,000
-M4: 1: motor_vehicle_road 2: speech 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 166
 00:02:46,000 --> 00:02:47,000
-M4: 1: motor_vehicle_road 2: speech 
+A2: 1: motor_vehicle_road 2: breaking 3: speech 
 
 167
 00:02:47,000 --> 00:02:48,000
-M4: 1: speech 2: breaking 3: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: breaking 3: gunshot_gunfire 
 
 168
 00:02:48,000 --> 00:02:49,000
-M4: 1: speech 2: breaking 
+A2: 1: breaking 2: gunshot_gunfire 3: motor_vehicle_road 
 
 169
 00:02:49,000 --> 00:02:50,000
-M4: 1: speech 2: motor_vehicle_road 3: gunshot_gunfire 
+A2: 1: speech 2: gunshot_gunfire 3: motor_vehicle_road 
 
 170
 00:02:50,000 --> 00:02:51,000
-M4: 1: speech 2: breaking 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 171
 00:02:51,000 --> 00:02:52,000
-M4: 1: speech 2: breaking 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 172
 00:02:52,000 --> 00:02:53,000
-M4: 1: speech 2: breaking 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 173
 00:02:53,000 --> 00:02:54,000
-M4: 1: speech 
+A2: 1: motor_vehicle_road 2: speech 3: gunshot_gunfire 
 
 174
 00:02:54,000 --> 00:02:55,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: motor_vehicle_road 2: speech 3: crying_sobbing 
 
 175
 00:02:55,000 --> 00:02:56,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: motor_vehicle_road 3: crowd_scream 
 
 176
 00:02:56,000 --> 00:02:57,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 177
 00:02:57,000 --> 00:02:58,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 178
 00:02:58,000 --> 00:02:59,000
-M4: 1: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 179
 00:02:59,000 --> 00:03:00,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 180
 00:03:00,000 --> 00:03:01,000
-M4: 1: speech 2: breaking 3: motor_vehicle_road 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 181
 00:03:01,000 --> 00:03:02,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: motor_vehicle_road 
 
 182
 00:03:02,000 --> 00:03:03,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crying_sobbing 3: motor_vehicle_road 
 
 183
 00:03:03,000 --> 00:03:04,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 184
 00:03:04,000 --> 00:03:05,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 185
 00:03:05,000 --> 00:03:06,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 186
 00:03:06,000 --> 00:03:07,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire 
 
 187
 00:03:07,000 --> 00:03:08,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: speech 2: motor_vehicle_road 3: gunshot_gunfire 
 
 188
 00:03:08,000 --> 00:03:09,000
-M4: 1: speech 2: motor_vehicle_road 3: crying_sobbing 
+A2: 1: crying_sobbing 2: speech 3: motor_vehicle_road 
 
 189
 00:03:09,000 --> 00:03:10,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: speech 2: crying_sobbing 3: motor_vehicle_road 
 
 190
 00:03:10,000 --> 00:03:11,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: explosion 2: gunshot_gunfire 3: speech 
 
 191
 00:03:11,000 --> 00:03:12,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 192
 00:03:12,000 --> 00:03:13,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 193
 00:03:13,000 --> 00:03:14,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 194
 00:03:14,000 --> 00:03:15,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 195
 00:03:15,000 --> 00:03:16,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 196
 00:03:16,000 --> 00:03:17,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 197
 00:03:17,000 --> 00:03:18,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 198
 00:03:18,000 --> 00:03:19,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 199
 00:03:19,000 --> 00:03:20,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: breaking 3: gunshot_gunfire 
 
 200
 00:03:20,000 --> 00:03:21,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 201
 00:03:21,000 --> 00:03:22,000
-M4: 1: crowd/screaming 2: gunshot_gunfire 
+A2: 1: breaking 2: gunshot_gunfire 3: crowd_scream 
 
 202
 00:03:22,000 --> 00:03:23,000
-M4: 1: crowd/screaming 
+A2: 1: gunshot_gunfire 2: breaking 3: motor_vehicle_road 
 
 203
 00:03:23,000 --> 00:03:24,000
-M4: 1: crowd/screaming 2: breaking 
+A2: 1: gunshot_gunfire 2: crying_sobbing 3: crowd_scream 
 
 204
 00:03:24,000 --> 00:03:25,000
-M4: 1: crying_sobbing 2: crowd/screaming 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 205
 00:03:25,000 --> 00:03:26,000
-M4: 1: crowd/screaming 2: crying_sobbing 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 206
 00:03:26,000 --> 00:03:27,000
-M4: 1: crowd/screaming 2: crying_sobbing 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: crying_sobbing 
 
 207
 00:03:27,000 --> 00:03:28,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 208
 00:03:28,000 --> 00:03:29,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: speech 
 
 209
 00:03:29,000 --> 00:03:30,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: breaking 
 
 210
 00:03:30,000 --> 00:03:31,000
-M4: 1: breaking 2: gunshot_gunfire 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: breaking 3: explosion 
 
 211
 00:03:31,000 --> 00:03:32,000
-M4: 1: speech 2: gunshot_gunfire 3: breaking 
+A2: 1: gunshot_gunfire 2: crying_sobbing 3: breaking 
 
 212
 00:03:32,000 --> 00:03:33,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: gunshot_gunfire 2: breaking 3: crying_sobbing 
 
 213
 00:03:33,000 --> 00:03:34,000
-M4: 1: speech 2: siren 3: crowd/screaming 
+A2: 1: siren 2: crowd_scream 3: speech 
 
 214
 00:03:34,000 --> 00:03:35,000
-M4: 1: motor_vehicle_road 2: siren 3: speech 
+A2: 1: siren 2: crowd_scream 3: speech 
 
 215
 00:03:35,000 --> 00:03:36,000
-M4: 1: motor_vehicle_road 2: gunshot_gunfire 3: siren 
+A2: 1: gunshot_gunfire 2: speech 3: breaking 
 
 216
 00:03:36,000 --> 00:03:37,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 217
 00:03:37,000 --> 00:03:38,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 218
 00:03:38,000 --> 00:03:39,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 219
 00:03:39,000 --> 00:03:40,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 220
 00:03:40,000 --> 00:03:41,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 221
 00:03:41,000 --> 00:03:42,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 222
 00:03:42,000 --> 00:03:43,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 223
 00:03:43,000 --> 00:03:44,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 224
 00:03:44,000 --> 00:03:45,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 225
 00:03:45,000 --> 00:03:46,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 226
 00:03:46,000 --> 00:03:47,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 227
 00:03:47,000 --> 00:03:48,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 228
 00:03:48,000 --> 00:03:49,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 229
 00:03:49,000 --> 00:03:50,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 230
 00:03:50,000 --> 00:03:51,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 231
 00:03:51,000 --> 00:03:52,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 232
 00:03:52,000 --> 00:03:53,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 233
 00:03:53,000 --> 00:03:54,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 234
 00:03:54,000 --> 00:03:55,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 235
 00:03:55,000 --> 00:03:56,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 236
 00:03:56,000 --> 00:03:57,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 237
 00:03:57,000 --> 00:03:58,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 238
 00:03:58,000 --> 00:03:59,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 239
 00:03:59,000 --> 00:04:00,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 240
 00:04:00,000 --> 00:04:01,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 241
 00:04:01,000 --> 00:04:02,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 242
 00:04:02,000 --> 00:04:03,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 243
 00:04:03,000 --> 00:04:04,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 3: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 244
 00:04:04,000 --> 00:04:05,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 245
 00:04:05,000 --> 00:04:06,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 246
 00:04:06,000 --> 00:04:07,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 247
 00:04:07,000 --> 00:04:08,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 248
 00:04:08,000 --> 00:04:09,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 249
 00:04:09,000 --> 00:04:10,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: explosion 
 
 250
 00:04:10,000 --> 00:04:11,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 251
 00:04:11,000 --> 00:04:12,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 252
 00:04:12,000 --> 00:04:13,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 253
 00:04:13,000 --> 00:04:14,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 254
 00:04:14,000 --> 00:04:15,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: speech 
 
 255
 00:04:15,000 --> 00:04:16,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: motor_vehicle_road 3: speech 
 
 256
 00:04:16,000 --> 00:04:17,000
-M4: 1: crowd/screaming 2: siren 3: speech 
+A2: 1: motor_vehicle_road 2: speech 3: siren 
 
 257
 00:04:17,000 --> 00:04:18,000
-M4: 1: crowd/screaming 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 258
 00:04:18,000 --> 00:04:19,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 259
 00:04:19,000 --> 00:04:20,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 260
 00:04:20,000 --> 00:04:21,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 261
 00:04:21,000 --> 00:04:22,000
-M4: 1: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 262
 00:04:22,000 --> 00:04:23,000
-M4: 1: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 263
 00:04:23,000 --> 00:04:24,000
-M4: 1: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: siren 3: crowd_scream 
 
 264
 00:04:24,000 --> 00:04:25,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: siren 2: motor_vehicle_road 3: explosion 
 
 265
 00:04:25,000 --> 00:04:26,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: explosion 
 
 266
 00:04:26,000 --> 00:04:27,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 267
 00:04:27,000 --> 00:04:28,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 268
 00:04:28,000 --> 00:04:29,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 269
 00:04:29,000 --> 00:04:30,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 270
 00:04:30,000 --> 00:04:31,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 271
 00:04:31,000 --> 00:04:32,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: silence 
 
 272
 00:04:32,000 --> 00:04:33,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 273
 00:04:33,000 --> 00:04:34,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 274
 00:04:34,000 --> 00:04:35,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 275
 00:04:35,000 --> 00:04:36,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 276
 00:04:36,000 --> 00:04:37,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 277
 00:04:37,000 --> 00:04:38,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 278
 00:04:38,000 --> 00:04:39,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: breaking 3: gunshot_gunfire 
 
 279
 00:04:39,000 --> 00:04:40,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: breaking 3: gunshot_gunfire 
 
 280
 00:04:40,000 --> 00:04:41,000
-M4: 1: breaking 2: gunshot_gunfire 3: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: breaking 
 
 281
 00:04:41,000 --> 00:04:42,000
-M4: 1: crowd/screaming 2: breaking 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: breaking 
 
 282
 00:04:42,000 --> 00:04:43,000
-M4: 1: crowd/screaming 2: siren 3: gunshot_gunfire 
+A2: 1: siren 2: gunshot_gunfire 3: crowd_scream 
 
 283
 00:04:43,000 --> 00:04:44,000
-M4: 1: siren 
+A2: 1: siren 2: gunshot_gunfire 3: crowd_scream 
 
 284
 00:04:44,000 --> 00:04:45,000
-M4: 1: siren 
+A2: 1: siren 2: gunshot_gunfire 3: silence 
 
 285
 00:04:45,000 --> 00:04:46,000
-M4: 1: siren 
+A2: 1: siren 2: gunshot_gunfire 3: silence 
 
 286
 00:04:46,000 --> 00:04:47,000
-M4: 1: siren 2: explosion 
+A2: 1: siren 2: gunshot_gunfire 3: breaking 
 
 287
 00:04:47,000 --> 00:04:48,000
-M4: 1: gunshot_gunfire 2: explosion 
+A2: 1: gunshot_gunfire 2: breaking 3: siren 
 
 288
 00:04:48,000 --> 00:04:49,000
-M4: 1: gunshot_gunfire 2: crowd/screaming 3: breaking 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: breaking 
 
 289
 00:04:49,000 --> 00:04:50,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 290
 00:04:50,000 --> 00:04:51,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 291
 00:04:51,000 --> 00:04:52,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 292
 00:04:52,000 --> 00:04:53,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: speech 
 
 293
 00:04:53,000 --> 00:04:54,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: speech 
 
 294
 00:04:54,000 --> 00:04:55,000
-M4: 1: siren 2: crowd/screaming 3: gunshot_gunfire 
+A2: 1: siren 2: gunshot_gunfire 3: speech 
 
 295
 00:04:55,000 --> 00:04:56,000
-M4: 1: siren 2: crowd/screaming 3: speech 
+A2: 1: siren 2: speech 3: motor_vehicle_road 
 
 296
 00:04:56,000 --> 00:04:57,000
-M4: 1: siren 2: crowd/screaming 3: speech 
+A2: 1: siren 2: speech 3: gunshot_gunfire 
 
 297
 00:04:57,000 --> 00:04:58,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: siren 2: crowd_scream 3: speech 
 
 298
 00:04:58,000 --> 00:04:59,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 299
 00:04:59,000 --> 00:05:00,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 300
 00:05:00,000 --> 00:05:01,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 301
 00:05:01,000 --> 00:05:02,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 302
 00:05:02,000 --> 00:05:03,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 303
 00:05:03,000 --> 00:05:04,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 304
 00:05:04,000 --> 00:05:05,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: siren 
 
 305
 00:05:05,000 --> 00:05:06,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: siren 
 
 306
 00:05:06,000 --> 00:05:07,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 307
 00:05:07,000 --> 00:05:08,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 308
 00:05:08,000 --> 00:05:09,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 309
 00:05:09,000 --> 00:05:10,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 310
 00:05:10,000 --> 00:05:11,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 311
 00:05:11,000 --> 00:05:12,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 312
 00:05:12,000 --> 00:05:13,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 313
 00:05:13,000 --> 00:05:14,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 314
 00:05:14,000 --> 00:05:15,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 315
 00:05:15,000 --> 00:05:16,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crying_sobbing 
 
 316
 00:05:16,000 --> 00:05:17,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: siren 3: crying_sobbing 
 
 317
 00:05:17,000 --> 00:05:18,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 318
 00:05:18,000 --> 00:05:19,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: siren 2: speech 3: crying_sobbing 
 
 319
 00:05:19,000 --> 00:05:20,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 320
 00:05:20,000 --> 00:05:21,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crying_sobbing 2: crowd_scream 3: motor_vehicle_road 
 
 321
 00:05:21,000 --> 00:05:22,000
-M4: 1: gunshot_gunfire 2: crowd/screaming 
+A2: 1: crying_sobbing 2: crowd_scream 3: motor_vehicle_road 
 
 322
 00:05:22,000 --> 00:05:23,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 323
 00:05:23,000 --> 00:05:24,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 324
 00:05:24,000 --> 00:05:25,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 325
 00:05:25,000 --> 00:05:26,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: siren 3: gunshot_gunfire 
 
 326
 00:05:26,000 --> 00:05:27,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 327
 00:05:27,000 --> 00:05:28,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 328
 00:05:28,000 --> 00:05:29,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 329
 00:05:29,000 --> 00:05:30,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 330
 00:05:30,000 --> 00:05:31,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 331
 00:05:31,000 --> 00:05:32,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 332
 00:05:32,000 --> 00:05:33,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 333
 00:05:33,000 --> 00:05:34,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 334
 00:05:34,000 --> 00:05:35,000
-M4: 1: speech 2: siren 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 335
 00:05:35,000 --> 00:05:36,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 336
 00:05:36,000 --> 00:05:37,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 337
 00:05:37,000 --> 00:05:38,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: siren 
 
 338
 00:05:38,000 --> 00:05:39,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 339
 00:05:39,000 --> 00:05:40,000
-M4: 1: speech 
+A2: 1: siren 2: speech 3: crowd_scream 
 
 340
 00:05:40,000 --> 00:05:41,000
-M4: 1: speech 
+A2: 1: siren 2: speech 3: crowd_scream 
 
 341
 00:05:41,000 --> 00:05:42,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 342
 00:05:42,000 --> 00:05:43,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 343
 00:05:43,000 --> 00:05:44,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 344
 00:05:44,000 --> 00:05:45,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 345
 00:05:45,000 --> 00:05:46,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 346
 00:05:46,000 --> 00:05:47,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 347
 00:05:47,000 --> 00:05:48,000
-M4: 1: speech 
+A2: 1: speech 2: gunshot_gunfire 3: motor_vehicle_road 
 
 348
 00:05:48,000 --> 00:05:49,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: gunshot_gunfire 
 
 349
 00:05:49,000 --> 00:05:50,000
-M4: 1: speech 2: crying_sobbing 3: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 350
 00:05:50,000 --> 00:05:51,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 351
 00:05:51,000 --> 00:05:52,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 352
 00:05:52,000 --> 00:05:53,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 353
 00:05:53,000 --> 00:05:54,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 354
 00:05:54,000 --> 00:05:55,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 355
 00:05:55,000 --> 00:05:56,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 356
 00:05:56,000 --> 00:05:57,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 357
 00:05:57,000 --> 00:05:58,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 358
 00:05:58,000 --> 00:05:59,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 359
 00:05:59,000 --> 00:06:00,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 360
 00:06:00,000 --> 00:06:01,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 361
 00:06:01,000 --> 00:06:02,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 362
 00:06:02,000 --> 00:06:03,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 363
 00:06:03,000 --> 00:06:04,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 364
 00:06:04,000 --> 00:06:05,000
-M4: 1: speech 2: crying_sobbing 3: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 365
 00:06:05,000 --> 00:06:06,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 366
 00:06:06,000 --> 00:06:07,000
-M4: 1: speech 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 367
 00:06:07,000 --> 00:06:08,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: siren 
 
 368
 00:06:08,000 --> 00:06:09,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 369
 00:06:09,000 --> 00:06:10,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 370
 00:06:10,000 --> 00:06:11,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 371
 00:06:11,000 --> 00:06:12,000
-M4: 1: speech 2: crying_sobbing 3: crowd/screaming 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 372
 00:06:12,000 --> 00:06:13,000
-M4: 1: crying_sobbing 2: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 373
 00:06:13,000 --> 00:06:14,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 374
 00:06:14,000 --> 00:06:15,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 375
 00:06:15,000 --> 00:06:16,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 376
 00:06:16,000 --> 00:06:17,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 377
 00:06:17,000 --> 00:06:18,000
-M4: 1: speech 
+A2: 1: siren 2: speech 3: crowd_scream 
 
 378
 00:06:18,000 --> 00:06:19,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 379
 00:06:19,000 --> 00:06:20,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 380
 00:06:20,000 --> 00:06:21,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: motor_vehicle_road 3: siren 
 
 381
 00:06:21,000 --> 00:06:22,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: speech 2: siren 3: motor_vehicle_road 
 
 382
 00:06:22,000 --> 00:06:23,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 383
 00:06:23,000 --> 00:06:24,000
-M4: 1: speech 2: crying_sobbing 3: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 384
 00:06:24,000 --> 00:06:25,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 385
 00:06:25,000 --> 00:06:26,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 386
 00:06:26,000 --> 00:06:27,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 387
 00:06:27,000 --> 00:06:28,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 388
 00:06:28,000 --> 00:06:29,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 389
 00:06:29,000 --> 00:06:30,000
-M4: 1: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 390
 00:06:30,000 --> 00:06:31,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 391
 00:06:31,000 --> 00:06:32,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 392
 00:06:32,000 --> 00:06:33,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 393
 00:06:33,000 --> 00:06:34,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 394
 00:06:34,000 --> 00:06:35,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 395
 00:06:35,000 --> 00:06:36,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 396
 00:06:36,000 --> 00:06:37,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 397
 00:06:37,000 --> 00:06:38,000
-M4: 1: crying_sobbing 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 398
 00:06:38,000 --> 00:06:39,000
-M4: 1: crying_sobbing 2: speech 
+A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire 
 
 399
 00:06:39,000 --> 00:06:40,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 400
 00:06:40,000 --> 00:06:41,000
-M4: 1: speech 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 401
 00:06:41,000 --> 00:06:42,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 3: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 402
 00:06:42,000 --> 00:06:43,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 403
 00:06:43,000 --> 00:06:44,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 404
 00:06:44,000 --> 00:06:45,000
-M4: 1: speech 
+A2: 1: speech 2: siren 3: crowd_scream 
 
 405
 00:06:45,000 --> 00:06:46,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 406
 00:06:46,000 --> 00:06:47,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 407
 00:06:47,000 --> 00:06:48,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 408
 00:06:48,000 --> 00:06:49,000
-M4: 1: motor_vehicle_road 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 409
 00:06:49,000 --> 00:06:50,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 3: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 410
 00:06:50,000 --> 00:06:51,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 411
 00:06:51,000 --> 00:06:52,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 412
 00:06:52,000 --> 00:06:53,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 413
 00:06:53,000 --> 00:06:54,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 414
 00:06:54,000 --> 00:06:55,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 415
 00:06:55,000 --> 00:06:56,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 416
 00:06:56,000 --> 00:06:57,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 417
 00:06:57,000 --> 00:06:58,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 418
 00:06:58,000 --> 00:06:59,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 419
 00:06:59,000 --> 00:07:00,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 420
 00:07:00,000 --> 00:07:01,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 421
 00:07:01,000 --> 00:07:02,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 422
 00:07:02,000 --> 00:07:03,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 423
 00:07:03,000 --> 00:07:04,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 424
 00:07:04,000 --> 00:07:05,000
-M4: 1: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 425
 00:07:05,000 --> 00:07:06,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 426
 00:07:06,000 --> 00:07:07,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 427
 00:07:07,000 --> 00:07:08,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 428
 00:07:08,000 --> 00:07:09,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 429
 00:07:09,000 --> 00:07:10,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 430
 00:07:10,000 --> 00:07:11,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 431
 00:07:11,000 --> 00:07:12,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 432
 00:07:12,000 --> 00:07:13,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 433
 00:07:13,000 --> 00:07:14,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: explosion 3: speech 
 
 434
 00:07:14,000 --> 00:07:15,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: explosion 2: crowd_scream 3: crying_sobbing 
 
 435
 00:07:15,000 --> 00:07:16,000
-M4: 1: speech 2: motor_vehicle_road 3: breaking 
+A2: 1: speech 2: crowd_scream 3: explosion 
 
 436
 00:07:16,000 --> 00:07:17,000
-M4: 1: speech 2: breaking 3: gunshot_gunfire 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 437
 00:07:17,000 --> 00:07:18,000
-M4: 1: speech 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 438
 00:07:18,000 --> 00:07:19,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 439
 00:07:19,000 --> 00:07:20,000
-M4: 1: speech 
+A2: 1: motor_vehicle_road 2: gunshot_gunfire 3: speech 
 
 440
 00:07:20,000 --> 00:07:21,000
-M4: 1: speech 
+A2: 1: siren 2: speech 3: motor_vehicle_road 
 
 441
 00:07:21,000 --> 00:07:22,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: breaking 2: gunshot_gunfire 3: motor_vehicle_road 
 
 442
 00:07:22,000 --> 00:07:23,000
-M4: 1: motor_vehicle_road 2: speech 3: breaking 
+A2: 1: speech 2: breaking 3: gunshot_gunfire 
 
 443
 00:07:23,000 --> 00:07:24,000
-M4: 1: breaking 2: speech 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 444
 00:07:24,000 --> 00:07:25,000
-M4: 1: speech 2: breaking 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 445
 00:07:25,000 --> 00:07:26,000
-M4: 1: speech 2: gunshot_gunfire 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: explosion 
 
 446
 00:07:26,000 --> 00:07:27,000
-M4: 1: motor_vehicle_road 2: breaking 3: gunshot_gunfire 
+A2: 1: breaking 2: speech 3: explosion 
 
 447
 00:07:27,000 --> 00:07:28,000
-M4: 1: motor_vehicle_road 
+A2: 1: speech 2: crying_sobbing 3: siren 
 
 448
 00:07:28,000 --> 00:07:29,000
-M4: 1: motor_vehicle_road 
+A2: 1: siren 2: speech 3: crying_sobbing 
 
 449
 00:07:29,000 --> 00:07:30,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 450
 00:07:30,000 --> 00:07:31,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: speech 
 
 451
 00:07:31,000 --> 00:07:32,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 452
 00:07:32,000 --> 00:07:33,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 453
 00:07:33,000 --> 00:07:34,000
-M4: 1: motor_vehicle_road 2: speech 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 454
 00:07:34,000 --> 00:07:35,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 455
 00:07:35,000 --> 00:07:36,000
-M4: 1: motor_vehicle_road 2: speech 3: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 456
 00:07:36,000 --> 00:07:37,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: speech 2: motor_vehicle_road 3: gunshot_gunfire 
 
 457
 00:07:37,000 --> 00:07:38,000
-M4: 1: gunshot_gunfire 2: explosion 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: gunshot_gunfire 
 
 458
 00:07:38,000 --> 00:07:39,000
-M4: 1: gunshot_gunfire 
+A2: 1: gunshot_gunfire 2: breaking 3: motor_vehicle_road 
 
 459
 00:07:39,000 --> 00:07:40,000
-M4: 1: crowd/screaming 2: gunshot_gunfire 3: crying_sobbing 
+A2: 1: gunshot_gunfire 2: breaking 3: speech 
 
 460
 00:07:40,000 --> 00:07:41,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: breaking 3: gunshot_gunfire 
 
 461
 00:07:41,000 --> 00:07:42,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 462
 00:07:42,000 --> 00:07:43,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 463
 00:07:43,000 --> 00:07:44,000
-M4: 1: crowd/screaming 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: speech 
 
 464
 00:07:44,000 --> 00:07:45,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 465
 00:07:45,000 --> 00:07:46,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 466
 00:07:46,000 --> 00:07:47,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 467
 00:07:47,000 --> 00:07:48,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 468
 00:07:48,000 --> 00:07:49,000
-M4: 1: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 469
 00:07:49,000 --> 00:07:50,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 3: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 470
 00:07:50,000 --> 00:07:51,000
-M4: 1: motor_vehicle_road 2: breaking 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 471
 00:07:51,000 --> 00:07:52,000
-M4: 1: motor_vehicle_road 2: speech 3: crowd/screaming 
+A2: 1: crowd_scream 2: siren 3: speech 
 
 472
 00:07:52,000 --> 00:07:53,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: siren 2: crowd_scream 3: speech 
 
 473
 00:07:53,000 --> 00:07:54,000
-M4: 1: motor_vehicle_road 2: speech 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 474
 00:07:54,000 --> 00:07:55,000
-M4: 1: motor_vehicle_road 2: breaking 3: speech 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 475
 00:07:55,000 --> 00:07:56,000
-M4: 1: breaking 2: gunshot_gunfire 3: speech 
+A2: 1: speech 2: crowd_scream 3: breaking 
 
 476
 00:07:56,000 --> 00:07:57,000
-M4: 1: crowd/screaming 2: speech 3: breaking 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 477
 00:07:57,000 --> 00:07:58,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 478
 00:07:58,000 --> 00:07:59,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 479
 00:07:59,000 --> 00:08:00,000
-M4: 1: crowd/screaming 2: gunshot_gunfire 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 480
 00:08:00,000 --> 00:08:01,000
-M4: 1: crowd/screaming 2: gunshot_gunfire 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: speech 
 
 481
 00:08:01,000 --> 00:08:02,000
-M4: 1: motor_vehicle_road 
+A2: 1: gunshot_gunfire 2: crowd_scream 3: speech 
 
 482
 00:08:02,000 --> 00:08:03,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 483
 00:08:03,000 --> 00:08:04,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 484
 00:08:04,000 --> 00:08:05,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 485
 00:08:05,000 --> 00:08:06,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 486
 00:08:06,000 --> 00:08:07,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 487
 00:08:07,000 --> 00:08:08,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: breaking 
 
 488
 00:08:08,000 --> 00:08:09,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: breaking 
 
 489
 00:08:09,000 --> 00:08:10,000
-M4: 1: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 490
 00:08:10,000 --> 00:08:11,000
-M4: 1: speech 2: crying_sobbing 3: siren 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 491
 00:08:11,000 --> 00:08:12,000
-M4: 1: speech 2: crying_sobbing 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 492
 00:08:12,000 --> 00:08:13,000
-M4: 1: motor_vehicle_road 2: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 493
 00:08:13,000 --> 00:08:14,000
-M4: 1: motor_vehicle_road 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 494
 00:08:14,000 --> 00:08:15,000
-M4: 1: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 495
 00:08:15,000 --> 00:08:16,000
-M4: 1: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 496
 00:08:16,000 --> 00:08:17,000
-M4: 1: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 497
 00:08:17,000 --> 00:08:18,000
-M4: 1: motor_vehicle_road 2: siren 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 498
 00:08:18,000 --> 00:08:19,000
-M4: 1: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 499
 00:08:19,000 --> 00:08:20,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 500
 00:08:20,000 --> 00:08:21,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: gunshot_gunfire 3: motor_vehicle_road 
 
 501
 00:08:21,000 --> 00:08:22,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 502
 00:08:22,000 --> 00:08:23,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 503
 00:08:23,000 --> 00:08:24,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: gunshot_gunfire 
 
 504
 00:08:24,000 --> 00:08:25,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 
+A2: 1: speech 2: crowd_scream 3: motor_vehicle_road 
 
 505
 00:08:25,000 --> 00:08:26,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 506
 00:08:26,000 --> 00:08:27,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 507
 00:08:27,000 --> 00:08:28,000
-M4: 1: crying_sobbing 2: crowd/screaming 3: speech 
+A2: 1: motor_vehicle_road 2: speech 3: crowd_scream 
 
 508
 00:08:28,000 --> 00:08:29,000
-M4: 1: crying_sobbing 2: speech 3: crowd/screaming 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 509
 00:08:29,000 --> 00:08:30,000
-M4: 1: speech 2: crying_sobbing 3: crowd/screaming 
+A2: 1: crying_sobbing 2: speech 3: crowd_scream 
 
 510
 00:08:30,000 --> 00:08:31,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 511
 00:08:31,000 --> 00:08:32,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 512
 00:08:32,000 --> 00:08:33,000
-M4: 1: motor_vehicle_road 2: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 513
 00:08:33,000 --> 00:08:34,000
-M4: 1: speech 2: crying_sobbing 3: gunshot_gunfire 
+A2: 1: gunshot_gunfire 2: crying_sobbing 3: motor_vehicle_road 
 
 514
 00:08:34,000 --> 00:08:35,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crying_sobbing 2: motor_vehicle_road 3: speech 
 
 515
 00:08:35,000 --> 00:08:36,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 516
 00:08:36,000 --> 00:08:37,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 517
 00:08:37,000 --> 00:08:38,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 518
 00:08:38,000 --> 00:08:39,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: speech 2: crying_sobbing 3: crowd_scream 
 
 519
 00:08:39,000 --> 00:08:40,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 520
 00:08:40,000 --> 00:08:41,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 521
 00:08:41,000 --> 00:08:42,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 522
 00:08:42,000 --> 00:08:43,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 523
 00:08:43,000 --> 00:08:44,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 524
 00:08:44,000 --> 00:08:45,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 525
 00:08:45,000 --> 00:08:46,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 526
 00:08:46,000 --> 00:08:47,000
-M4: 1: crowd/screaming 2: gunshot_gunfire 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 527
 00:08:47,000 --> 00:08:48,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 528
 00:08:48,000 --> 00:08:49,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 529
 00:08:49,000 --> 00:08:50,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 530
 00:08:50,000 --> 00:08:51,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 531
 00:08:51,000 --> 00:08:52,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 532
 00:08:52,000 --> 00:08:53,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 533
 00:08:53,000 --> 00:08:54,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 534
 00:08:54,000 --> 00:08:55,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: speech 2: crowd_scream 3: siren 
 
 535
 00:08:55,000 --> 00:08:56,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 536
 00:08:56,000 --> 00:08:57,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 537
 00:08:57,000 --> 00:08:58,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 538
 00:08:58,000 --> 00:08:59,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 539
 00:08:59,000 --> 00:09:00,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 540
 00:09:00,000 --> 00:09:01,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 541
 00:09:01,000 --> 00:09:02,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 542
 00:09:02,000 --> 00:09:03,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 543
 00:09:03,000 --> 00:09:04,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 544
 00:09:04,000 --> 00:09:05,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 545
 00:09:05,000 --> 00:09:06,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 546
 00:09:06,000 --> 00:09:07,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 547
 00:09:07,000 --> 00:09:08,000
-M4: 1: speech 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 548
 00:09:08,000 --> 00:09:09,000
-M4: 1: motor_vehicle_road 2: crowd/screaming 3: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 549
 00:09:09,000 --> 00:09:10,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 3: speech 
+A2: 1: speech 2: crowd_scream 3: crying_sobbing 
 
 550
 00:09:10,000 --> 00:09:11,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 551
 00:09:11,000 --> 00:09:12,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 552
 00:09:12,000 --> 00:09:13,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 553
 00:09:13,000 --> 00:09:14,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 554
 00:09:14,000 --> 00:09:15,000
-M4: 1: crowd/screaming 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: speech 
 
 555
 00:09:15,000 --> 00:09:16,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: motor_vehicle_road 2: crowd_scream 3: crying_sobbing 
 
 556
 00:09:16,000 --> 00:09:17,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 557
 00:09:17,000 --> 00:09:18,000
-M4: 1: motor_vehicle_road 2: speech 3: crowd/screaming 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 558
 00:09:18,000 --> 00:09:19,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 559
 00:09:19,000 --> 00:09:20,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 560
 00:09:20,000 --> 00:09:21,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 561
 00:09:21,000 --> 00:09:22,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 562
 00:09:22,000 --> 00:09:23,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 563
 00:09:23,000 --> 00:09:24,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 564
 00:09:24,000 --> 00:09:25,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 565
 00:09:25,000 --> 00:09:26,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 566
 00:09:26,000 --> 00:09:27,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 567
 00:09:27,000 --> 00:09:28,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 568
 00:09:28,000 --> 00:09:29,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 569
 00:09:29,000 --> 00:09:30,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 570
 00:09:30,000 --> 00:09:31,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 571
 00:09:31,000 --> 00:09:32,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 572
 00:09:32,000 --> 00:09:33,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 573
 00:09:33,000 --> 00:09:34,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: siren 
 
 574
 00:09:34,000 --> 00:09:35,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 575
 00:09:35,000 --> 00:09:36,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 576
 00:09:36,000 --> 00:09:37,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 577
 00:09:37,000 --> 00:09:38,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 578
 00:09:38,000 --> 00:09:39,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 579
 00:09:39,000 --> 00:09:40,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 580
 00:09:40,000 --> 00:09:41,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 581
 00:09:41,000 --> 00:09:42,000
-M4: 1: crying_sobbing 2: crowd/screaming 3: speech 
+A2: 1: crowd_scream 2: breaking 3: speech 
 
 582
 00:09:42,000 --> 00:09:43,000
-M4: 1: crying_sobbing 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 583
 00:09:43,000 --> 00:09:44,000
-M4: 1: crying_sobbing 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 584
 00:09:44,000 --> 00:09:45,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 585
 00:09:45,000 --> 00:09:46,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 586
 00:09:46,000 --> 00:09:47,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 587
 00:09:47,000 --> 00:09:48,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 588
 00:09:48,000 --> 00:09:49,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: gunshot_gunfire 
 
 589
 00:09:49,000 --> 00:09:50,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 590
 00:09:50,000 --> 00:09:51,000
-M4: 1: speech 2: crowd/screaming 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 591
 00:09:51,000 --> 00:09:52,000
-M4: 1: motor_vehicle_road 2: speech 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 592
 00:09:52,000 --> 00:09:53,000
-M4: 1: speech 2: motor_vehicle_road 3: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 593
 00:09:53,000 --> 00:09:54,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 594
 00:09:54,000 --> 00:09:55,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 595
 00:09:55,000 --> 00:09:56,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 596
 00:09:56,000 --> 00:09:57,000
-M4: 1: crowd/screaming 2: speech 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 597
 00:09:57,000 --> 00:09:58,000
-M4: 1: crying_sobbing 2: crowd/screaming 3: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: speech 
 
 598
 00:09:58,000 --> 00:09:59,000
-M4: 1: crowd/screaming 2: crying_sobbing 3: speech 
+A2: 1: crowd_scream 2: crying_sobbing 3: speech 
 
 599
 00:09:59,000 --> 00:10:00,000
-M4: 1: crowd/screaming 2: crying_sobbing 3: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 600
 00:10:00,000 --> 00:10:01,000
-M4: 1: crowd/screaming 2: motor_vehicle_road 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 601
 00:10:01,000 --> 00:10:02,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 602
 00:10:02,000 --> 00:10:03,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 603
 00:10:03,000 --> 00:10:04,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 604
 00:10:04,000 --> 00:10:05,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: crying_sobbing 
 
 605
 00:10:05,000 --> 00:10:06,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 606
 00:10:06,000 --> 00:10:07,000
-M4: 1: speech 2: crowd/screaming 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 607
 00:10:07,000 --> 00:10:08,000
-M4: 1: crowd/screaming 2: speech 
+A2: 1: crowd_scream 2: speech 3: motor_vehicle_road 
 
 608
 00:10:08,000 --> 00:10:09,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: motor_vehicle_road 3: speech 
 
 609
 00:10:09,000 --> 00:10:10,000
-M4: 1: crowd/screaming 
+A2: 1: crowd_scream 2: crying_sobbing 3: motor_vehicle_road 
 
 610
 00:10:10,000 --> 00:10:11,000
-M4: 1: crowd/screaming 2: gunshot_gunfire 
+A2: 1: crying_sobbing 2: crowd_scream 3: gunshot_gunfire 
 
 611
 00:10:11,000 --> 00:10:12,000
-M4: 1: gunshot_gunfire 2: crying_sobbing 3: speech 
+A2: 1: crying_sobbing 2: crowd_scream 3: gunshot_gunfire 
 
 612
 00:10:12,000 --> 00:10:13,000
-M4: 1: speech 
+A2: 1: silence 2: crying_sobbing 3: explosion 
 
 613
 00:10:13,000 --> 00:10:14,000
-M4: 1: speech 
+A2: 1: silence 2: crying_sobbing 3: explosion 
 
 614
 00:10:14,000 --> 00:10:15,000
-M4: 1: speech 
+A2: 1: silence 2: crying_sobbing 3: explosion 
 
 615
 00:10:15,000 --> 00:10:16,000
-M4: 1: speech 
+A2: 1: silence 2: crying_sobbing 3: explosion 
 
 616
 00:10:16,000 --> 00:10:17,000
-M4: 1: speech 
+A2: 1: silence 2: crying_sobbing 3: explosion 
 
 617
 00:10:17,000 --> 00:10:18,000
-M4: 1: speech 
+A2: 1: silence 2: crying_sobbing 3: explosion 
 
 618
 00:10:18,000 --> 00:10:19,000
-M4: 1: speech 
+A2: 1: silence 2: crying_sobbing 3: explosion 
 

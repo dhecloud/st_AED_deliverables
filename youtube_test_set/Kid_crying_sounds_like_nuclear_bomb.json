@@ -1,0 +1,49 @@
+{
+    "sound": [
+        {
+            "stime": 0.0,
+            "dur": 1.0,
+            "caption": "A2: 1: breaking 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 1.0,
+            "dur": 1.0,
+            "caption": "A2: 1: gunshot_gunfire 2: breaking 3: crowd_scream "
+        },
+        {
+            "stime": 2.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: speech "
+        },
+        {
+            "stime": 3.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: speech "
+        },
+        {
+            "stime": 4.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: crowd_scream 3: crying_sobbing "
+        },
+        {
+            "stime": 5.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: crowd_scream 3: silence "
+        },
+        {
+            "stime": 6.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: crying_sobbing 3: crowd_scream "
+        },
+        {
+            "stime": 7.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: siren "
+        },
+        {
+            "stime": 8.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: silence "
+        }
+    ]
+}

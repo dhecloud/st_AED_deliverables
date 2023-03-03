@@ -2,11 +2,17 @@ from sklearn.metrics import f1_score, confusion_matrix, classification_report
 import os
 import srt
 import re
+import argparse
 
-CLASSES = {'gunshot_gunfire':0, 'speech':1, 'crowd_scream':2, 'explosion':3, 'breaking':4, 'siren':5, 'motor_vehicle_road':6, 'crying_sobbing':7, 'others':8, 'silence': 9}
-answers_folder = 'youtube_test_answers'
-generated_subs_folder = 'youtube_test_set'
-paths = [p for p in os.listdir(generated_subs_folder) if p.endswith('.srt')]
+parser = argparse.ArgumentParser(description='args for checking youtube clips accuracy')
+parser.add_argument('-k', '--topk', type=int, default=3) # top k accuracy for subtitles
+parser.add_argument('-a', '--ans_folder', type=str, default='youtube_test_answers') #folder containing manual annotations of youtube clips
+parser.add_argument('-g', '--gen_folder', type=str, default='youtube_test_set') # folder containing model generated annotations of youtube clips
+args = parser.parse_args()
+
+
+CLASSES = {'gunshot_gunfire':0, 'speech':1, 'crowd_scream':2, 'explosion':3, 'breaking':4, 'siren':5, 'motor_vehicle_road':6, 'crying_sobbing':7, 'silence':8, 'others': 9}
+paths = [p for p in os.listdir(args.gen_folder) if p.endswith('.srt')]
 
 def extract_classes_from_srt(srt_line, k = -1):
     re_pattern = r'\d+'
@@ -16,8 +22,8 @@ def extract_classes_from_srt(srt_line, k = -1):
     cleaned_content = cleaned_content.replace('crowd_screaming','crowd_scream')
     cleaned_content = cleaned_content.replace('gunfire_gunshot','gunshot_gunfire') 
     cleaned_content = [x.strip() for x in cleaned_content.split(':')][1:]
-    cleaned_content = [x for x in cleaned_content if x is not ''] #remove blanks
-    print(cleaned_content)
+    cleaned_content = [x for x in cleaned_content if x != ''] #remove blanks
+    # print(cleaned_content)
     assert all(x in CLASSES.keys() for x in cleaned_content)
     return cleaned_content
 
@@ -32,8 +38,8 @@ cand_idxs = []
 
 for p in paths:
     answer_file = p.replace('.srt', '_answer.srt')
-    answer_file_path = os.path.join(answers_folder, answer_file)
-    candidate_file_path = os.path.join(generated_subs_folder, p)
+    answer_file_path = os.path.join(args.ans_folder, answer_file)
+    candidate_file_path = os.path.join(args.gen_folder, p)
     assert os.path.isfile(answer_file_path)
     assert os.path.isfile(candidate_file_path)
 
@@ -58,7 +64,7 @@ for p in paths:
             others += 1
         if answer_matched_substrings[0] == 'silence':
             silence += 1
-        elif answer_matched_substrings[0] in candidate_matched_substrings:
+        elif answer_matched_substrings[0] in candidate_matched_substrings[:args.topk]:
             correct +=1
         else:
             wrong += 1
@@ -69,13 +75,13 @@ print(f"micro f1_score including others and silence: {f1_score(ans_idxs, cand_id
 print(f"macro f1_score including others and silence: {f1_score(ans_idxs, cand_idxs, average = 'macro')}")
 print(classification_report(ans_idxs, cand_idxs))
 
-pop_idxes = [i for i, x in enumerate(ans_idxs) if x in [8,9]]
+pop_idxes = [i for i, x in enumerate(ans_idxs) if x in [9]]
 cand_idxs = [x for i,x in enumerate(cand_idxs) if i not in pop_idxes]
 ans_idxs = [x for i,x in enumerate(ans_idxs) if i not in pop_idxes]
 
 print('='*100)
 print(f'accuracy excluding others: {correct/(correct+wrong)}')
-print(f"micro f1_score excluding others and silence: {f1_score(ans_idxs, cand_idxs, average = 'micro')}")
-print(f"macro f1_score excluding others and silence: {f1_score(ans_idxs, cand_idxs, average = 'macro')}")
+print(f"micro f1_score excluding others: {f1_score(ans_idxs, cand_idxs, average = 'micro')}")
+print(f"macro f1_score excluding others: {f1_score(ans_idxs, cand_idxs, average = 'macro')}")
 print(CLASSES)
 print(classification_report(ans_idxs, cand_idxs))

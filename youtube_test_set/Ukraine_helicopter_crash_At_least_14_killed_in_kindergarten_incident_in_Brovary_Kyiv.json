@@ -1,0 +1,284 @@
+{
+    "sound": [
+        {
+            "stime": 0.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: speech 3: silence "
+        },
+        {
+            "stime": 1.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: crowd_scream "
+        },
+        {
+            "stime": 2.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 3.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 4.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 5.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: gunshot_gunfire 3: motor_vehicle_road "
+        },
+        {
+            "stime": 6.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: speech 3: silence "
+        },
+        {
+            "stime": 7.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crowd_scream 3: silence "
+        },
+        {
+            "stime": 8.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 9.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 10.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: speech 3: crying_sobbing "
+        },
+        {
+            "stime": 11.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: speech 3: crying_sobbing "
+        },
+        {
+            "stime": 12.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: speech 3: siren "
+        },
+        {
+            "stime": 13.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: crying_sobbing 3: speech "
+        },
+        {
+            "stime": 14.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: crying_sobbing 3: speech "
+        },
+        {
+            "stime": 15.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: speech "
+        },
+        {
+            "stime": 16.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crowd_scream 3: motor_vehicle_road "
+        },
+        {
+            "stime": 17.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: motor_vehicle_road "
+        },
+        {
+            "stime": 18.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crowd_scream 2: crying_sobbing 3: speech "
+        },
+        {
+            "stime": 19.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: crowd_scream 3: speech "
+        },
+        {
+            "stime": 20.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: breaking 3: crowd_scream "
+        },
+        {
+            "stime": 21.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: silence 3: speech "
+        },
+        {
+            "stime": 22.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: silence 3: speech "
+        },
+        {
+            "stime": 23.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: silence 3: motor_vehicle_road "
+        },
+        {
+            "stime": 24.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: silence 3: speech "
+        },
+        {
+            "stime": 25.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: silence 3: speech "
+        },
+        {
+            "stime": 26.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: silence 3: speech "
+        },
+        {
+            "stime": 27.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: silence 3: speech "
+        },
+        {
+            "stime": 28.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: speech 3: crying_sobbing "
+        },
+        {
+            "stime": 29.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 30.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: siren "
+        },
+        {
+            "stime": 31.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: siren "
+        },
+        {
+            "stime": 32.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 33.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 34.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: motor_vehicle_road 3: speech "
+        },
+        {
+            "stime": 35.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: speech 3: motor_vehicle_road "
+        },
+        {
+            "stime": 36.0,
+            "dur": 1.0,
+            "caption": "A2: 1: siren 2: speech 3: crying_sobbing "
+        },
+        {
+            "stime": 37.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: siren 3: crowd_scream "
+        },
+        {
+            "stime": 38.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: siren "
+        },
+        {
+            "stime": 39.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 40.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 41.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 42.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: siren 3: crowd_scream "
+        },
+        {
+            "stime": 43.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: crowd_scream "
+        },
+        {
+            "stime": 44.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 45.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 46.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire "
+        },
+        {
+            "stime": 47.0,
+            "dur": 1.0,
+            "caption": "A2: 1: crying_sobbing 2: speech 3: crowd_scream "
+        },
+        {
+            "stime": 48.0,
+            "dur": 1.0,
+            "caption": "A2: 1: speech 2: gunshot_gunfire 3: crying_sobbing "
+        },
+        {
+            "stime": 49.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: gunshot_gunfire 3: speech "
+        },
+        {
+            "stime": 50.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: crying_sobbing 3: explosion "
+        },
+        {
+            "stime": 51.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: crying_sobbing 3: explosion "
+        },
+        {
+            "stime": 52.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: crying_sobbing 3: explosion "
+        },
+        {
+            "stime": 53.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: crying_sobbing 3: explosion "
+        },
+        {
+            "stime": 54.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: crying_sobbing 3: explosion "
+        },
+        {
+            "stime": 55.0,
+            "dur": 1.0,
+            "caption": "A2: 1: silence 2: crying_sobbing 3: explosion "
+        }
+    ]
+}
