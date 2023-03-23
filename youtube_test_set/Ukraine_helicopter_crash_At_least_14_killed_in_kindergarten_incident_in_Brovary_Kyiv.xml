@@ -1,61 +1,61 @@
 <?xml version="1.0" ?>
 <AudioDoc name="youtube_test_set">
     <SoundCaptionList>
-        <SoundSegment stime="0.0" dur="1.00">A2: 1: crowd_scream 2: speech 3: silence </SoundSegment>
-        <SoundSegment stime="1.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="2.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire </SoundSegment>
-        <SoundSegment stime="3.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire </SoundSegment>
-        <SoundSegment stime="4.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire </SoundSegment>
-        <SoundSegment stime="5.0" dur="1.00">A2: 1: speech 2: gunshot_gunfire 3: motor_vehicle_road </SoundSegment>
-        <SoundSegment stime="6.0" dur="1.00">A2: 1: crowd_scream 2: speech 3: silence </SoundSegment>
-        <SoundSegment stime="7.0" dur="1.00">A2: 1: speech 2: crowd_scream 3: silence </SoundSegment>
-        <SoundSegment stime="8.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="9.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="10.0" dur="1.00">A2: 1: crowd_scream 2: speech 3: crying_sobbing </SoundSegment>
-        <SoundSegment stime="11.0" dur="1.00">A2: 1: crowd_scream 2: speech 3: crying_sobbing </SoundSegment>
-        <SoundSegment stime="12.0" dur="1.00">A2: 1: crowd_scream 2: speech 3: siren </SoundSegment>
-        <SoundSegment stime="13.0" dur="1.00">A2: 1: crowd_scream 2: crying_sobbing 3: speech </SoundSegment>
-        <SoundSegment stime="14.0" dur="1.00">A2: 1: crowd_scream 2: crying_sobbing 3: speech </SoundSegment>
-        <SoundSegment stime="15.0" dur="1.00">A2: 1: crying_sobbing 2: crowd_scream 3: speech </SoundSegment>
-        <SoundSegment stime="16.0" dur="1.00">A2: 1: speech 2: crowd_scream 3: motor_vehicle_road </SoundSegment>
-        <SoundSegment stime="17.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: motor_vehicle_road </SoundSegment>
-        <SoundSegment stime="18.0" dur="1.00">A2: 1: crowd_scream 2: crying_sobbing 3: speech </SoundSegment>
-        <SoundSegment stime="19.0" dur="1.00">A2: 1: siren 2: crowd_scream 3: speech </SoundSegment>
-        <SoundSegment stime="20.0" dur="1.00">A2: 1: siren 2: breaking 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="21.0" dur="1.00">A2: 1: siren 2: silence 3: speech </SoundSegment>
-        <SoundSegment stime="22.0" dur="1.00">A2: 1: siren 2: silence 3: speech </SoundSegment>
-        <SoundSegment stime="23.0" dur="1.00">A2: 1: siren 2: silence 3: motor_vehicle_road </SoundSegment>
-        <SoundSegment stime="24.0" dur="1.00">A2: 1: siren 2: silence 3: speech </SoundSegment>
-        <SoundSegment stime="25.0" dur="1.00">A2: 1: siren 2: silence 3: speech </SoundSegment>
-        <SoundSegment stime="26.0" dur="1.00">A2: 1: siren 2: silence 3: speech </SoundSegment>
-        <SoundSegment stime="27.0" dur="1.00">A2: 1: siren 2: silence 3: speech </SoundSegment>
-        <SoundSegment stime="28.0" dur="1.00">A2: 1: siren 2: speech 3: crying_sobbing </SoundSegment>
-        <SoundSegment stime="29.0" dur="1.00">A2: 1: siren 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="30.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: siren </SoundSegment>
-        <SoundSegment stime="31.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: siren </SoundSegment>
-        <SoundSegment stime="32.0" dur="1.00">A2: 1: siren 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="33.0" dur="1.00">A2: 1: siren 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="34.0" dur="1.00">A2: 1: siren 2: motor_vehicle_road 3: speech </SoundSegment>
-        <SoundSegment stime="35.0" dur="1.00">A2: 1: siren 2: speech 3: motor_vehicle_road </SoundSegment>
-        <SoundSegment stime="36.0" dur="1.00">A2: 1: siren 2: speech 3: crying_sobbing </SoundSegment>
-        <SoundSegment stime="37.0" dur="1.00">A2: 1: crying_sobbing 2: siren 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="38.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: siren </SoundSegment>
-        <SoundSegment stime="39.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="40.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="41.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="42.0" dur="1.00">A2: 1: speech 2: siren 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="43.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="44.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire </SoundSegment>
-        <SoundSegment stime="45.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire </SoundSegment>
-        <SoundSegment stime="46.0" dur="1.00">A2: 1: speech 2: crying_sobbing 3: gunshot_gunfire </SoundSegment>
-        <SoundSegment stime="47.0" dur="1.00">A2: 1: crying_sobbing 2: speech 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="48.0" dur="1.00">A2: 1: speech 2: gunshot_gunfire 3: crying_sobbing </SoundSegment>
-        <SoundSegment stime="49.0" dur="1.00">A2: 1: silence 2: gunshot_gunfire 3: speech </SoundSegment>
-        <SoundSegment stime="50.0" dur="1.00">A2: 1: silence 2: crying_sobbing 3: explosion </SoundSegment>
-        <SoundSegment stime="51.0" dur="1.00">A2: 1: silence 2: crying_sobbing 3: explosion </SoundSegment>
-        <SoundSegment stime="52.0" dur="1.00">A2: 1: silence 2: crying_sobbing 3: explosion </SoundSegment>
-        <SoundSegment stime="53.0" dur="1.00">A2: 1: silence 2: crying_sobbing 3: explosion </SoundSegment>
-        <SoundSegment stime="54.0" dur="1.00">A2: 1: silence 2: crying_sobbing 3: explosion </SoundSegment>
-        <SoundSegment stime="55.0" dur="1.00">A2: 1: silence 2: crying_sobbing 3: explosion </SoundSegment>
+        <SoundSegment stime="0.0" dur="1.00">A2: 1: crowd_scream (0.94) </SoundSegment>
+        <SoundSegment stime="1.0" dur="1.00">A2: 1: speech (0.88) </SoundSegment>
+        <SoundSegment stime="2.0" dur="1.00">A2: 1: speech (0.99) </SoundSegment>
+        <SoundSegment stime="3.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="4.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="5.0" dur="1.00">A2: 1: speech (0.99) </SoundSegment>
+        <SoundSegment stime="6.0" dur="1.00">A2: 1: crowd_scream (0.92) </SoundSegment>
+        <SoundSegment stime="7.0" dur="1.00">A2: 1: speech (0.82) </SoundSegment>
+        <SoundSegment stime="8.0" dur="1.00">A2: 1: crying_sobbing (0.99) </SoundSegment>
+        <SoundSegment stime="9.0" dur="1.00">A2: 1: crying_sobbing (0.99) </SoundSegment>
+        <SoundSegment stime="10.0" dur="1.00">A2: 1: crowd_scream (0.99) </SoundSegment>
+        <SoundSegment stime="11.0" dur="1.00">A2: 1: crowd_scream (1.00) </SoundSegment>
+        <SoundSegment stime="12.0" dur="1.00">A2: 1: crowd_scream (1.00) </SoundSegment>
+        <SoundSegment stime="13.0" dur="1.00">A2: 1: crowd_scream (0.92) </SoundSegment>
+        <SoundSegment stime="14.0" dur="1.00">A2: 1: crowd_scream (0.99) </SoundSegment>
+        <SoundSegment stime="15.0" dur="1.00">A2: 1: crying_sobbing (0.98) </SoundSegment>
+        <SoundSegment stime="16.0" dur="1.00">A2: 1: speech (0.96) </SoundSegment>
+        <SoundSegment stime="17.0" dur="1.00">A2: 1: speech (0.92) </SoundSegment>
+        <SoundSegment stime="18.0" dur="1.00">A2: 1: crowd_scream (0.99) </SoundSegment>
+        <SoundSegment stime="19.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="20.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="21.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="22.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="23.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="24.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="25.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="26.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="27.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="28.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="29.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="30.0" dur="1.00">A2: 1: crying_sobbing (0.99) </SoundSegment>
+        <SoundSegment stime="31.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="32.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="33.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="34.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="35.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="36.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="37.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="38.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="39.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="40.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="41.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="42.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="43.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="44.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="45.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="46.0" dur="1.00">A2: 1: speech (1.00) </SoundSegment>
+        <SoundSegment stime="47.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="48.0" dur="1.00">A2: 1: speech (0.98) </SoundSegment>
+        <SoundSegment stime="49.0" dur="1.00">A2: 1: silence (0.92) </SoundSegment>
+        <SoundSegment stime="50.0" dur="1.00">A2: 1: silence (1.00) </SoundSegment>
+        <SoundSegment stime="51.0" dur="1.00">A2: 1: silence (1.00) </SoundSegment>
+        <SoundSegment stime="52.0" dur="1.00">A2: 1: silence (1.00) </SoundSegment>
+        <SoundSegment stime="53.0" dur="1.00">A2: 1: silence (1.00) </SoundSegment>
+        <SoundSegment stime="54.0" dur="1.00">A2: 1: silence (1.00) </SoundSegment>
+        <SoundSegment stime="55.0" dur="1.00">A2: 1: silence (1.00) </SoundSegment>
     </SoundCaptionList>
 </AudioDoc>

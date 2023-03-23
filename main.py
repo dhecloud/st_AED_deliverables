@@ -118,11 +118,11 @@ def main():
                 pad_len = (config.sample_rate*3) - cur_window_size
                 audio_window = np.pad(audio_window, (0, pad_len), mode='constant', constant_values=0 )
             # send 3 sec segment to model for prediction
-            predictions = model.predict_3sec(audio_window, config.k)
+            predictions, values = model.predict_3sec(audio_window, config.k)
             #prepare formatted srt
             formatted_preds = config.prefix+' '
             for i in range(min(config.k, len(predictions))):
-                formatted_preds += f"{i+1}: {predictions[i]} "
+                formatted_preds += f"{i+1}: {predictions[i]} ({values[i]:.2f}) "
             if append_flag == True:
                 srts[curr_window].content += '\n'+ formatted_preds
             else:

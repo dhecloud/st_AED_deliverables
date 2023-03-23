@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <AudioDoc name="youtube_test_set">
     <SoundCaptionList>
-        <SoundSegment stime="0.0" dur="1.00">A2: 1: breaking 2: crying_sobbing 3: gunshot_gunfire </SoundSegment>
-        <SoundSegment stime="1.0" dur="1.00">A2: 1: gunshot_gunfire 2: breaking 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="2.0" dur="1.00">A2: 1: crying_sobbing 2: crowd_scream 3: speech </SoundSegment>
-        <SoundSegment stime="3.0" dur="1.00">A2: 1: crying_sobbing 2: crowd_scream 3: speech </SoundSegment>
-        <SoundSegment stime="4.0" dur="1.00">A2: 1: siren 2: crowd_scream 3: crying_sobbing </SoundSegment>
-        <SoundSegment stime="5.0" dur="1.00">A2: 1: siren 2: crowd_scream 3: silence </SoundSegment>
-        <SoundSegment stime="6.0" dur="1.00">A2: 1: siren 2: crying_sobbing 3: crowd_scream </SoundSegment>
-        <SoundSegment stime="7.0" dur="1.00">A2: 1: crying_sobbing 2: crowd_scream 3: siren </SoundSegment>
-        <SoundSegment stime="8.0" dur="1.00">A2: 1: crying_sobbing 2: crowd_scream 3: silence </SoundSegment>
+        <SoundSegment stime="0.0" dur="1.00">A2: 1: breaking (1.00) </SoundSegment>
+        <SoundSegment stime="1.0" dur="1.00">A2: 1: breaking (0.99) </SoundSegment>
+        <SoundSegment stime="2.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="3.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="4.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="5.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="6.0" dur="1.00">A2: 1: siren (1.00) </SoundSegment>
+        <SoundSegment stime="7.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
+        <SoundSegment stime="8.0" dur="1.00">A2: 1: crying_sobbing (1.00) </SoundSegment>
     </SoundCaptionList>
 </AudioDoc>

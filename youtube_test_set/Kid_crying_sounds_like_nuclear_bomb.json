@@ -3,47 +3,47 @@
         {
             "stime": 0.0,
             "dur": 1.0,
-            "caption": "A2: 1: breaking 2: crying_sobbing 3: gunshot_gunfire "
+            "caption": "A2: 1: breaking (1.00) "
         },
         {
             "stime": 1.0,
             "dur": 1.0,
-            "caption": "A2: 1: gunshot_gunfire 2: breaking 3: crowd_scream "
+            "caption": "A2: 1: breaking (0.99) "
         },
         {
             "stime": 2.0,
             "dur": 1.0,
-            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: speech "
+            "caption": "A2: 1: crying_sobbing (1.00) "
         },
         {
             "stime": 3.0,
             "dur": 1.0,
-            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: speech "
+            "caption": "A2: 1: crying_sobbing (1.00) "
         },
         {
             "stime": 4.0,
             "dur": 1.0,
-            "caption": "A2: 1: siren 2: crowd_scream 3: crying_sobbing "
+            "caption": "A2: 1: siren (1.00) "
         },
         {
             "stime": 5.0,
             "dur": 1.0,
-            "caption": "A2: 1: siren 2: crowd_scream 3: silence "
+            "caption": "A2: 1: siren (1.00) "
         },
         {
             "stime": 6.0,
             "dur": 1.0,
-            "caption": "A2: 1: siren 2: crying_sobbing 3: crowd_scream "
+            "caption": "A2: 1: siren (1.00) "
         },
         {
             "stime": 7.0,
             "dur": 1.0,
-            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: siren "
+            "caption": "A2: 1: crying_sobbing (1.00) "
         },
         {
             "stime": 8.0,
             "dur": 1.0,
-            "caption": "A2: 1: crying_sobbing 2: crowd_scream 3: silence "
+            "caption": "A2: 1: crying_sobbing (1.00) "
         }
     ]
 }

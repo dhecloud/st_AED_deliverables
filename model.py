@@ -61,7 +61,7 @@ class StreamingA2():
 
 
     def predict_3sec(self, input_wav, k=1):
-        '''takes in wav input and returns the prediction
+        '''takes in wav input and returns the predictions and probs
 
         args:
             input_wav: list containg the values for a 3 sec audio. for eg [0, 0, 0.2, ..., 0.4, 0.4]
@@ -80,15 +80,15 @@ class StreamingA2():
             outputs = torch.sigmoid(outputs)[0]
             self.buffer.append(outputs)
 
-        labels = self.return_topk_labels(outputs, k)
-        return labels
+        labels, values = self.return_topk_labels(outputs, k)
+        return labels, values
 
     def return_topk_labels(self, outputs, k):
         ''' converts predicted values to labels and returns the mots k probable
         '''
         values, indices = torch.topk(outputs, k=k)
         labels = [self.labels[i] for i in indices]
-        return labels
+        return labels, values
 
 
     def preprocess(self, input_wav):
